@@ -1,0 +1,34 @@
+{
+  "name": "node-mongodb-template",
+  "description": "A starter project for Node application written in Express framework with MongoDB accessible via mongoose",
+  "keywords": [
+    "Node.js",
+    "Node",
+    "express",
+    "template",
+    "seed",
+    "MongoDB",
+    "mongoose",
+    "heroku",
+    "swagger",
+    "passport",
+    "winston",
+    "express-validator"
+  ],
+  "repository": "https://github.com/pamigomp/node-mongodb-template.git",
+  "success_url": "/",
+  "addons": [
+    {
+      "plan": "mongolab"
+    }
+  ],
+  "buildpacks": [],
+  "env": {
+    "NODE_ENV": {
+      "description": "Run as a production environment on Heroku",
+      "value": "production"
+    }
+  },
+  "formation": {},
+  "scripts": {}
+}

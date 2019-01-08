@@ -1,0 +1,90 @@
+{
+  "name": "node-mongodb-template",
+  "version": "1.0.0",
+  "description": "A starter project for Node application written in Express framework with MongoDB accessible via mongoose",
+  "main": "server.js",
+  "keywords": [
+    "Node.js",
+    "Node",
+    "Express.js",
+    "express",
+    "template",
+    "seed",
+    "MongoDB",
+    "mongoose",
+    "heroku",
+    "swagger",
+    "winston"
+  ],
+  "homepage": "https://github.com/pamigomp/node-mongodb-template",
+  "bugs": {
+    "url": "https://github.com/pamigomp/node-mongodb-template/issues"
+  },
+  "author": "Michal Pietrzak",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pamigomp/node-mongodb-template.git"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "cluster": "node cluster.js",
+    "test": "npm run test-unit && npm run test-integration",
+    "test-unit": "cross-env NODE_ENV=test ./node_modules/.bin/mocha test/unit/*.test.js",
+    "test-integration": "cross-env NODE_ENV=test ./node_modules/.bin/mocha test/integration/*.test.js"
+  },
+  "dependencies": {
+    "@divantespzoo/jquery-validation-polish": "^1.2.1",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "1.18.3",
+    "compression": "1.7.3",
+    "consign": "0.1.6",
+    "cookie-parser": "1.4.3",
+    "cors": "2.8.5",
+    "dateformat": "3.0.3",
+    "dotenv": "6.2.0",
+    "envalid": "4.1.4",
+    "errorhandler": "1.5.0",
+    "express": "4.16.4",
+    "express-validator": "5.3.1",
+    "helmet": "3.15.0",
+    "memory-cache": "0.2.0",
+    "method-override": "3.0.0",
+    "mongoose": "5.4.1",
+    "mongoose-auto-increment": "5.0.1",
+    "mongoose-paginate": "5.0.3",
+    "morgan": "1.9.1",
+    "path": "0.12.7",
+    "request": "2.88.0",
+    "response-time": "2.3.2",
+    "swagger-jsdoc": "3.2.6",
+    "swagger-ui-express": "4.0.2",
+    "validate-polish": "^1.1.0",
+    "validator": "10.10.0",
+    "winston": "3.1.0"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "cross-env": "5.2.0",
+    "eslint": "5.11.1",
+    "eslint-plugin-node": "8.0.0",
+    "expect.js": "0.3.1",
+    "mocha": "5.2.0",
+    "mocha-junit-reporter": "1.18.0",
+    "mocha-multi-reporters": "1.1.7",
+    "nock": "10.0.5",
+    "node-mocks-http": "1.7.3",
+    "nodemon": "1.18.9",
+    "nyc": "13.1.0",
+    "proxyquire": "2.1.0",
+    "sinon": "7.2.2",
+    "sinon-mongoose": "2.2.1",
+    "supertest": "3.3.0"
+  },
+  "engines": {
+    "node": "10.3.0",
+    "npm": "6.1.0"
+  },
+  "private": false
+}
