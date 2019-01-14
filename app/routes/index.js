@@ -1,7 +1,8 @@
 'use strict';
 const {
-    cartController, categoryController, customerController, employeeController, feedbackController, imageController, orderController, positionController, producerController, productController, rateController, shippingController
+    authController, cartController, categoryController, customerController, employeeController, feedbackController, imageController, orderController, positionController, producerController, productController, rateController, shippingController
 } = require('../controllers/index');
+const auth = require('./auth');
 const logger = require('../../libs/logger');
 
 module.exports = (app) => {
@@ -15,9 +16,15 @@ module.exports = (app) => {
         return createCustomResponse(res, 405, 'Method Not Allowed');
     };
 
+    app.route(`${apiPrefix}/signup`)
+        .post(auth.optional, authController.signUp);
+
+    app.route(`${apiPrefix}/signin`)
+        .post(auth.optional, authController.signIn);
+
     app.route(`${apiPrefix}/categories`)
-        .get(categoryController.getAllCategories)
-        .post(categoryController.createCategory)
+        .get(auth.optional, categoryController.getAllCategories)
+        .post(auth.required, categoryController.createCategory)
         .all(respondWithMethodNotAllowed);
 
     app.route(`${apiPrefix}/categories/:categoryId`)

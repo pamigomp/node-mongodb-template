@@ -9,10 +9,14 @@ const helmet = require('helmet');
 const methodOverride = require('method-override');
 const morgan = require('morgan');
 const responseTime = require('response-time');
+const passport = require('passport');
+const session = require('express-session');
 const logger = require('./logger');
 
+const isProduction = process.env.NODE_ENV === 'production';
+const allowedOrigins = [process.env.APP_URL];
+
 module.exports = (app) => {
-    const allowedOrigins = [process.env.APP_URL];
 
     app.use(responseTime());
     app.use(helmet());
@@ -38,23 +42,27 @@ module.exports = (app) => {
     app.use(compression());
     app.use(bodyParser.json({limit: '5mb'}));
     app.use(bodyParser.json({type: 'application/vnd.api+json'}));
-    app.use(bodyParser.urlencoded({'extended': 'true', limit: '5mb'}));
+    app.use(bodyParser.urlencoded({extended: true, limit: '5mb'}));
     app.use(validator());
     app.use(cookieParser());
     app.use(methodOverride('X-HTTP-Method-Override'));
     app.use((req, res, next) => {
-        if (process.env.NODE_ENV === 'production') {
-            if (req.headers['x-forwarded-proto'] !== 'https') {
-                res.redirect(`https://${req.hostname}${req.originalUrl}`);
-            } else {
-                next();
-            }
+        if (isProduction && !(req.secure || req.headers['x-forwarded-proto'] === 'https')) {
+            res.redirect(`https://${req.hostname}:${process.env.PORT_HTTPS}${req.url}`);
         } else {
             next();
         }
     });
+    app.use(session({
+        secret: process.env.SECRET_KEY,
+        cookie: {maxAge: 60000},
+        resave: false,
+        saveUninitialized: false
+    }));
+    app.use(passport.initialize());
+    app.use(passport.session());
 
-    if (process.env.NODE_ENV === 'development') {
+    if (!isProduction) {
         app.use(errorHandler({log: errorNotification}));
     }
 

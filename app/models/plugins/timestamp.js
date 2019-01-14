@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = (schema) => {
+module.exports = function (schema) {
     schema.add({
         createdAt: Date,
         updatedAt: Date

@@ -1,4 +1,5 @@
 'use strict';
+const authController = require('./auth');
 const cartController = require('./cart');
 const categoryController = require('./category');
 const customerController = require('./customer');
@@ -13,6 +14,7 @@ const rateController = require('./rate');
 const shippingController = require('./shipping');
 
 module.exports = {
+    authController,
     cartController,
     categoryController,
     customerController,

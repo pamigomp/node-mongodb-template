@@ -5,7 +5,7 @@ const timestampPlugin = require('../plugins/timestamp');
 const Schema = mongoose.Schema;
 
 const OrderSchema = new Schema({
-    paymentStatus: {type: Boolean, required: true, default: false},
+    paymentStatus: {type: Boolean, required: false, default: false},
     discountCode: {type: String, required: false, maxlength: 16},
     totalPrice: {type: Number, required: true, min: 0},
     shippingDate: {type: Date, required: false, maxlength: 256},

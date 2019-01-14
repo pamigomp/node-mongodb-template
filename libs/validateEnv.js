@@ -8,6 +8,7 @@ module.exports = () => {
         DB_HOST: host(),
         DB_PORT: port(),
         DB_DATABASE: str(),
-        APP_URL: str()
+        APP_URL: str(),
+        SECRET_KEY: str()
     });
 };

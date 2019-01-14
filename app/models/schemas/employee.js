@@ -9,8 +9,8 @@ const Schema = mongoose.Schema;
 const EmployeeSchema = new Schema({
     username: {type: String, required: true, unique: true, maxlength: 32},
     password: {type: String, required: true, minlength: 8, maxlength: 32},
-    name: {type: String, required: true, maxlength: 32},
-    surname: {type: String, required: true, maxlength: 64},
+    firstName: {type: String, required: true, maxlength: 32},
+    lastName: {type: String, required: true, maxlength: 64},
     gender: {type: String, required: true, enum: ['F', 'M']},
     dob: {type: Date, required: true},
     street: {type: String, required: true, maxlength: 32},

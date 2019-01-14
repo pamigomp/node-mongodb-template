@@ -14,7 +14,7 @@ function emailValidator(val) {
 }
 
 module.exports = {
-    postalCodeValidator: [postalCodeValidator, ''],
-    phoneValidator: [phoneValidator, ''],
-    emailValidator: [emailValidator, '']
+    postalCodeValidator: [postalCodeValidator, 'Invalid postal code'],
+    phoneValidator: [phoneValidator, 'Invalid phone number'],
+    emailValidator: [emailValidator, 'Invalid e-mail']
 };
