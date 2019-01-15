@@ -5,12 +5,10 @@ module.exports = {
         if (arr) {
             if (field) {
                 return arr.sort((l, r) => l[field].toLowerCase().localeCompare(r[field].toLowerCase()));
-            } else {
-                return arr.sort((l, r) => l.toLowerCase().localeCompare(r.toLowerCase()));
             }
-        } else {
-            return [];
+            return arr.sort((l, r) => l.toLowerCase().localeCompare(r.toLowerCase()));
         }
+        return [];
     },
     capitalizeFirstLetter(string) {
         return string.charAt(0).toUpperCase() + string.slice(1);

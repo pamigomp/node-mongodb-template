@@ -2,40 +2,57 @@
 const {
     authController, cartController, categoryController, customerController, employeeController, feedbackController, imageController, orderController, positionController, producerController, productController, rateController, shippingController
 } = require('../controllers/index');
-const auth = require('./auth');
+const mongoose = require('mongoose');
+const passport = require('passport');
 const logger = require('../../libs/logger');
 
+const apiPrefix = '/api/v1';
+
+const createCustomResponse = (res, status, body) => {
+    res.status(status).send({message: body});
+};
+
+const respondWithMethodNotAllowed = (req, res) => {
+    return createCustomResponse(res, 405, 'Method Not Allowed');
+};
+
+const isAdmin = (req, res, next) => {
+    if (!req.user.isAdmin) {
+        return res.status(403).send('Access denied');
+    }
+    next();
+};
+
+const validateObjectId = (req, res, next) => {
+    if (!mongoose.Types.ObjectId.isValid(req.user.id)) {
+        return res.status(400).send('Invalid ID');
+    }
+    next();
+};
+
+const isAuthenticatedAndAdmin = [passport.authenticate('jwt', {session: false}), isAdmin, validateObjectId];
+
 module.exports = (app) => {
-    const apiPrefix = '/api/v1';
-
-    const createCustomResponse = (res, status, body) => {
-        res.status(status).send({message: body});
-    };
-
-    const respondWithMethodNotAllowed = (req, res) => {
-        return createCustomResponse(res, 405, 'Method Not Allowed');
-    };
-
     app.route(`${apiPrefix}/signup`)
-        .post(auth.optional, authController.signUp);
+        .post(authController.signUp);
 
     app.route(`${apiPrefix}/signin`)
-        .post(auth.optional, authController.signIn);
+        .post(authController.signIn);
 
     app.route(`${apiPrefix}/categories`)
-        .get(auth.optional, categoryController.getAllCategories)
-        .post(auth.required, categoryController.createCategory)
+        .get(categoryController.getAllCategories)
+        .post(isAuthenticatedAndAdmin, categoryController.createCategory)
         .all(respondWithMethodNotAllowed);
 
     app.route(`${apiPrefix}/categories/:categoryId`)
         .get(categoryController.getCategory)
-        .put(categoryController.updateCategory)
-        .delete(categoryController.deleteCategory)
+        .put(isAuthenticatedAndAdmin, categoryController.updateCategory)
+        .delete(isAuthenticatedAndAdmin, categoryController.deleteCategory)
         .all(respondWithMethodNotAllowed);
 
     app.route(`${apiPrefix}/customers`)
         .get(customerController.getAllCustomers)
-        .post(customerController.createCustomer)
+        .post(isAuthenticatedAndAdmin, customerController.createCustomer)
         .all(respondWithMethodNotAllowed);
 
     app.route(`${apiPrefix}/customers/:customerId`)
@@ -50,7 +67,7 @@ module.exports = (app) => {
         .all(respondWithMethodNotAllowed);
 
     app.route(`${apiPrefix}/orders`)
-        .get(orderController.getAllOrders)
+        .get(isAuthenticatedAndAdmin, orderController.getAllOrders)
         .all(respondWithMethodNotAllowed);
 
     app.route(`${apiPrefix}/orders/:orderId`)

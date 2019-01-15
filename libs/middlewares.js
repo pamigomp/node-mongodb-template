@@ -9,8 +9,6 @@ const helmet = require('helmet');
 const methodOverride = require('method-override');
 const morgan = require('morgan');
 const responseTime = require('response-time');
-const passport = require('passport');
-const session = require('express-session');
 const logger = require('./logger');
 
 const isProduction = process.env.NODE_ENV === 'production';
@@ -53,14 +51,6 @@ module.exports = (app) => {
             next();
         }
     });
-    app.use(session({
-        secret: process.env.SECRET_KEY,
-        cookie: {maxAge: 60000},
-        resave: false,
-        saveUninitialized: false
-    }));
-    app.use(passport.initialize());
-    app.use(passport.session());
 
     if (!isProduction) {
         app.use(errorHandler({log: errorNotification}));
