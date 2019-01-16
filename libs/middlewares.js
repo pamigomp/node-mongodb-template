@@ -20,13 +20,11 @@ module.exports = (app) => {
     app.use(helmet());
     app.use(cors({
         origin: (origin, next) => {
-            if (!origin) {
+            if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
                 next(null, true);
-            } else if (allowedOrigins.indexOf(origin) === -1) {
-                const msg = 'The CORS policy for this site does not allow access from the specified Origin';
-                next(new Error(msg), false);
             } else {
-                next(null, true);
+                const msg = 'The CORS policy for this site does not allow access from the specified Origin';
+                next(new Error(msg));
             }
         },
         credentials: true,
