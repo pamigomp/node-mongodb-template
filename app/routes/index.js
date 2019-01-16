@@ -5,6 +5,7 @@ const {
 const mongoose = require('mongoose');
 const passport = require('passport');
 const logger = require('../../libs/logger');
+const cacheMiddleware = require('../utils/cache')();
 
 const apiPrefix = '/api/v1';
 
@@ -40,7 +41,7 @@ module.exports = (app) => {
         .post(authController.signIn);
 
     app.route(`${apiPrefix}/categories`)
-        .get(categoryController.getAllCategories)
+        .get(cacheMiddleware, categoryController.getAllCategories)
         .post(isAuthenticatedAndAdmin, categoryController.createCategory)
         .all(respondWithMethodNotAllowed);
 
