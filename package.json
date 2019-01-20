@@ -27,6 +27,7 @@
     "url": "https://github.com/pamigomp/node-mongodb-template.git"
   },
   "scripts": {
+    "postinstall": "git config core.hooksPath hooks",
     "start": "node server.js",
     "dev": "nodemon server.js",
     "cluster": "node cluster.js",
