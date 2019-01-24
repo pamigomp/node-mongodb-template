@@ -1,13 +1,15 @@
 'use strict';
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
+const FacebookStrategy = require('passport-facebook').Strategy;
 const passportJWT = require('passport-jwt');
 const JWTStrategy = passportJWT.Strategy;
 const ExtractJWT = passportJWT.ExtractJwt;
 const logger = require('./logger');
 const Customer = require('../app/models/customer');
+const User = require('../app/models/user');
 
-const signIn = (email, password, done) => {
+const signInLocal = (email, password, done) => {
     return Customer.findOne({email: email}).then((user) => {
         if (!user || !user.validatePassword(password)) {
             const msg = 'Username and/or password is invalid';
@@ -24,7 +26,37 @@ const signIn = (email, password, done) => {
     }).catch(done);
 };
 
-const signUp = (req, email, password, done) => {
+const signInFacebook = (accessToken, refreshToken, profile, done) => {
+    const data = profile._json;
+    return User.findOne({email: data.email }).then((user) => {
+        if (user) {
+            user.lastLogin = new Date();
+            return User.findByIdAndUpdate(user.id, user, {new: true}).then((updatedUser) => {
+                const msg = `Customer with ID: ${updatedUser._id} was successfully signed in`;
+                logger.info(msg);
+                done(null, updatedUser, {message: msg});
+            });
+        } else {
+            const newUser = {
+                id: profile.id,
+                provider: 'facebook',
+                name: data.name,
+                email: data.email,
+                profilePicture: data.picture.data.url,
+                token: accessToken,
+                emailVerified: true,
+                lastLogin: new Date()
+            };
+            return User.create(newUser).then((newUser) => {
+                const msg = `User with ID: ${newUser._id} was successfully signed up`;
+                logger.info(msg);
+                done(null, newUser, {message: msg});
+            });
+        }
+    }).catch(done);
+};
+
+const signUpLocal = (req, email, password, done) => {
     return Customer.findOne({email: email}).then((user) => {
         if (user) {
             const msg = 'Username is already taken';
@@ -57,13 +89,20 @@ module.exports = () => {
     passport.use('local-signIn', new LocalStrategy({
         usernameField: 'email',
         passwordField: 'password'
-    }, signIn));
+    }, signInLocal));
+
+    passport.use('facebook-signIn', new FacebookStrategy({
+        clientID: process.env.FB_APP_ID,
+        clientSecret: process.env.FB_APP_SECRET,
+        callbackURL: `http://localhost:${process.env.PORT}/auth/facebook/callback`,
+        profileFields: ['id', 'displayName', 'photos', 'email', 'name']
+    }, signInFacebook));
 
     passport.use('local-signUp', new LocalStrategy({
         usernameField: 'email',
         passwordField: 'password',
         passReqToCallback: true
-    }, signUp));
+    }, signUpLocal));
 
     passport.use('jwt', new JWTStrategy({
         jwtFromRequest: ExtractJWT.fromAuthHeaderAsBearerToken(),

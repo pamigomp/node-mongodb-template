@@ -9,6 +9,8 @@ module.exports = () => {
         DB_PORT: port(),
         DB_DATABASE: str(),
         APP_URL: str(),
-        SECRET_KEY: str()
+        SECRET_KEY: str(),
+        FB_APP_ID: str(),
+        FB_APP_SECRET: str()
     });
 };
