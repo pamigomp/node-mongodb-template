@@ -14,18 +14,20 @@ module.exports = (app) => {
         .on('error', onError)
         .on('listening', onListening);
 
-    /**
-     * Create HTTPS server.
-     */
-    const httpsPort = normalizePort(process.env.PORT_HTTPS || 8081);
-    const options = {
-        cert: fs.readFileSync('cert/cert.pem'),
-        key: fs.readFileSync('cert/key.pem')
-    };
-    https.createServer(options, app)
-        .listen(httpsPort)
-        .on('error', onError)
-        .on('listening', onListening);
+    if (process.env.NODE_ENV !== 'production') {
+        /**
+         * Create HTTPS server.
+         */
+        const httpsPort = normalizePort(process.env.PORT_HTTPS || 8081);
+        const options = {
+            cert: fs.readFileSync('cert/cert.pem'),
+            key: fs.readFileSync('cert/key.pem')
+        };
+        https.createServer(options, app)
+            .listen(httpsPort)
+            .on('error', onError)
+            .on('listening', onListening);
+    }
 
     /**
      * Normalize a port into a number, string, or false.
