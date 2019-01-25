@@ -17,7 +17,7 @@ const signInLocal = (email, password, done) => {
             done(null, false, {message: msg});
         } else {
             user.lastLogin = new Date();
-            return Customer.findByIdAndUpdate(user.id, user, {new: true}).then((updatedUser) => {
+            return Customer.findByIdAndUpdate(user._id, user, {new: true}).then((updatedUser) => {
                 const msg = `Customer with ID: ${updatedUser._id} was successfully signed in`;
                 logger.info(msg);
                 done(null, updatedUser, {message: msg});
@@ -31,7 +31,7 @@ const signInFacebook = (accessToken, refreshToken, profile, done) => {
     return User.findOne({email: data.email }).then((user) => {
         if (user) {
             user.lastLogin = new Date();
-            return User.findByIdAndUpdate(user.id, user, {new: true}).then((updatedUser) => {
+            return User.findOneAndUpdate({id: user.id}, user, {new: true}).then((updatedUser) => {
                 const msg = `Customer with ID: ${updatedUser._id} was successfully signed in`;
                 logger.info(msg);
                 done(null, updatedUser, {message: msg});
@@ -39,8 +39,9 @@ const signInFacebook = (accessToken, refreshToken, profile, done) => {
         } else {
             const newUser = {
                 id: profile.id,
-                provider: 'facebook',
-                name: data.name,
+                provider: profile.provider.toUpperCase(),
+                firstName: data.first_name,
+                lastName: data.last_name,
                 email: data.email,
                 profilePicture: data.picture.data.url,
                 token: accessToken,
