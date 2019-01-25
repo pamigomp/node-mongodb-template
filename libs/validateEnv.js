@@ -1,5 +1,5 @@
 'use strict';
-const {cleanEnv, str, host, port} = require('envalid');
+const {cleanEnv, str, host, port, url} = require('envalid');
 
 module.exports = () => {
     cleanEnv(process.env, {
@@ -11,6 +11,7 @@ module.exports = () => {
         APP_URL: str(),
         SECRET_KEY: str(),
         FB_APP_ID: str(),
-        FB_APP_SECRET: str()
+        FB_APP_SECRET: str(),
+        FB_CALLBACK_URL: url()
     });
 };
