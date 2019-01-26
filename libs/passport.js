@@ -30,6 +30,7 @@ const signInFacebook = (accessToken, refreshToken, profile, done) => {
     const data = profile._json;
     return User.findOne({email: data.email }).then((user) => {
         if (user) {
+            user.token = accessToken;
             user.lastLogin = new Date();
             return User.findOneAndUpdate({id: user.id}, user, {new: true}).then((updatedUser) => {
                 const msg = `Customer with ID: ${updatedUser._id} was successfully signed in`;
@@ -96,7 +97,8 @@ module.exports = () => {
         clientID: process.env.FB_APP_ID,
         clientSecret: process.env.FB_APP_SECRET,
         callbackURL: process.env.FB_CALLBACK_URL,
-        profileFields: ['id', 'displayName', 'photos', 'email', 'name']
+        profileFields: ['id', 'displayName', 'photos', 'email', 'name'],
+        enableProof: true
     }, signInFacebook));
 
     passport.use('local-signUp', new LocalStrategy({
