@@ -54,11 +54,6 @@
       "description": "Allowed origins separated by comma",
       "value": "",
       "required": true
-    },
-    "MONGODB_URI": {
-      "description": "MongoDB connection URI used to connect to a MongoDB database server",
-      "value": "",
-      "required": true
     }
   },
   "image": "heroku/nodejs",
