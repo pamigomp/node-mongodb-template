@@ -19,7 +19,8 @@
   "success_url": "/",
   "addons": [
     {
-      "plan": "mongolab"
+      "plan": "mongolab:sandbox",
+      "as": "DB_URI"
     }
   ],
   "buildpacks": [],
