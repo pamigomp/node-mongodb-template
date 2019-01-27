@@ -12,7 +12,7 @@ const responseTime = require('response-time');
 const logger = require('./logger');
 
 const isProduction = process.env.NODE_ENV === 'production';
-const allowedOrigins = [process.env.APP_URL];
+const allowedOrigins = process.env.APP_URLS.split(',');
 
 module.exports = (app) => {
 

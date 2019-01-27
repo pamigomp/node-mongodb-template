@@ -28,8 +28,7 @@ const initializeCategoriesCollection = () => {
 
 module.exports = () => {
     if (!db) {
-        const {DB_USERNAME, DB_PASSWORD, DB_HOST, DB_PORT, DB_DATABASE} = process.env;
-        const uri = process.env.DB_URI || `mongodb://${DB_USERNAME}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_DATABASE}`;
+        const uri = process.env.MONGODB_URI;
         const options = {
             useNewUrlParser: true,
             useCreateIndex: true,

@@ -20,16 +20,48 @@
   "addons": [
     {
       "plan": "mongolab:sandbox",
-      "as": "DB_URI"
+      "as": "MONGODB_URI"
     }
   ],
-  "buildpacks": [],
+  "buildpacks": [
+    "heroku/nodejs"
+  ],
   "env": {
     "NODE_ENV": {
       "description": "Run as a production environment on Heroku",
       "value": "production"
+    },
+    "SECRET_KEY": {
+      "description": "A long and unique random string used for encryption",
+      "generator": "secret"
+    },
+    "FB_APP_ID": {
+      "description": "Facebook application's App ID",
+      "value": "",
+      "required": true
+    },
+    "FB_APP_SECRET": {
+      "description": "Facebook application's App Secret",
+      "value": "",
+      "required": true
+    },
+    "FB_CALLBACK_URL": {
+      "description": "URL to which Facebook will redirect the user after granting authorization",
+      "value": "",
+      "required": true
+    },
+    "APP_URLS": {
+      "description": "Allowed origins separated by comma",
+      "value": "",
+      "required": true
+    },
+    "MONGODB_URI": {
+      "description": "MongoDB connection URI used to connect to a MongoDB database server",
+      "value": "",
+      "required": true
     }
   },
+  "image": "heroku/nodejs",
   "formation": {},
   "scripts": {}
 }
