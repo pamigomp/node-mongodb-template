@@ -14,11 +14,12 @@ module.exports = (app) => {
         .on('error', onError)
         .on('listening', onListening);
 
+    let httpsPort = null;
     if (process.env.NODE_ENV !== 'production') {
         /**
          * Create HTTPS server.
          */
-        const httpsPort = normalizePort(process.env.PORT_HTTPS || 8081);
+        httpsPort = normalizePort(process.env.PORT_HTTPS || 8081);
         const options = {
             cert: fs.readFileSync('cert/cert.pem'),
             key: fs.readFileSync('cert/key.pem')
