@@ -1,6 +1,5 @@
 'use strict';
 const mongoose = require('mongoose');
-const timestampPlugin = require('../plugins/timestamp');
 
 const Schema = mongoose.Schema;
 
@@ -24,8 +23,6 @@ const OrderSchema = new Schema({
         required: true,
         enum: ['CASH', 'CREDIT_CARD', 'DEBIT_CARD', 'BANK_TRANSFER', 'BLIK', 'PAYPAL']
     }
-});
-
-OrderSchema.plugin(timestampPlugin);
+}, {timestamps: true});
 
 module.exports = OrderSchema;

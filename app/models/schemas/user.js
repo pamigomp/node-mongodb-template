@@ -2,7 +2,6 @@
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const timestampPlugin = require('../plugins/timestamp');
 const {postalCodeValidator, phoneValidator, emailValidator} = require('../validators/validators');
 
 const Schema = mongoose.Schema;
@@ -24,7 +23,7 @@ const UserSchema = new Schema({
     provider: {type: String, required: false, enum: ['FACEBOOK', 'GOOGLE', 'INSTAGRAM', 'TWITTER']},
     profilePicture: {type: String, required: false},
     emailVerified: {type: Boolean, required: false, default: false}
-});
+}, {timestamps: true});
 
 UserSchema.statics.generateSalt = function (rounds) {
     return bcrypt.genSaltSync(rounds || 8);
@@ -45,7 +44,5 @@ UserSchema.methods.toAuthJSON = function () {
         token: this.generateJWT(),
     };
 };
-
-UserSchema.plugin(timestampPlugin);
 
 module.exports = UserSchema;

@@ -1,6 +1,5 @@
 'use strict';
 const mongoose = require('mongoose');
-const timestampPlugin = require('../plugins/timestamp');
 const PositionSchema = require('./position');
 const {postalCodeValidator, phoneValidator, emailValidator} = require('../validators/validators');
 
@@ -21,8 +20,6 @@ const EmployeeSchema = new Schema({
     employmentDate: {type: Date, required: true},
     dismissalDate: {type: Date, required: true},
     position: PositionSchema
-});
-
-EmployeeSchema.plugin(timestampPlugin);
+}, {timestamps: true});
 
 module.exports = EmployeeSchema;

@@ -1,7 +1,6 @@
 'use strict';
 const mongoose = require('mongoose');
 const mongoosePaginate = require('mongoose-paginate');
-const timestampPlugin = require('../plugins/timestamp');
 
 const Schema = mongoose.Schema;
 
@@ -13,9 +12,8 @@ const ProductSchema = new Schema({
     stockAmount: {type: Number, required: false, default: 0, min: 0},
     categoryId: {type: mongoose.Types.ObjectId, required: true},
     producerId: {type: mongoose.Types.ObjectId, required: true}
-});
+}, {timestamps: true});
 
 ProductSchema.plugin(mongoosePaginate);
-ProductSchema.plugin(timestampPlugin);
 
 module.exports = ProductSchema;

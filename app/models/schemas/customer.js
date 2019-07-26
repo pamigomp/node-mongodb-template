@@ -2,7 +2,6 @@
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const timestampPlugin = require('../plugins/timestamp');
 const {postalCodeValidator, phoneValidator, emailValidator} = require('../validators/validators');
 
 const Schema = mongoose.Schema;
@@ -21,7 +20,7 @@ const CustomerSchema = new Schema({
     regular: {type: Boolean, required: false, default: true},
     lastLogin: {type: Date, required: false},
     salt: {type: String, required: false}
-});
+}, {timestamps: true});
 
 CustomerSchema.methods.validatePassword = function (password) {
     return bcrypt.compareSync(password, this.password);
@@ -63,7 +62,5 @@ CustomerSchema.pre('update', function (next) {
     }
     next();
 });
-
-CustomerSchema.plugin(timestampPlugin);
 
 module.exports = CustomerSchema;
