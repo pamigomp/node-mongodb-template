@@ -8,9 +8,7 @@ const CPUS = os.cpus();
 if (cluster.isMaster) {
     logger.info(`Master cluster setting up ${CPUS.length} workers...`);
 
-    CPUS.forEach(() => {
-        return cluster.fork();
-    });
+    CPUS.forEach(() => cluster.fork());
     cluster.on('online', (worker) => {
         logger.info(`Cluster ${worker.process.pid}is online`);
     });

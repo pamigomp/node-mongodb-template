@@ -34,9 +34,8 @@ module.exports = () => {
             useCreateIndex: true,
             useFindAndModify: false
         };
-        mongoose.connect(uri, options).then(() => {
-            return initializeCategoriesCollection();
-        });
+        mongoose.connect(uri, options)
+            .then(initializeCategoriesCollection());
 
         db = mongoose.connection;
 

@@ -56,6 +56,6 @@ module.exports = (app) => {
 
     function errorNotification(err, str, req) {
         const title = `Error in ${req.method} ${req.url}`;
-        logger.error(title, str);
+        logger.error(`${title}. ${str}`);
     }
 };

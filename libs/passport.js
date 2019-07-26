@@ -28,7 +28,7 @@ const signInLocal = (email, password, done) => {
 
 const signInFacebook = (accessToken, refreshToken, profile, done) => {
     const data = profile._json;
-    return User.findOne({email: data.email }).then((user) => {
+    return User.findOne({email: data.email}).then((user) => {
         if (user) {
             user.token = accessToken;
             user.lastLogin = new Date();
