@@ -184,6 +184,7 @@ module.exports = (app) => {
 
     // error handler
     // no stacktraces leaked to user unless in development environment
+    // eslint-disable-next-line no-unused-vars
     app.use((err, req, res, next) => {
         logger.error(err.message);
         res.status(err.status || 500).send({
