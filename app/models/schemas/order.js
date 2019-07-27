@@ -10,9 +10,9 @@ const OrderSchema = new Schema({
     shippingDate: {type: Date, required: false, maxlength: 256},
     additionalInformation: {type: String, required: false, maxlength: 256},
     cartId: {type: mongoose.Types.ObjectId, required: true},
-    employeeId: {type: mongoose.Types.ObjectId, required: true},
-    customerId: {type: mongoose.Types.ObjectId, required: true},
-    shippingId: {type: mongoose.Types.ObjectId, required: true},
+    employeeId: {type: mongoose.Types.ObjectId, required: false, ref: 'Employee'},
+    customerId: {type: mongoose.Types.ObjectId, required: true, ref: 'Customer'},
+    shippingId: {type: mongoose.Types.ObjectId, required: true, ref: 'Shipping'},
     status: {
         type: String,
         required: true,

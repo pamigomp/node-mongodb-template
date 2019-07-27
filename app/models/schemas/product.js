@@ -10,8 +10,8 @@ const ProductSchema = new Schema({
     salePriceGross: {type: Number, required: true},
     description: {type: String, required: true},
     stockAmount: {type: Number, required: false, default: 0, min: 0},
-    categoryId: {type: mongoose.Types.ObjectId, required: true},
-    producerId: {type: mongoose.Types.ObjectId, required: true}
+    categoryId: {type: mongoose.Types.ObjectId, required: true, ref: 'Category'},
+    producerId: {type: mongoose.Types.ObjectId, required: true, ref: 'Producer'}
 }, {timestamps: true});
 
 ProductSchema.plugin(mongoosePaginate);

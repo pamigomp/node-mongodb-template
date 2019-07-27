@@ -9,7 +9,7 @@ const ImageSchema = new Schema({
         default: 'https://via.placeholder.com/512',
         maxlength: 128
     },
-    productId: {type: mongoose.Types.ObjectId, required: true}
+    productId: {type: mongoose.Types.ObjectId, required: true, ref: 'Product'}
 }, {timestamps: true});
 
 ImageSchema.index({url: 1, productId: 1}, {unique: true});

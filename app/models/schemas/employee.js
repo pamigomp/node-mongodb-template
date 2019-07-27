@@ -18,7 +18,7 @@ const EmployeeSchema = new Schema({
     email: {type: String, required: true, unique: true, validate: emailValidator},
     employmentDate: {type: Date, required: true},
     dismissalDate: {type: Date, required: false},
-    positionId: {type: mongoose.Types.ObjectId, required: true}
+    positionId: {type: mongoose.Types.ObjectId, required: true, ref: 'Position'}
 }, {timestamps: true});
 
 module.exports = EmployeeSchema;

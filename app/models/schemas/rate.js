@@ -5,8 +5,8 @@ const Schema = mongoose.Schema;
 
 const RateSchema = new Schema({
     value: {type: String, required: true, enum: ['1', '2', '3', '4', '5']},
-    customerId: {type: mongoose.Types.ObjectId, required: true},
-    productId: {type: mongoose.Types.ObjectId, required: true}
+    customerId: {type: mongoose.Types.ObjectId, required: true, ref: 'Customer'},
+    productId: {type: mongoose.Types.ObjectId, required: true, ref: 'Product'}
 }, {timestamps: true});
 
 RateSchema.index({customerId: 1, productId: 1}, {unique: true});
