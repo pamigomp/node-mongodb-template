@@ -20,11 +20,11 @@ module.exports = {
     },
 
     getOrderById(id) {
-        return orderModel.findById(id);
+        return orderModel.findById(id).select(['-createdAt', '-updatedAt', '-__v']);
     },
 
-    updateOrderById(id, newOrder) {
-        return orderModel.findByIdAndUpdate(id, newOrder, {new: true});
+    updateOrderById(id, updatedOrder) {
+        return orderModel.findByIdAndUpdate(id, updatedOrder, {new: true});
     },
 
     deleteOrderById(id) {

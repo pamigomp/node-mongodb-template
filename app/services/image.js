@@ -31,6 +31,7 @@ module.exports = {
         return productGateway.getProductById(id).then((product) => {
             res.product = product;
             if (product) {
+                newImage.productId = id;
                 return imageGateway.createImage(newImage);
             } else {
                 return Promise.resolve();

@@ -3,8 +3,8 @@ const {categoryGateway, productGateway} = require('../gateways/index');
 const helpers = require('../helpers/helpers');
 
 module.exports = {
-    getAllProducts() {
-        return productGateway.getAllProducts().then((res) => {
+    getAllProducts(query) {
+        return productGateway.getAllProducts(query).then((res) => {
             return helpers.caseInsensitiveSorting(res, 'title');
         });
     },
@@ -17,16 +17,16 @@ module.exports = {
         return productGateway.getProductById(id);
     },
 
-    updateProductById(id, newProduct) {
-        return productGateway.updateProductById(id, newProduct);
+    updateProductById(id, updatedProduct) {
+        return productGateway.updateProductById(id, updatedProduct);
     },
 
     deleteProductById() {
         return productGateway.deleteProductById();
     },
 
-    getAllProductsForCategoryWithId(id) {
-        return productGateway.getProductsByCategoryId(id);
+    getAllProductsForCategoryWithId(id, query) {
+        return productGateway.getProductsByCategoryId(id, query);
     },
 
     createProductForCategoryWithId(id, newProduct) {
@@ -34,6 +34,7 @@ module.exports = {
         return categoryGateway.getCategoryById(id).then((category) => {
             res.category = category;
             if (category) {
+                newProduct.categoryId = id;
                 return productGateway.createProduct(newProduct);
             } else {
                 return Promise.resolve();

@@ -11,6 +11,7 @@ module.exports = {
         return customerGateway.getCustomerById(id).then((customer) => {
             res.customer = customer;
             if (customer) {
+                newCart.customerId = id;
                 return cartGateway.createCart(newCart);
             } else {
                 return Promise.resolve();
@@ -21,12 +22,13 @@ module.exports = {
         });
     },
 
-    updateCartForCustomerWithId(id, newCart) {
+    updateCartForCustomerWithId(id, updatedCart) {
         const res = {};
         return customerGateway.getCustomerById(id).then((customer) => {
             res.customer = customer;
             if (customer) {
-                return cartGateway.updateCartByCustomerId(id, newCart);
+                updatedCart.customerId = id;
+                return cartGateway.updateCartByCustomerId(id, updatedCart);
             } else {
                 return Promise.resolve();
             }

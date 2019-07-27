@@ -76,7 +76,7 @@ module.exports = (app) => {
 
     app.route(`${apiPrefix}/orders/:orderId`)
         .get(orderController.getOrder)
-        .put(orderController.updateOrder)
+        .put(isAuthenticatedAndAdmin, orderController.updateOrder)
         .delete(isAuthenticatedAndAdmin, orderController.deleteOrder)
         .all(respondWithMethodNotAllowed);
 

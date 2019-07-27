@@ -14,8 +14,8 @@ module.exports = {
         return categoryGateway.getCategoryById(id);
     },
 
-    updateCategoryById(id, newCategory) {
-        return categoryGateway.updateCategoryById(id, newCategory);
+    updateCategoryById(id, updatedCategory) {
+        return categoryGateway.updateCategoryById(id, updatedCategory);
     },
 
     deleteCategoryById(id) {

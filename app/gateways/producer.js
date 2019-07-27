@@ -3,7 +3,7 @@ const producerModel = require('../models/producer');
 
 module.exports = {
     getAllProducers() {
-        return producerModel.find().lean();
+        return producerModel.find().select(['-createdAt', '-updatedAt', '-__v']).lean();
     },
 
     createProducer(newProducer) {
@@ -11,11 +11,11 @@ module.exports = {
     },
 
     getProducerById(id) {
-        return producerModel.findById(id);
+        return producerModel.findById(id).select(['-createdAt', '-updatedAt', '-__v']);
     },
 
-    updateProducerById(id, newProducer) {
-        return producerModel.findByIdAndUpdate(id, newProducer, {new: true});
+    updateProducerById(id, updatedProducer) {
+        return producerModel.findByIdAndUpdate(id, updatedProducer, {new: true});
     },
 
     deleteProducerById(id) {

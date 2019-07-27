@@ -17,8 +17,8 @@ module.exports = {
         return producerGateway.getProducerById(id);
     },
 
-    updateProducerById(id, newProducer) {
-        return producerGateway.updateProducerById(id, newProducer);
+    updateProducerById(id, updatedProducer) {
+        return producerGateway.updateProducerById(id, updatedProducer);
     },
 
     deleteProducerById(id) {

@@ -14,8 +14,8 @@ module.exports = {
         return rateGateway.getRateById(id);
     },
 
-    updateRateById(id, newRate) {
-        return rateGateway.updateRateById(id, newRate);
+    updateRateById(id, updatedRate) {
+        return rateGateway.updateRateById(id, updatedRate);
     },
 
     deleteRateById(id) {
@@ -31,6 +31,7 @@ module.exports = {
         return productGateway.getProductById(id).then((product) => {
             res.product = product;
             if (product) {
+                newRate.productId = id;
                 return rateGateway.createRate(newRate);
             } else {
                 return Promise.resolve();

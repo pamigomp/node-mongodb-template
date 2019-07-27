@@ -6,7 +6,7 @@ const getCarts = (query) => {
 };
 
 const updateCart = (query, newCart) => {
-    return cartModel.findOneAndUpdate(query, newCart);
+    return cartModel.findOneAndUpdate(query, newCart, {new: true});
 };
 
 const deleteCart = (query) => {
@@ -24,11 +24,11 @@ module.exports = {
     },
 
     getCartById(id) {
-        return cartModel.findById(id);
+        return cartModel.findById(id).select(['-createdAt', '-updatedAt', '-__v']);
     },
 
-    updateCartById(id, newCart) {
-        return cartModel.findByIdAndUpdate(id, newCart, {new: true});
+    updateCartById(id, updatedCart) {
+        return cartModel.findByIdAndUpdate(id, updatedCart, {new: true});
     },
 
     deleteCartById(id) {
@@ -45,14 +45,14 @@ module.exports = {
         return getCarts(query);
     },
 
-    updateCartByProductId(id, newCart) {
+    updateCartByProductId(id, updatedCart) {
         const query = {productId: id};
-        return updateCart(query, newCart);
+        return updateCart(query, updatedCart);
     },
 
-    updateCartByCustomerId(id, newCart) {
+    updateCartByCustomerId(id, updatedCart) {
         const query = {customerId: id};
-        return updateCart(query, newCart);
+        return updateCart(query, updatedCart);
     },
 
     deleteCartByProductId(id) {

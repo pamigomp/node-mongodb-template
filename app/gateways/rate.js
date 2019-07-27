@@ -20,11 +20,11 @@ module.exports = {
     },
 
     getRateById(id) {
-        return rateModel.findById(id);
+        return rateModel.findById(id).select(['-createdAt', '-updatedAt', '-__v']);
     },
 
-    updateRateById(id, newRate) {
-        return rateModel.findByIdAndUpdate(id, newRate, {new: true});
+    updateRateById(id, updatedRate) {
+        return rateModel.findByIdAndUpdate(id, updatedRate, {new: true});
     },
 
     deleteRateById(id) {

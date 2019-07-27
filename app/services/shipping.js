@@ -14,8 +14,8 @@ module.exports = {
         return shippingGateway.getShippingById(id);
     },
 
-    updateShippingById(id, newShipping) {
-        return shippingGateway.updateShippingById(id, newShipping);
+    updateShippingById(id, updatedShipping) {
+        return shippingGateway.updateShippingById(id, updatedShipping);
     },
 
     deleteShippingById(id) {

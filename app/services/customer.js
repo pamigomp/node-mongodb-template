@@ -14,8 +14,8 @@ module.exports = {
         return customerGateway.getCustomerById(id);
     },
 
-    updateCustomerById(id, newCustomer) {
-        return customerGateway.updateCustomerById(id, newCustomer);
+    updateCustomerById(id, updatedCustomer) {
+        return customerGateway.updateCustomerById(id, updatedCustomer);
     },
 
     deleteCustomerById(id) {

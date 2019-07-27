@@ -14,8 +14,8 @@ module.exports = {
         return employeeGateway.getEmployeeById(id);
     },
 
-    updateEmployeeById(id, newEmployee) {
-        return employeeGateway.updateEmployeeById(id, newEmployee);
+    updateEmployeeById(id, updatedEmployee) {
+        return employeeGateway.updateEmployeeById(id, updatedEmployee);
     },
 
     deleteEmployeeById(id) {

@@ -51,6 +51,13 @@ module.exports = {
 
     getAllOrdersForCustomerWithId(req, res, next) {
         return orderService.getAllOrdersForCustomerWithId(req.params.customerId).then((orders) => {
+            if (!orders.length) {
+                const msg = `Cannot find any orders for customer with ID ${req.params.customerId}`;
+                logger.warn(msg);
+                res.status(400).send({message: msg});
+            } else {
+                res.status(200).send(orders);
+            }
             res.status(200).send(orders);
         }).catch(next);
     },

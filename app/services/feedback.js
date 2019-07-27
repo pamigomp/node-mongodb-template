@@ -14,8 +14,8 @@ module.exports = {
         return feedbackGateway.getFeedbackById(id);
     },
 
-    updateFeedbackById(id, newFeedback) {
-        return feedbackGateway.updateFeedbackById(id, newFeedback);
+    updateFeedbackById(id, updatedFeedback) {
+        return feedbackGateway.updateFeedbackById(id, updatedFeedback);
     },
 
     deleteFeedbackById(id) {
@@ -31,6 +31,7 @@ module.exports = {
         return productGateway.getProductById(id).then((product) => {
             res.product = product;
             if (product) {
+                newFeedback.productId = id;
                 return feedbackGateway.createFeedback(newFeedback);
             } else {
                 return Promise.resolve();

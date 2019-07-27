@@ -14,8 +14,8 @@ module.exports = {
         return orderGateway.getOrderById(id);
     },
 
-    updateOrderById(id, newOrder) {
-        return orderGateway.updateOrderById(id, newOrder);
+    updateOrderById(id, updatedOrder) {
+        return orderGateway.updateOrderById(id, updatedOrder);
     },
 
     deleteOrderById(id) {
@@ -31,6 +31,7 @@ module.exports = {
         return customerGateway.getCustomerById(id).then((customer) => {
             res.customer = customer;
             if (customer) {
+                newOrder.customerId = id;
                 return orderGateway.createOrder(newOrder);
             } else {
                 return Promise.resolve();

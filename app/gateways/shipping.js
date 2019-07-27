@@ -3,7 +3,7 @@ const shippingModel = require('../models/shipping');
 
 module.exports = {
     getAllShippings() {
-        return shippingModel.find().lean();
+        return shippingModel.find().select(['-createdAt', '-updatedAt', '-__v']).lean();
     },
 
     createShipping(newShipping) {
@@ -11,11 +11,11 @@ module.exports = {
     },
 
     getShippingById(id) {
-        return shippingModel.findById(id);
+        return shippingModel.findById(id).select(['-createdAt', '-updatedAt', '-__v']);
     },
 
-    updateShippingById(id, newShipping) {
-        return shippingModel.findByIdAndUpdate(id, newShipping, {new: true});
+    updateShippingById(id, updatedShipping) {
+        return shippingModel.findByIdAndUpdate(id, updatedShipping, {new: true});
     },
 
     deleteShippingById(id) {

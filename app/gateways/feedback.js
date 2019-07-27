@@ -20,11 +20,11 @@ module.exports = {
     },
 
     getFeedbackById(id) {
-        return feedbackModel.findById(id);
+        return feedbackModel.findById(id).select(['-createdAt', '-updatedAt', '-__v']);
     },
 
-    updateFeedbackById(id, newFeedback) {
-        return feedbackModel.findByIdAndUpdate(id, newFeedback, {new: true});
+    updateFeedbackById(id, updatedFeedback) {
+        return feedbackModel.findByIdAndUpdate(id, updatedFeedback, {new: true});
     },
 
     deleteFeedbackById(id) {

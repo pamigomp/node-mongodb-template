@@ -3,7 +3,7 @@ const positionModel = require('../models/position');
 
 module.exports = {
     getAllPositions() {
-        return positionModel.find().lean();
+        return positionModel.find().select(['-createdAt', '-updatedAt', '-__v']).lean();
     },
 
     createPosition(newPosition) {
@@ -11,11 +11,11 @@ module.exports = {
     },
 
     getPositionById(id) {
-        return positionModel.findById(id);
+        return positionModel.findById(id).select(['-createdAt', '-updatedAt', '-__v']);
     },
 
-    updatePositionById(id, newPosition) {
-        return positionModel.findByIdAndUpdate(id, newPosition, {new: true});
+    updatePositionById(id, updatedPosition) {
+        return positionModel.findByIdAndUpdate(id, updatedPosition, {new: true});
     },
 
     deletePositionById(id) {

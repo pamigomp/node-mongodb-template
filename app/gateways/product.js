@@ -1,7 +1,7 @@
 'use strict';
 const productModel = require('../models/product');
 
-const getProducts = (by, query) => {
+const getProducts = (by = null, query = {}) => {
     const searchQuery = prepareSearchQuery(by, query);
     const paginationOptions = preparePaginationOptions(query);
     return productModel.paginate(searchQuery, paginationOptions).then((result) => {
@@ -20,11 +20,11 @@ const deleteProduct = (query) => {
 const preparePriceQuery = (query) => {
     let result = null;
 
-    if (query.minPrice) {
+    if (query && query.minPrice) {
         result = {};
         result['$gte'] = query.minPrice;
     }
-    if (query.maxPrice) {
+    if (query && query.maxPrice) {
         result = result || {};
         result['$lte'] = query.maxPrice;
     }
@@ -39,7 +39,7 @@ const prepareSearchQuery = (by, query) => {
     if (priceQuery) {
         searchQuery.salePriceGross = priceQuery;
     }
-    if (query.search) {
+    if (query && query.search) {
         const queryRegExp = new RegExp(query.search, 'i');
         searchQuery.$or = [
             {title: queryRegExp},
@@ -54,7 +54,7 @@ const prepareSearchQuery = (by, query) => {
 
 const preparePaginationOptions = (query) => {
     return {
-        sort: {[query.sortBy || 'createdAt']: query.sortDir || '1'},
+        sort: {[query.sortBy || 'createdAt']: query && query.sortDir || '1'},
         page: parseInt(query.page) || 1,
         limit: parseInt(query.limit) || 10,
         select: query.select ? query.select.split(',') : []
@@ -62,9 +62,8 @@ const preparePaginationOptions = (query) => {
 };
 
 module.exports = {
-    getAllProducts() {
-        const query = {};
-        return getProducts(query);
+    getAllProducts(query) {
+        return getProducts(null, query);
     },
 
     createProduct(newProduct) {
@@ -72,11 +71,11 @@ module.exports = {
     },
 
     getProductById(id) {
-        return productModel.findById(id);
+        return productModel.findById(id).select(['-createdAt', '-updatedAt', '-__v']);
     },
 
-    updateProductById(id, newProduct) {
-        return productModel.findByIdAndUpdate(id, newProduct, {new: true});
+    updateProductById(id, updatedProduct) {
+        return productModel.findByIdAndUpdate(id, updatedProduct, {new: true});
     },
 
     deleteProductById(id) {

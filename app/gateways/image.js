@@ -20,11 +20,11 @@ module.exports = {
     },
 
     getImageById(id) {
-        return imageModel.findById(id);
+        return imageModel.findById(id).select(['-createdAt', '-updatedAt', '-__v']);
     },
 
-    updateImageById(id, newImage) {
-        return imageModel.findByIdAndUpdate(id, newImage, {new: true});
+    updateImageById(id, updatedImage) {
+        return imageModel.findByIdAndUpdate(id, updatedImage, {new: true});
     },
 
     deleteImageById(id) {

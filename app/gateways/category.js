@@ -3,7 +3,7 @@ const categoryModel = require('../models/category');
 
 module.exports = {
     getAllCategories() {
-        return categoryModel.find().lean();
+        return categoryModel.find().select(['-createdAt', '-updatedAt', '-__v']).lean();
     },
 
     createCategory(newCategory) {
@@ -11,11 +11,11 @@ module.exports = {
     },
 
     getCategoryById(id) {
-        return categoryModel.findById(id);
+        return categoryModel.findById(id).select(['-createdAt', '-updatedAt', '-__v']);
     },
 
-    updateCategoryById(id, newCategory) {
-        return categoryModel.findByIdAndUpdate(id, newCategory, {new: true});
+    updateCategoryById(id, updatedCategory) {
+        return categoryModel.findByIdAndUpdate(id, updatedCategory, {new: true});
     },
 
     deleteCategoryById(id) {

@@ -12,5 +12,8 @@ module.exports = {
     },
     capitalizeFirstLetter(string) {
         return string.charAt(0).toUpperCase() + string.slice(1);
+    },
+    hasDuplicates(array) {
+        return (new Set(array)).size !== array.length;
     }
 };

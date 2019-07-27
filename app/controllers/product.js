@@ -44,7 +44,7 @@ module.exports = {
     },
 
     getAllProductsForCategoryWithId(req, res, next) {
-        return productService.getAllProductsForCategoryWithId(req.params.categoryId).then((result) => {
+        return productService.getAllProductsForCategoryWithId(req.params.categoryId, req.query).then((result) => {
             if (!result || !result.collection || !result.collection.length) {
                 const msg = `Cannot find any product for category with ID ${req.params.categoryId}`;
                 logger.warn(msg);

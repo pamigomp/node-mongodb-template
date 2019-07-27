@@ -3,7 +3,7 @@ const employeeModel = require('../models/employee');
 
 module.exports = {
     getAllEmployees() {
-        return employeeModel.find().lean();
+        return employeeModel.find().select(['-password', '-createdAt', '-updatedAt', '-__v']).lean();
     },
 
     createEmployee(newEmployee) {
@@ -11,11 +11,11 @@ module.exports = {
     },
 
     getEmployeeById(id) {
-        return employeeModel.findById(id);
+        return employeeModel.findById(id).select(['-password', '-createdAt', '-updatedAt', '-__v']);
     },
 
-    updateEmployeeById(id, newEmployee) {
-        return employeeModel.findByIdAndUpdate(id, newEmployee, {new: true});
+    updateEmployeeById(id, updatedEmployee) {
+        return employeeModel.findByIdAndUpdate(id, updatedEmployee, {new: true});
     },
 
     deleteEmployeeById(id) {

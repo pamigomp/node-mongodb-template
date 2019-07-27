@@ -17,8 +17,8 @@ module.exports = {
         return positionGateway.getPositionById(id);
     },
 
-    updatePositionById(id, newPosition) {
-        return positionGateway.updatePositionById(id, newPosition);
+    updatePositionById(id, updatedPosition) {
+        return positionGateway.updatePositionById(id, updatedPosition);
     },
 
     deletePositionById(id) {
