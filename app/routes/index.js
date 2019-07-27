@@ -55,14 +55,14 @@ module.exports = (app) => {
         .all(respondWithMethodNotAllowed);
 
     app.route(`${apiPrefix}/customers`)
-        .get(customerController.getAllCustomers)
-        .post(isAuthenticatedAndAdmin, customerController.createCustomer)
+        .get(isAuthenticatedAndAdmin, customerController.getAllCustomers)
+        .post(customerController.createCustomer)
         .all(respondWithMethodNotAllowed);
 
     app.route(`${apiPrefix}/customers/:customerId`)
         .get(customerController.getCustomer)
         .put(customerController.updateCustomer)
-        .delete(customerController.deleteCustomer)
+        .delete(isAuthenticatedAndAdmin, customerController.deleteCustomer)
         .all(respondWithMethodNotAllowed);
 
     app.route(`${apiPrefix}/customers/:customerId/orders`)
@@ -77,58 +77,58 @@ module.exports = (app) => {
     app.route(`${apiPrefix}/orders/:orderId`)
         .get(orderController.getOrder)
         .put(orderController.updateOrder)
-        .delete(orderController.deleteOrder)
+        .delete(isAuthenticatedAndAdmin, orderController.deleteOrder)
         .all(respondWithMethodNotAllowed);
 
     app.route(`${apiPrefix}/customers/:customerId/cart`)
         .get(cartController.getCartForCustomerWithId)
         .post(cartController.createCartForCustomerWithId)
         .put(cartController.updateCartForCustomerWithId)
-        .delete(cartController.deleteCartForCustomerWithId)
+        .delete(isAuthenticatedAndAdmin, cartController.deleteCartForCustomerWithId)
         .all(respondWithMethodNotAllowed);
 
     app.route(`${apiPrefix}/employees`)
-        .get(employeeController.getAllEmployees)
-        .post(employeeController.createEmployee)
+        .get(isAuthenticatedAndAdmin, employeeController.getAllEmployees)
+        .post(isAuthenticatedAndAdmin, employeeController.createEmployee)
         .all(respondWithMethodNotAllowed);
 
     app.route(`${apiPrefix}/employees/:employeeId`)
-        .get(employeeController.getEmployee)
-        .put(employeeController.updateEmployee)
-        .delete(employeeController.deleteEmployee)
+        .get(isAuthenticatedAndAdmin, employeeController.getEmployee)
+        .put(isAuthenticatedAndAdmin, employeeController.updateEmployee)
+        .delete(isAuthenticatedAndAdmin, employeeController.deleteEmployee)
         .all(respondWithMethodNotAllowed);
 
     app.route(`${apiPrefix}/positions`)
-        .get(positionController.getAllPositions)
-        .post(positionController.createPosition)
+        .get(isAuthenticatedAndAdmin, positionController.getAllPositions)
+        .post(isAuthenticatedAndAdmin, positionController.createPosition)
         .all(respondWithMethodNotAllowed);
 
     app.route(`${apiPrefix}/positions/:positionId`)
-        .get(positionController.getPosition)
-        .put(positionController.updatePosition)
-        .delete(positionController.deletePosition)
+        .get(isAuthenticatedAndAdmin, positionController.getPosition)
+        .put(isAuthenticatedAndAdmin, positionController.updatePosition)
+        .delete(isAuthenticatedAndAdmin, positionController.deletePosition)
         .all(respondWithMethodNotAllowed);
 
     app.route(`${apiPrefix}/producers`)
         .get(producerController.getAllProducers)
-        .post(producerController.createProducer)
+        .post(isAuthenticatedAndAdmin, producerController.createProducer)
         .all(respondWithMethodNotAllowed);
 
     app.route(`${apiPrefix}/producers/:producerId`)
         .get(producerController.getProducer)
-        .put(producerController.updateProducer)
-        .delete(producerController.deleteProducer)
+        .put(isAuthenticatedAndAdmin, producerController.updateProducer)
+        .delete(isAuthenticatedAndAdmin, producerController.deleteProducer)
         .all(respondWithMethodNotAllowed);
 
     app.route(`${apiPrefix}/categories/:categoryId/products`)
         .get(productController.getAllProductsForCategoryWithId)
-        .post(productController.createProductForCategoryWithId)
+        .post(isAuthenticatedAndAdmin, productController.createProductForCategoryWithId)
         .all(respondWithMethodNotAllowed);
 
     app.route(`${apiPrefix}/products/:productId`)
         .get(productController.getProduct)
-        .put(productController.updateProduct)
-        .delete(productController.deleteProduct)
+        .put(isAuthenticatedAndAdmin, productController.updateProduct)
+        .delete(isAuthenticatedAndAdmin, productController.deleteProduct)
         .all(respondWithMethodNotAllowed);
 
     app.route(`${apiPrefix}/products/:productId/feedbacks`)
@@ -144,13 +144,13 @@ module.exports = (app) => {
 
     app.route(`${apiPrefix}/products/:productId/images`)
         .get(imageController.getAllImagesForProductWithId)
-        .post(imageController.createImageForProductWithId)
+        .post(isAuthenticatedAndAdmin, imageController.createImageForProductWithId)
         .all(respondWithMethodNotAllowed);
 
     app.route(`${apiPrefix}/images/:imageId`)
         .get(imageController.getImage)
-        .put(imageController.updateImage)
-        .delete(imageController.deleteImage)
+        .put(isAuthenticatedAndAdmin, imageController.updateImage)
+        .delete(isAuthenticatedAndAdmin, imageController.deleteImage)
         .all(respondWithMethodNotAllowed);
 
     app.route(`${apiPrefix}/products/:productId/rates`)
@@ -166,13 +166,13 @@ module.exports = (app) => {
 
     app.route(`${apiPrefix}/shippings`)
         .get(shippingController.getAllShippings)
-        .post(shippingController.createShipping)
+        .post(isAuthenticatedAndAdmin, shippingController.createShipping)
         .all(respondWithMethodNotAllowed);
 
     app.route(`${apiPrefix}/shippings/:shippingId`)
         .get(shippingController.getShipping)
-        .put(shippingController.updateShipping)
-        .delete(shippingController.deleteShipping)
+        .put(isAuthenticatedAndAdmin, shippingController.updateShipping)
+        .delete(isAuthenticatedAndAdmin, shippingController.deleteShipping)
         .all(respondWithMethodNotAllowed);
 
     // catch 404 and forward to error handler
