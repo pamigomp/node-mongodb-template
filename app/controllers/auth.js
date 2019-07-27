@@ -27,7 +27,10 @@ module.exports = {
     },
 
     signInFacebook(req, res, next) {
-        return passport.authenticate('facebook-signIn', {session: false, scope: ['email', 'public_profile']}, (err, passportUser, info) => {
+        return passport.authenticate('facebook-signIn', {
+            session: false,
+            scope: ['email', 'public_profile']
+        }, (err, passportUser, info) => {
             if (err) {
                 next(err);
             } else if (passportUser) {

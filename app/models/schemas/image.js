@@ -12,6 +12,6 @@ const ImageSchema = new Schema({
     productId: {type: mongoose.Types.ObjectId, required: true}
 }, {timestamps: true});
 
-ImageSchema.index({ url: 1, productId: 1 }, { unique: true });
+ImageSchema.index({url: 1, productId: 1}, {unique: true});
 
 module.exports = ImageSchema;

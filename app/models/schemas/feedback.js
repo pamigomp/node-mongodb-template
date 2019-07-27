@@ -9,6 +9,6 @@ const FeedbackSchema = new Schema({
     productId: {type: mongoose.Types.ObjectId, required: true}
 }, {timestamps: true});
 
-FeedbackSchema.index({ customerId: 1, productId: 1 }, { unique: true });
+FeedbackSchema.index({customerId: 1, productId: 1}, {unique: true});
 
 module.exports = FeedbackSchema;
