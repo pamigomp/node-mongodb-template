@@ -1,6 +1,5 @@
 'use strict';
 const mongoose = require('mongoose');
-const PositionSchema = require('./position');
 const {postalCodeValidator, phoneValidator, emailValidator} = require('../validators/validators');
 
 const Schema = mongoose.Schema;
@@ -15,11 +14,11 @@ const EmployeeSchema = new Schema({
     street: {type: String, required: true, maxlength: 32},
     postalCode: {type: String, required: true, validate: postalCodeValidator},
     city: {type: String, required: true, maxlength: 32},
-    phone: {type: Number, required: true, validate: phoneValidator},
+    phone: {type: String, required: true, validate: phoneValidator},
     email: {type: String, required: true, unique: true, validate: emailValidator},
     employmentDate: {type: Date, required: true},
-    dismissalDate: {type: Date, required: true},
-    position: PositionSchema
+    dismissalDate: {type: Date, required: false},
+    positionId: {type: mongoose.Types.ObjectId, required: true}
 }, {timestamps: true});
 
 module.exports = EmployeeSchema;

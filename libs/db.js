@@ -1,30 +1,13 @@
 'use strict';
 const mongoose = require('mongoose');
 const logger = require('./logger');
-const categoriesData = require('../app/models/seeds/categories');
-const CategoryModel = require('../app/models/category');
+const seed = require('./seed');
 
 if (process.env.NODE_ENV === 'development') {
     mongoose.set('debug', true);
 }
 
 let db = null;
-
-const initializeCategoriesCollection = () => {
-    return CategoryModel.findOne().then((data) => {
-        const promises = [];
-        if (!data) {
-            categoriesData.forEach((category) => {
-                promises.push(CategoryModel(category).save().then(() => {
-                    logger.info(`Successfully created category with name ${category.name}`);
-                }).catch((err) => {
-                    logger.error(err);
-                }));
-            });
-        }
-        return Promise.all(promises);
-    });
-};
 
 module.exports = () => {
     if (!db) {
@@ -35,7 +18,7 @@ module.exports = () => {
             useFindAndModify: false
         };
         mongoose.connect(uri, options)
-            .then(initializeCategoriesCollection());
+            .then(seed);
 
         db = mongoose.connection;
 
@@ -48,7 +31,7 @@ module.exports = () => {
         });
 
         db.on('error', (err) => {
-            db.close(() => {
+            return db.close(() => {
                 logger.error(`Mongoose default connection error: ${err}`);
                 process.exit(0);
             });
@@ -75,7 +58,7 @@ module.exports = () => {
         });
 
         process.on('SIGINT', () => {
-            db.close(() => {
+            return db.close(() => {
                 logger.info('Mongoose default connection disconnected through app termination');
                 process.exit(0);
             });

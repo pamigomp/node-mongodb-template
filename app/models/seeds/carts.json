@@ -1,0 +1,23 @@
+[
+  {
+    "_id": "5d3c23e2319a88c85f2b54e2",
+    "amount": 1,
+    "price": 12.1,
+    "productId": "5d3c2151368addfc9df3111b",
+    "customerId": "5d3c226db83d4e916a56c096"
+  },
+  {
+    "_id": "5d3c23e7b3e30811a3b11c70",
+    "amount": 9,
+    "price": 99.85,
+    "productId": "5d3c21560d6518473bd414c3",
+    "customerId": "5d3c226db83d4e916a56c096"
+  },
+  {
+    "_id": "5d3c23eceac4692c2df37362",
+    "amount": 1,
+    "price": 53.14,
+    "productId": "5d3c215a373bfd75d2d4ae7f",
+    "customerId": "5d3c2271be3a247c7f5c6eac"
+  }
+]

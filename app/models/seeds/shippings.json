@@ -1,0 +1,27 @@
+[
+  {
+    "_id": "5d3c2095723550f2864b931f",
+    "method": "POCZTA_POLSKA",
+    "price": 7
+  },
+  {
+    "_id": "5d3c209afde8bec49071d56f",
+    "method": "CASH_ON_DELIVERY",
+    "price": 15
+  },
+  {
+    "_id": "5d3c209eb624bbb02363ebca",
+    "method": "COURIER_PREPAYMENT",
+    "price": 12
+  },
+  {
+    "_id": "5d3c20b366f8f169f460cd08",
+    "method": "PACZKOMATY_INPOST",
+    "price": 10
+  },
+  {
+    "_id": "5d3c20a7c014648fd597ddbc",
+    "method": "COLLECTION_IN_PERSON",
+    "price": 0
+  }
+]

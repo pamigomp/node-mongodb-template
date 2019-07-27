@@ -1,0 +1,41 @@
+[
+  {
+    "_id": "5d3c226db83d4e916a56c096",
+    "email": "hazeldalton@entroflex.com",
+    "password": "password123",
+    "firstName": "Stokes",
+    "lastName": "Hicks",
+    "gender": "M",
+    "dob": "Sat Nov 04 2006 16:14:09 GMT+0100 (czas środkowoeuropejski standardowy)",
+    "street": "Monroe Place",
+    "city": "Hiko",
+    "phone": "123456789",
+    "regular": true
+  },
+  {
+    "_id": "5d3c2271be3a247c7f5c6eac",
+    "email": "stokeshicks@entroflex.com",
+    "password": "password123",
+    "firstName": "Wilder",
+    "lastName": "Hyde",
+    "gender": "M",
+    "dob": "Fri Nov 12 1999 22:36:27 GMT+0100 (czas środkowoeuropejski standardowy)",
+    "street": "Dorset Street",
+    "city": "Stewart",
+    "phone": "123456789",
+    "regular": false
+  },
+  {
+    "_id": "5d3c2275cdf947b91997c49f",
+    "email": "wilderhyde@entroflex.com",
+    "password": "password123",
+    "firstName": "Goodwin",
+    "lastName": "Kemp",
+    "gender": "M",
+    "dob": "Fri Jan 10 1986 13:22:59 GMT+0100 (czas środkowoeuropejski standardowy)",
+    "street": "Fairview Place",
+    "city": "Herbster",
+    "phone": "123456789",
+    "regular": false
+  }
+]

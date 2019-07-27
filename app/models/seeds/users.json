@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "5d3c2238dc9420cd8afc3dfc",
+    "email": "sullivantrujillo@entroflex.com",
+    "password": "password123",
+    "firstName": "Aileen",
+    "lastName": "Witt",
+    "gender": "F",
+    "dob": "Fri Oct 28 1994 11:54:16 GMT+0100 (czas środkowoeuropejski standardowy)",
+    "street": "Cropsey Avenue",
+    "city": "Libertytown",
+    "phone": "123456789",
+    "regular": false,
+    "id": "d6c7006d-255c-429d-b2d8-2a54c32b40c3",
+    "profilePicture": "https://via.placeholder.com/128",
+    "emailVerified": false
+  },
+  {
+    "_id": "5d3c223da4c5aa2b2a934cff",
+    "email": "aileenwitt@entroflex.com",
+    "password": "password123",
+    "firstName": "Chrystal",
+    "lastName": "Avila",
+    "gender": "F",
+    "dob": "Sun May 30 1993 05:38:12 GMT+0200 (czas środkowoeuropejski letni)",
+    "street": "Prescott Place",
+    "city": "Cuylerville",
+    "phone": "123456789",
+    "regular": true,
+    "id": "4decf3a7-d7be-4556-8620-1e758ae36889",
+    "profilePicture": "https://via.placeholder.com/128",
+    "emailVerified": false
+  },
+  {
+    "_id": "5d3c2243860586bbcf0b8285",
+    "email": "chrystalavila@entroflex.com",
+    "password": "password123",
+    "firstName": "Maureen",
+    "lastName": "Blackwell",
+    "gender": "F",
+    "dob": "Wed Feb 14 1990 04:42:53 GMT+0100 (czas środkowoeuropejski standardowy)",
+    "street": "Jerome Street",
+    "city": "Dupuyer",
+    "phone": "123456789",
+    "regular": true,
+    "id": "bfb5eaa3-f3ef-4e91-a589-0898b089926b",
+    "profilePicture": "https://via.placeholder.com/128",
+    "emailVerified": true
+  }
+]

@@ -16,7 +16,7 @@ const UserSchema = new Schema({
     street: {type: String, required: false, maxlength: 32},
     postalCode: {type: String, required: false, validate: postalCodeValidator},
     city: {type: String, required: false, maxlength: 32},
-    phone: {type: Number, required: false, validate: phoneValidator},
+    phone: {type: String, required: false, validate: phoneValidator},
     regular: {type: Boolean, required: false, default: true},
     lastLogin: {type: Date, required: false},
     token: {type: String, required: false},

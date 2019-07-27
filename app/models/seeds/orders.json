@@ -1,0 +1,67 @@
+[
+  {
+    "_id": "5d3c21062281488a6dc8e31e",
+    "paymentStatus": true,
+    "totalPrice": 64.61,
+    "shippingDate": "Wed Sep 02 2015 14:43:14 GMT+0200 (czas środkowoeuropejski letni)",
+    "additionalInformation": "Do anim minim minim mollit esse ipsum.",
+    "cartId": "5d3c23e2319a88c85f2b54e2",
+    "employeeId": "5d3c20f37849ae5325fc8ec3",
+    "customerId": "5d3c226db83d4e916a56c096",
+    "shippingId": "5d3c20b366f8f169f460cd08",
+    "status": "SEND",
+    "paymentMethod": "PAYPAL"
+  },
+  {
+    "_id": "5d3c2110a3964244356e778f",
+    "paymentStatus": true,
+    "totalPrice": 917.67,
+    "shippingDate": "Mon Apr 13 1987 11:06:41 GMT+0200 (czas środkowoeuropejski letni)",
+    "additionalInformation": "Officia laboris sit occaecat aliqua ut cupidatat amet irure minim velit do Lorem dolore exercitation.",
+    "cartId": "5d3c23e2319a88c85f2b54e2",
+    "employeeId": "5d3c20f37849ae5325fc8ec3",
+    "customerId": "5d3c226db83d4e916a56c096",
+    "shippingId": "5d3c20b366f8f169f460cd08",
+    "status": "PENDING",
+    "paymentMethod": "BANK_TRANSFER"
+  },
+  {
+    "_id": "5d3c2113947a2e1519de819b",
+    "paymentStatus": true,
+    "totalPrice": 240.22,
+    "shippingDate": "Fri Apr 09 2004 22:06:07 GMT+0200 (czas środkowoeuropejski letni)",
+    "additionalInformation": "Pariatur in occaecat deserunt reprehenderit ex pariatur.",
+    "cartId": "5d3c23e7b3e30811a3b11c70",
+    "employeeId": "5d3c20f37849ae5325fc8ec3",
+    "customerId": "5d3c2271be3a247c7f5c6eac",
+    "shippingId": "5d3c20b366f8f169f460cd08",
+    "status": "SEND",
+    "paymentMethod": "CASH"
+  },
+  {
+    "_id": "5d3c211bb4c7757d3fb1506b",
+    "paymentStatus": false,
+    "totalPrice": 140.2,
+    "shippingDate": "Sat Mar 25 1972 08:21:06 GMT+0100 (czas środkowoeuropejski standardowy)",
+    "additionalInformation": "Adipisicing voluptate amet sint reprehenderit labore qui id minim cupidatat cillum sit.",
+    "cartId": "5d3c23e7b3e30811a3b11c70",
+    "employeeId": "5d3c20f98b5147af72bba199",
+    "customerId": "5d3c2271be3a247c7f5c6eac",
+    "shippingId": "5d3c2095723550f2864b931f",
+    "status": "PENDING",
+    "paymentMethod": "CREDIT_CARD"
+  },
+  {
+    "_id": "5d3c2120ae72ac575a685d70",
+    "paymentStatus": true,
+    "totalPrice": 819,
+    "shippingDate": "Tue Jun 14 1988 01:22:40 GMT+0200 (czas środkowoeuropejski letni)",
+    "additionalInformation": "Veniam sit veniam laboris elit irure amet eu ipsum non occaecat esse eu magna.",
+    "cartId": "5d3c23eceac4692c2df37362",
+    "employeeId": "5d3c20f98b5147af72bba199",
+    "customerId": "5d3c2275cdf947b91997c49f",
+    "shippingId": "5d3c2095723550f2864b931f",
+    "status": "PENDING_PAYMENT",
+    "paymentMethod": "CASH"
+  }
+]

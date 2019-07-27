@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "5d3c2151368addfc9df3111b",
+    "title": "Officia ut dolore labore incididunt qui consectetur ad nostrud",
+    "saleTaxRate": 23,
+    "salePriceGross": 879.52,
+    "description": "Non proident sit laboris sunt dolor exercitation esse id. Laborum consequat aute sit cupidatat. Ipsum voluptate ad consectetur aliquip in nostrud laboris non reprehenderit quis quis. Nostrud do eu deserunt incididunt et id eiusmod laboris ut velit ut tempor sit adipisicing. Esse labore aliqua cupidatat sit veniam. Anim fugiat mollit dolore sunt dolore elit aliquip dolor dolore ipsum aliqua veniam. Reprehenderit amet dolore eu consequat tempor irure et laborum. Aliqua voluptate dolore ad elit sunt enim nulla nisi. Aute elit commodo aute incididunt amet nostrud nulla. Laborum qui et mollit commodo reprehenderit.",
+    "stockAmount": 7,
+    "categoryId": "5d3c22953ba7613b0eb6350f",
+    "producerId": "5d3c2085535168f6726cc668"
+  },
+  {
+    "_id": "5d3c21560d6518473bd414c3",
+    "title": "Aliqua est voluptate mollit irure occaecat adipisicing laboris",
+    "saleTaxRate": 23,
+    "salePriceGross": 286.94,
+    "description": "Fugiat commodo aliqua adipisicing aliqua ad minim pariatur pariatur sit nulla est do nulla. Labore sint consectetur Lorem nostrud commodo sunt. Nulla deserunt occaecat occaecat Lorem dolore nisi aliqua aute quis ullamco occaecat id. Adipisicing exercitation labore nostrud ullamco non sint sit excepteur labore dolor laborum excepteur velit culpa. Lorem excepteur est aute laborum adipisicing occaecat mollit aute. Veniam ad cillum officia occaecat esse ullamco do ad occaecat. Commodo ex ad sit ipsum irure in est est deserunt mollit. Velit magna commodo tempor cillum commodo eiusmod laborum esse consectetur exercitation esse. Adipisicing do culpa aute ea labore exercitation incididunt velit consectetur aliquip. Elit quis eu aliquip magna sint elit cupidatat ut ut.",
+    "stockAmount": 0,
+    "categoryId": "5d3c22953ba7613b0eb6350f",
+    "producerId": "5d3c2085535168f6726cc668"
+  },
+  {
+    "_id": "5d3c215a373bfd75d2d4ae7f",
+    "title": "Esse in commodo elit laboris adipisicing pariatur.",
+    "saleTaxRate": 23,
+    "salePriceGross": 107.33,
+    "description": "Reprehenderit cillum Lorem sit velit culpa id aliqua. Commodo amet quis dolor non laboris dolore sit proident tempor esse qui laborum ut aliqua. Id duis sunt Lorem dolore pariatur. Veniam ex occaecat cillum nostrud dolore. Ut proident elit laboris irure amet et proident do sint sunt commodo culpa pariatur. Pariatur occaecat proident cupidatat occaecat ex tempor amet commodo culpa occaecat. Proident aute in nisi incididunt nisi elit quis ad adipisicing occaecat sint do non. Cupidatat laboris incididunt aute non mollit tempor deserunt id minim qui sit aliquip incididunt. Excepteur est proident consectetur laboris ullamco do. Cillum fugiat do proident ea minim.",
+    "stockAmount": 9,
+    "categoryId": "5d3c229ae6c82a1c0abc2a57",
+    "producerId": "5d3c2085535168f6726cc668"
+  }
+]
