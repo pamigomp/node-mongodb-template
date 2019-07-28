@@ -13,7 +13,8 @@
     "phone": "123456789",
     "username": "username1",
     "employmentDate": "Wed Oct 08 1980 07:30:27 GMT+0100 (czas środkowoeuropejski standardowy)",
-    "positionId": "5d3c214655bd992a2f5f1021"
+    "positionId": "5d3c214655bd992a2f5f1021",
+    "lastLogin": "Sat Nov 04 2006 16:14:09 GMT+0100 (czas środkowoeuropejski standardowy)"
   },
   {
     "_id": "5d3c20f98b5147af72bba199",
@@ -29,7 +30,8 @@
     "phone": "123456789",
     "username": "username2",
     "employmentDate": "Sat Aug 06 1988 15:13:15 GMT+0200 (czas środkowoeuropejski letni)",
-    "positionId": "5d3c214655bd992a2f5f1021"
+    "positionId": "5d3c214655bd992a2f5f1021",
+    "lastLogin": "Sat Nov 04 2006 16:14:09 GMT+0100 (czas środkowoeuropejski standardowy)"
   },
   {
     "_id": "5d3c20ff47fdb88764520141",
@@ -45,6 +47,7 @@
     "phone": "123456789",
     "username": "username3",
     "employmentDate": "Sat Dec 06 1986 00:26:44 GMT+0100 (czas środkowoeuropejski standardowy)",
-    "positionId": "5d3c214655bd992a2f5f1021"
+    "positionId": "5d3c214655bd992a2f5f1021",
+    "lastLogin": "Sat Nov 04 2006 16:14:09 GMT+0100 (czas środkowoeuropejski standardowy)"
   }
 ]

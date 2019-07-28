@@ -10,7 +10,8 @@
     "street": "Monroe Place",
     "city": "Hiko",
     "phone": "123456789",
-    "regular": true
+    "regular": true,
+    "lastLogin": "Sat Nov 04 2006 16:14:09 GMT+0100 (czas środkowoeuropejski standardowy)"
   },
   {
     "_id": "5d3c2271be3a247c7f5c6eac",
@@ -23,7 +24,9 @@
     "street": "Dorset Street",
     "city": "Stewart",
     "phone": "123456789",
-    "regular": false
+    "regular": false,
+    "lastLogin": "Sat Nov 04 2006 16:14:09 GMT+0100 (czas środkowoeuropejski standardowy)"
+
   },
   {
     "_id": "5d3c2275cdf947b91997c49f",
@@ -36,6 +39,8 @@
     "street": "Fairview Place",
     "city": "Herbster",
     "phone": "123456789",
-    "regular": false
+    "regular": false,
+    "lastLogin": "Sat Nov 04 2006 16:14:09 GMT+0100 (czas środkowoeuropejski standardowy)"
+
   }
 ]
