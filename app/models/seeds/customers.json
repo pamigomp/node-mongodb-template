@@ -26,7 +26,6 @@
     "phone": "123456789",
     "regular": false,
     "lastLogin": "Sat Nov 04 2006 16:14:09 GMT+0100 (czas środkowoeuropejski standardowy)"
-
   },
   {
     "_id": "5d3c2275cdf947b91997c49f",
@@ -41,6 +40,5 @@
     "phone": "123456789",
     "regular": false,
     "lastLogin": "Sat Nov 04 2006 16:14:09 GMT+0100 (czas środkowoeuropejski standardowy)"
-
   }
 ]

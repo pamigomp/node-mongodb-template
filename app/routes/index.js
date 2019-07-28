@@ -105,7 +105,7 @@ module.exports = (app) => {
         .all(respondWithMethodNotAllowed);
 
     app.route(`${apiPrefix}/positions`)
-        .get(isAuthenticatedAndAdmin, positionController.getAllPositions)
+        .get(cacheMiddleware, isAuthenticatedAndAdmin, positionController.getAllPositions)
         .post(isAuthenticatedAndAdmin, positionController.createPosition)
         .all(respondWithMethodNotAllowed);
 
@@ -116,7 +116,7 @@ module.exports = (app) => {
         .all(respondWithMethodNotAllowed);
 
     app.route(`${apiPrefix}/producers`)
-        .get(producerController.getAllProducers)
+        .get(cacheMiddleware, producerController.getAllProducers)
         .post(isAuthenticatedAndAdmin, producerController.createProducer)
         .all(respondWithMethodNotAllowed);
 
@@ -171,7 +171,7 @@ module.exports = (app) => {
         .all(respondWithMethodNotAllowed);
 
     app.route(`${apiPrefix}/shippings`)
-        .get(shippingController.getAllShippings)
+        .get(cacheMiddleware, shippingController.getAllShippings)
         .post(isAuthenticatedAndAdmin, shippingController.createShipping)
         .all(respondWithMethodNotAllowed);
 
