@@ -202,7 +202,7 @@ const initializeUsersCollection = () => {
         if (!data) {
             return Promise.all(usersData.map((user) => {
                 return UserModel(user).save().then((savedObj) => {
-                    logger.info(`Successfully created user with id ${savedObj.id}`);
+                    logger.info(`Successfully created user with _id ${savedObj._id}`);
                 });
             }));
         }

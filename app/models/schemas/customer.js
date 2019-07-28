@@ -18,7 +18,7 @@ const CustomerSchema = new Schema({
     city: {type: String, required: false, maxlength: 32},
     phone: {type: String, required: false, validate: phoneValidator},
     regular: {type: Boolean, required: false, default: true},
-    lastLogin: {type: Date, required: false},
+    lastLogin: {type: Date, required: true},
     salt: {type: String, required: false}
 }, {timestamps: true});
 

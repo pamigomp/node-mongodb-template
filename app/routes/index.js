@@ -34,14 +34,20 @@ const validateObjectId = (req, res, next) => {
 const isAuthenticatedAndAdmin = [passport.authenticate('jwt', {session: false}), isAdmin, validateObjectId];
 
 module.exports = (app) => {
-    app.route(`${apiPrefix}/signup/local`)
-        .post(authController.signUpLocal);
+    app.route(`${apiPrefix}/signup/customer/local`)
+        .post(authController.signUpCustomerLocal);
 
-    app.route(`${apiPrefix}/signin/local`)
-        .post(authController.signInLocal);
+    app.route(`${apiPrefix}/signin/customer/local`)
+        .post(authController.signInCustomerLocal);
 
-    app.route(`${apiPrefix}/signin/facebook`)
-        .get(authController.signInFacebook);
+    app.route(`${apiPrefix}/signin/user/facebook`)
+        .get(authController.signInCustomerFacebook);
+
+    app.route(`${apiPrefix}/signup/employee/local`)
+        .post(authController.signUpEmployeeLocal);
+
+    app.route(`${apiPrefix}/signin/employee/local`)
+        .post(authController.signInEmployeeLocal);
 
     app.route(`${apiPrefix}/categories`)
         .get(cacheMiddleware, categoryController.getAllCategories)

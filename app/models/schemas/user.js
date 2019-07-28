@@ -19,7 +19,7 @@ const UserSchema = new Schema({
     phone: {type: String, required: false, validate: phoneValidator},
     regular: {type: Boolean, required: false, default: true},
     lastLogin: {type: Date, required: false},
-    token: {type: String, required: false},
+    token: {type: String, required: true},
     provider: {type: String, required: false, enum: ['FACEBOOK', 'GOOGLE', 'INSTAGRAM', 'TWITTER']},
     profilePicture: {type: String, required: false},
     emailVerified: {type: Boolean, required: false, default: false}
