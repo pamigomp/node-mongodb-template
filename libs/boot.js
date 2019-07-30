@@ -2,7 +2,12 @@
 const fs = require('fs');
 const http = require('http');
 const https = require('https');
+const selfsigned = require('selfsigned');
 const logger = require('./logger');
+
+const certDir = 'cert';
+const certFilePath = `${certDir}/cert.pem`;
+const keyFilePath = `${certDir}/key.pem`;
 
 module.exports = (app) => {
     /**
@@ -19,15 +24,37 @@ module.exports = (app) => {
         /**
          * Create HTTPS server.
          */
+        generateCertificate();
         httpsPort = normalizePort(process.env.PORT_HTTPS || 8081);
         const options = {
-            cert: fs.readFileSync('cert/cert.pem'),
-            key: fs.readFileSync('cert/key.pem')
+            cert: fs.readFileSync(certFilePath),
+            key: fs.readFileSync(keyFilePath)
         };
         https.createServer(options, app)
             .listen(httpsPort)
             .on('error', onError)
             .on('listening', onListening);
+    }
+
+    /**
+     * Generate a self signed x509 certificate
+     */
+    function generateCertificate() {
+        try {
+            if (fs.existsSync(certFilePath) && fs.existsSync(keyFilePath)) {
+                logger.info(`Generating self signed x509 certificate skipped. Files already exist in '${certDir}' directory`);
+            } else {
+                const attrs = [{name: 'commonName', value: 'localhost'}];
+                const pems = selfsigned.generate(attrs, {days: 365});
+                fs.mkdirSync(certDir, {recursive: true});
+                fs.writeFileSync(certFilePath, pems.cert);
+                fs.writeFileSync(keyFilePath, pems.private);
+                logger.info(`Self signed x509 certificate successfully generated in '${certDir}' directory`);
+            }
+        } catch (err) {
+            logger.error(err);
+            throw err;
+        }
     }
 
     /**
@@ -66,7 +93,7 @@ module.exports = (app) => {
         // handle specific listen errors with friendly messages
         switch (error.code) {
             case 'EACCES':
-                logger.error(` ${bind} requires elevated privileges`);
+                logger.error(`${bind} requires elevated privileges`);
                 process.exit(1);
                 break;
             case 'EADDRINUSE':
@@ -74,6 +101,7 @@ module.exports = (app) => {
                 process.exit(1);
                 break;
             default:
+                logger.error(error);
                 throw error;
         }
     }

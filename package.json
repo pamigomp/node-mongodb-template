@@ -61,6 +61,7 @@
     "passport-jwt": "4.0.0",
     "passport-local": "1.0.0",
     "response-time": "2.3.2",
+    "selfsigned": "1.10.4",
     "swagger-jsdoc": "3.3.0",
     "swagger-ui-express": "4.0.7",
     "validator": "11.1.0",
