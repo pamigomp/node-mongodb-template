@@ -28,5 +28,19 @@ module.exports = {
             logger.info(msg);
             res.status(200).send({message: msg});
         }).catch(next);
+    },
+
+    deleteSubscription(req, res, next) {
+        return pushNotificationService.deleteSubscription(req.body.endpoint).then((subscription) => {
+            if (!subscription) {
+                const msg = `Cannot find subscription with endpoint ${req.body.endpoint}`;
+                logger.warn(msg);
+                res.status(400).send({message: msg});
+            } else {
+                const msg = `Subscription with endpoint: ${subscription.endpoint} was successfully deleted`;
+                logger.info(msg);
+                res.status(200).send({message: msg});
+            }
+        }).catch(next);
     }
 };

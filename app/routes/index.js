@@ -58,8 +58,13 @@ module.exports = (app) => {
         .post(pushNotificationController.createSubscription)
         .all(respondWithMethodNotAllowed);
 
+    app.route(`${apiPrefix}/unsubscribe`)
+        .delete(pushNotificationController.deleteSubscription)
+        .all(respondWithMethodNotAllowed);
+
     app.route(`${apiPrefix}/notify`)
-        .post(isAuthenticatedAndAdmin, pushNotificationController.sendNotifications);
+        .post(isAuthenticatedAndAdmin, pushNotificationController.sendNotifications)
+        .all(respondWithMethodNotAllowed);
 
     app.route(`${apiPrefix}/categories`)
         .get(cacheMiddleware, categoryController.getAllCategories)

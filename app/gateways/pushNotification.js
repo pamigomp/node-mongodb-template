@@ -47,5 +47,9 @@ module.exports = {
             });
             return q.allSettled(parallelSubscriptionCalls);
         });
+    },
+
+    deleteSubscriptionByEndpoint(endpoint) {
+        return subscriptionModel.findOneAndRemove({endpoint: endpoint});
     }
 };

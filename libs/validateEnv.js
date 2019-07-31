@@ -10,6 +10,5 @@ module.exports = () => cleanEnv(process.env, {
     FB_CALLBACK_URL: url(),
     PUBLIC_VAPID_KEY: str(),
     MAIL_TO: email(),
-    PRIVATE_VAPID_KEY: str(),
-    GOOGLE_API_KEY: str()
+    PRIVATE_VAPID_KEY: str()
 });
