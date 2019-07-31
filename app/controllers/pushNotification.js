@@ -13,14 +13,18 @@ module.exports = {
 
     sendNotifications(req, res, next) {
         const payload = {
-            title: req.body.title,
-            message: req.body.message,
-            url: req.body.url,
-            ttl: req.body.ttl,
-            icon: req.body.icon,
-            image: req.body.image,
-            badge: req.body.badge,
-            tag: req.body.tag
+            notification: {
+                title: req.body.title, //iOS and Android
+                body: req.body.body, //iOS and Android
+                sound: req.body.sound, //iOS and Android
+                click_action: req.body.click_action, //iOS and Android
+                icon: req.body.icon, //Android
+                tag: req.body.tag, //Android
+                color: req.body.color, //Android
+                badge: req.body.badge, //iOS
+                subtitle: req.body.subtitle //iOS
+            },
+            ttl: req.body.ttl
         };
         return pushNotificationService.sendNotifications(payload).then((results) => {
             logger.debug(results);
