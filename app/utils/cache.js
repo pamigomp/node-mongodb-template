@@ -8,7 +8,7 @@ if (process.env.NODE_ENV === 'development') {
 const HOUR_IN_SECONDS = process.env.DEFAULT_CACHE_DURATION || 60 * 60;
 
 module.exports = (duration = HOUR_IN_SECONDS) => (req, res, next) => {
-    let key = '__express__' + req.originalUrl || req.url;
+    const key = '__express__' + req.originalUrl || req.url;
     let cachedBody = mcache.get(key);
     if (cachedBody) {
         try {

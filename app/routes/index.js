@@ -1,6 +1,6 @@
 'use strict';
 const {
-    authController, cartController, categoryController, customerController, employeeController, feedbackController, imageController, orderController, positionController, producerController, productController, rateController, shippingController
+    authController, cartController, categoryController, customerController, employeeController, feedbackController, imageController, orderController, positionController, producerController, productController, pushNotificationController, rateController, shippingController
 } = require('../controllers/index');
 const mongoose = require('mongoose');
 const passport = require('passport');
@@ -35,19 +35,31 @@ const isAuthenticatedAndAdmin = [passport.authenticate('jwt', {session: false}),
 
 module.exports = (app) => {
     app.route(`${apiPrefix}/signup/customer/local`)
-        .post(authController.signUpCustomerLocal);
+        .post(authController.signUpCustomerLocal)
+        .all(respondWithMethodNotAllowed);
 
     app.route(`${apiPrefix}/signin/customer/local`)
-        .post(authController.signInCustomerLocal);
+        .post(authController.signInCustomerLocal)
+        .all(respondWithMethodNotAllowed);
 
     app.route(`${apiPrefix}/signin/user/facebook`)
-        .get(authController.signInCustomerFacebook);
+        .get(authController.signInCustomerFacebook)
+        .all(respondWithMethodNotAllowed);
 
     app.route(`${apiPrefix}/signup/employee/local`)
-        .post(authController.signUpEmployeeLocal);
+        .post(authController.signUpEmployeeLocal)
+        .all(respondWithMethodNotAllowed);
 
     app.route(`${apiPrefix}/signin/employee/local`)
-        .post(authController.signInEmployeeLocal);
+        .post(authController.signInEmployeeLocal)
+        .all(respondWithMethodNotAllowed);
+
+    app.route(`${apiPrefix}/subscribe`)
+        .post(pushNotificationController.createSubscription)
+        .all(respondWithMethodNotAllowed);
+
+    app.route(`${apiPrefix}/notify`)
+        .post(isAuthenticatedAndAdmin, pushNotificationController.sendNotifications);
 
     app.route(`${apiPrefix}/categories`)
         .get(cacheMiddleware, categoryController.getAllCategories)

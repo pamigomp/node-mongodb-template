@@ -9,6 +9,7 @@ const orderGateway = require('./order');
 const positionGateway = require('./position');
 const producerGateway = require('./producer');
 const productGateway = require('./product');
+const pushNotificationGateway = require('./pushNotification');
 const rateGateway = require('./rate');
 const shippingGateway = require('./shipping');
 
@@ -23,6 +24,7 @@ module.exports = {
     positionGateway,
     producerGateway,
     productGateway,
+    pushNotificationGateway,
     rateGateway,
     shippingGateway
 };

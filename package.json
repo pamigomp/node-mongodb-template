@@ -60,11 +60,13 @@
     "passport-facebook": "3.0.0",
     "passport-jwt": "4.0.0",
     "passport-local": "1.0.0",
+    "q": "^1.5.1",
     "response-time": "2.3.2",
     "selfsigned": "1.10.4",
     "swagger-jsdoc": "3.3.0",
     "swagger-ui-express": "4.0.7",
     "validator": "11.1.0",
+    "web-push": "3.3.5",
     "winston": "3.2.1"
   },
   "devDependencies": {

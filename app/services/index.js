@@ -9,6 +9,7 @@ const orderService = require('./order');
 const positionService = require('./position');
 const producerService = require('./producer');
 const productService = require('./product');
+const pushNotificationService = require('./pushNotification');
 const rateService = require('./rate');
 const shippingService = require('./shipping');
 
@@ -23,6 +24,7 @@ module.exports = {
     positionService,
     producerService,
     productService,
+    pushNotificationService,
     rateService,
     shippingService
 };

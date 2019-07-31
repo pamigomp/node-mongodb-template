@@ -10,6 +10,7 @@ const orderController = require('./order');
 const positionController = require('./position');
 const producerController = require('./producer');
 const productController = require('./product');
+const pushNotificationController = require('./pushNotification');
 const rateController = require('./rate');
 const shippingController = require('./shipping');
 
@@ -25,6 +26,7 @@ module.exports = {
     positionController,
     producerController,
     productController,
+    pushNotificationController,
     rateController,
     shippingController
 };
