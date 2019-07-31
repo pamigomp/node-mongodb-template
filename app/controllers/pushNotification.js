@@ -23,10 +23,10 @@ module.exports = {
                 color: req.body.color, //Android
                 badge: req.body.badge, //iOS
                 subtitle: req.body.subtitle //iOS
-            },
-            ttl: req.body.ttl
+            }
         };
-        return pushNotificationService.sendNotifications(payload).then((results) => {
+        const ttl = req.body.ttl || 24 * 60 * 60; //24 hours in seconds
+        return pushNotificationService.sendNotifications(payload, ttl).then((results) => {
             logger.debug(results);
             const msg = 'Push notification was successfully sent to all subscribers';
             logger.info(msg);

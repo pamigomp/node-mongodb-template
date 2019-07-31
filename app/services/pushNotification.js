@@ -6,8 +6,8 @@ module.exports = {
         return pushNotificationGateway.createSubscription(newSubscription);
     },
 
-    sendNotifications(notification) {
-        return pushNotificationGateway.sendNotifications(notification);
+    sendNotifications(notification, ttl) {
+        return pushNotificationGateway.sendNotifications(notification, ttl);
     },
 
     deleteSubscription(endpoint) {

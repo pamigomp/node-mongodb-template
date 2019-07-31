@@ -8,7 +8,7 @@ module.exports = {
         return subscriptionModel.create(newSubscription);
     },
 
-    sendNotifications(notification) {
+    sendNotifications(notification, ttl) {
         return subscriptionModel.find().lean().then((subscriptions) => {
             const parallelSubscriptionCalls = subscriptions.map((subscription) => {
                 return new Promise((resolve, reject) => {
@@ -27,14 +27,14 @@ module.exports = {
                             privateKey: process.env.PRIVATE_VAPID_KEY,
                             publicKey: process.env.PUBLIC_VAPID_KEY
                         },
-                        TTL: notification.ttl,
+                        TTL: ttl,
                         headers: {}
                     };
                     return webpush.sendNotification(pushSubscription, pushPayload, pushOptions).then((value) => {
                         resolve({
                             status: true,
                             endpoint: subscription.endpoint,
-                            data: value
+                            data: JSON.stringify(value)
                         });
                     }).catch((err) => {
                         reject({
