@@ -3,7 +3,13 @@ const {pushNotificationGateway} = require('../gateways/index');
 
 module.exports = {
     createSubscription(newSubscription) {
-        return pushNotificationGateway.createSubscription(newSubscription);
+        return pushNotificationGateway.getSubscriptionByEndpoint(newSubscription.endpoint).then((subscription) => {
+            if (!subscription) {
+                return pushNotificationGateway.createSubscription(newSubscription);
+            } else {
+                return Promise.resolve({exists: true, _id: subscription._id});
+            }
+        });
     },
 
     sendNotifications(notification, ttl) {

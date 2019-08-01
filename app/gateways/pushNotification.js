@@ -8,18 +8,14 @@ module.exports = {
         return subscriptionModel.create(newSubscription);
     },
 
+    getSubscriptionByEndpoint(endpoint) {
+        return subscriptionModel.findOne({endpoint: endpoint});
+    },
+
     sendNotifications(notification, ttl) {
         return subscriptionModel.find().lean().then((subscriptions) => {
             const parallelSubscriptionCalls = subscriptions.map((subscription) => {
                 return new Promise((resolve, reject) => {
-                    const pushSubscription = {
-                        endpoint: subscription.endpoint,
-                        keys: {
-                            p256dh: subscription.keys.p256dh,
-                            auth: subscription.keys.auth
-                        }
-                    };
-
                     const pushPayload = JSON.stringify(notification);
                     const pushOptions = {
                         vapidDetails: {
@@ -30,7 +26,7 @@ module.exports = {
                         TTL: ttl,
                         headers: {}
                     };
-                    return webpush.sendNotification(pushSubscription, pushPayload, pushOptions).then((value) => {
+                    return webpush.sendNotification(subscription, pushPayload, pushOptions).then((value) => {
                         resolve({
                             status: true,
                             endpoint: subscription.endpoint,

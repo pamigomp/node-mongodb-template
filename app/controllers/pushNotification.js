@@ -5,9 +5,15 @@ const logger = require('../../libs/logger');
 module.exports = {
     createSubscription(req, res, next) {
         return pushNotificationService.createSubscription(req.body).then((subscription) => {
-            const msg = `Subscription with ID: ${subscription._id} was successfully created`;
-            logger.info(msg);
-            res.status(201).send({message: msg});
+            if (subscription.exists) {
+                const msg = `Subscription with ID: ${subscription._id} already exists`;
+                logger.info(msg);
+                res.status(200).send({message: msg});
+            } else {
+                const msg = `Subscription with ID: ${subscription._id} was successfully created`;
+                logger.info(msg);
+                res.status(201).send({message: msg});
+            }
         }).catch(next);
     },
 
@@ -22,7 +28,17 @@ module.exports = {
                 tag: req.body.tag, //Android
                 color: req.body.color, //Android
                 badge: req.body.badge, //iOS
-                subtitle: req.body.subtitle //iOS
+                subtitle: req.body.subtitle, //iOS
+                vibrate: JSON.parse(req.body.vibrate) || [100, 50, 100],
+                actions: [],
+                image: req.body.image,
+                lang: req.body.lang,
+                renotify: req.body.renotify,
+                requireInteraction: req.body.requireInteraction,
+                silent: req.body.silent,
+                data: {
+                    url: req.body.data_url
+                }
             }
         };
         const ttl = req.body.ttl || 24 * 60 * 60; //24 hours in seconds
