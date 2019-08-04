@@ -3,6 +3,8 @@ const webpush = require('web-push');
 const q = require('q');
 const subscriptionModel = require('../models/subscription');
 
+webpush.setVapidDetails(`mailto:${process.env.MAIL_TO}`, process.env.PUBLIC_VAPID_KEY, process.env.PRIVATE_VAPID_KEY);
+
 module.exports = {
     createSubscription(newSubscription) {
         return subscriptionModel.create(newSubscription);
@@ -18,13 +20,7 @@ module.exports = {
                 return new Promise((resolve, reject) => {
                     const pushPayload = JSON.stringify(notification);
                     const pushOptions = {
-                        vapidDetails: {
-                            subject: `mailto:${process.env.MAIL_TO}`,
-                            privateKey: process.env.PRIVATE_VAPID_KEY,
-                            publicKey: process.env.PUBLIC_VAPID_KEY
-                        },
-                        TTL: ttl,
-                        headers: {}
+                        TTL: ttl
                     };
                     return webpush.sendNotification(subscription, pushPayload, pushOptions).then((value) => {
                         resolve({
@@ -36,7 +32,7 @@ module.exports = {
                         reject({
                             status: false,
                             endpoint: subscription.endpoint,
-                            data: err
+                            data: err.toString()
                         });
                     });
                 });
