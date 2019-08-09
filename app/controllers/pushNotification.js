@@ -32,10 +32,13 @@ module.exports = {
                 vibrate: JSON.parse(req.body.vibrate) || [100, 50, 100],
                 actions: [],
                 image: req.body.image,
-                lang: req.body.lang,
-                renotify: req.body.renotify,
-                requireInteraction: req.body.requireInteraction,
-                silent: req.body.silent,
+                lang: req.body.lang || 'en',
+                renotify: req.body.renotify || false,
+                requireInteraction: req.body.requireInteraction || false,
+                dir: req.body.dir || 'ltr',
+                silent: req.body.silent || false,
+                noscreen: req.body.noscreen || false,
+                sticky: req.body.sticky || false,
                 data: {
                     url: req.body.data_url
                 }
