@@ -133,7 +133,7 @@ const signInCustomerFacebook = (accessToken, refreshToken, profile, done) => {
 
 const verify = (jwtPayload, done) => {
     let msg = null;
-    if (jwtPayload.isAdmin) {
+    if (jwtPayload.role === 'Admin') {
         msg = `Employee with ID: ${jwtPayload.id} was successfully verified`;
     } else {
         msg = `Customer/User with ID: ${jwtPayload.id} was successfully verified`;

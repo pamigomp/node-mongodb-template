@@ -18,7 +18,7 @@ const respondWithMethodNotAllowed = (req, res) => {
 };
 
 const isAdmin = (req, res, next) => {
-    if (!req.user.isAdmin) {
+    if (req.user.role !== 'Admin') {
         return res.status(403).send('Access denied');
     }
     next();
@@ -42,7 +42,7 @@ module.exports = (app) => {
         .post(authController.signInCustomerLocal)
         .all(respondWithMethodNotAllowed);
 
-    app.route(`${apiPrefix}/signin/user/facebook`)
+    app.route(`${apiPrefix}/signin/customer/facebook`)
         .get(authController.signInCustomerFacebook)
         .all(respondWithMethodNotAllowed);
 

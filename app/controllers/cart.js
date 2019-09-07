@@ -17,9 +17,7 @@ module.exports = {
     },
 
     createCartForCustomerWithId(req, res, next) {
-        const ids = JSON.parse(req.body.products).map((product) => {
-            return product.id;
-        });
+        const ids = JSON.parse(req.body.products).map((product) => product.id);
         if (!helpers.hasDuplicates(ids)) {
             return cartService.createCartForCustomerWithId(req.params.customerId, req.body).then((data) => {
                 if (!data.customer) {
@@ -40,9 +38,7 @@ module.exports = {
     },
 
     updateCartForCustomerWithId(req, res, next) {
-        const ids = JSON.parse(req.body.products).map((product) => {
-            return product.id;
-        });
+        const ids = JSON.parse(req.body.products).map((product) => product.id);
         if (!helpers.hasDuplicates(ids)) {
             return cartService.updateCartForCustomerWithId(req.params.customerId, req.body).then((data) => {
                 if (!data.customer) {

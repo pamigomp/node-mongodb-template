@@ -38,7 +38,7 @@ CustomerSchema.methods.generateJWT = function () {
     return jwt.sign({
         email: this.email,
         id: this._id,
-        isAdmin: false
+        role: 'Customer'
     }, process.env.SECRET_KEY, {expiresIn: '1d'});
 };
 

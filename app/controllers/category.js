@@ -36,7 +36,9 @@ module.exports = {
                 logger.warn(msg);
                 res.status(400).send({message: msg});
             } else {
-                res.status(200).send(category);
+                const msg = `Category with ID: ${category._id} was successfully updated`;
+                logger.info(msg);
+                res.status(200).send({message: msg});
             }
         }).catch(next);
     },

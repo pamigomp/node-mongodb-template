@@ -41,7 +41,7 @@ EmployeeSchema.methods.generateJWT = function () {
     return jwt.sign({
         username: this.username,
         id: this._id,
-        isAdmin: true
+        role: 'Admin'
     }, process.env.SECRET_KEY, {expiresIn: '1h'});
 };
 

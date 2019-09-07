@@ -1,6 +1,5 @@
 'use strict';
 const mongoose = require('mongoose');
-const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const {postalCodeValidator, phoneValidator, emailValidator} = require('../validators/validators');
 
@@ -25,15 +24,11 @@ const UserSchema = new Schema({
     emailVerified: {type: Boolean, required: false, default: false}
 }, {timestamps: true});
 
-UserSchema.statics.generateSalt = function (rounds) {
-    return bcrypt.genSaltSync(rounds || 8);
-};
-
 UserSchema.methods.generateJWT = function () {
     return jwt.sign({
         email: this.email,
         id: this._id,
-        isAdmin: false
+        role: 'User'
     }, process.env.SECRET_KEY, {expiresIn: '1d'});
 };
 
