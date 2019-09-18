@@ -1,10 +1,42 @@
 [
   {
     "_id": "5d3c22953ba7613b0eb6350f",
-    "name": "Aparaty"
+    "name": "Aparaty cyfrowe"
   },
   {
     "_id": "5d3c229ae6c82a1c0abc2a57",
-    "name": "Ramki"
+    "name": "Smartfony, Tablety, Telefony"
+  },
+  {
+    "_id": "5d829849baabdb6aac66e7a8",
+    "name": "Drukarki"
+  },
+  {
+    "_id": "5d8298695af4ba61cc6440cc",
+    "name": "Obiektywy, Konwertery"
+  },
+  {
+    "_id": "5d82986df7fc7ba7d58963c0",
+    "name": "Filmowanie, Drony"
+  },
+  {
+    "_id": "5d829871d5e51227459169c4",
+    "name": "Akcesoria do GSM i tabletów"
+  },
+  {
+    "_id": "5d829877cca33457e4b5e1e3",
+    "name": "Lornetki, Lunety, Mikroskopy"
+  },
+  {
+    "_id": "5d82987b6279d59f1d7309ae",
+    "name": "Akcesoria Fotograficzne"
+  },
+  {
+    "_id": "5d82987f26e02efa95f4be51",
+    "name": "Karty pamięci, Nośniki danych"
+  },
+  {
+    "_id": "5d8298821ad679bfc17467a3",
+    "name": "Dodatkowe źródła zasilania"
   }
 ]
