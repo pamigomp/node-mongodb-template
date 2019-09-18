@@ -3,7 +3,7 @@ const categoryModel = require('../models/category');
 
 module.exports = {
     getAllCategories() {
-        return categoryModel.find().select(['-createdAt', '-updatedAt', '-__v']).lean();
+        return categoryModel.find().sort('name').select(['-createdAt', '-updatedAt', '-__v']).lean();
     },
 
     createCategory(newCategory) {

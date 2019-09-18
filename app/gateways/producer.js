@@ -3,7 +3,7 @@ const producerModel = require('../models/producer');
 
 module.exports = {
     getAllProducers() {
-        return producerModel.find().select(['-createdAt', '-updatedAt', '-__v']).lean();
+        return producerModel.find().sort('name').select(['-createdAt', '-updatedAt', '-__v']).lean();
     },
 
     createProducer(newProducer) {

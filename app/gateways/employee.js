@@ -3,7 +3,7 @@ const employeeModel = require('../models/employee');
 
 module.exports = {
     getAllEmployees() {
-        return employeeModel.find().select(['-password', '-createdAt', '-updatedAt', '-__v']).lean();
+        return employeeModel.find().sort('lastName').select(['-password', '-createdAt', '-updatedAt', '-__v']).lean();
     },
 
     createEmployee(newEmployee) {

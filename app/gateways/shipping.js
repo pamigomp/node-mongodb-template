@@ -3,7 +3,7 @@ const shippingModel = require('../models/shipping');
 
 module.exports = {
     getAllShippings() {
-        return shippingModel.find().select(['-createdAt', '-updatedAt', '-__v']).lean();
+        return shippingModel.find().sort('method').select(['-createdAt', '-updatedAt', '-__v']).lean();
     },
 
     createShipping(newShipping) {

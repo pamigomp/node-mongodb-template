@@ -3,7 +3,7 @@ const positionModel = require('../models/position');
 
 module.exports = {
     getAllPositions() {
-        return positionModel.find().select(['-createdAt', '-updatedAt', '-__v']).lean();
+        return positionModel.find().sort('name').select(['-createdAt', '-updatedAt', '-__v']).lean();
     },
 
     createPosition(newPosition) {

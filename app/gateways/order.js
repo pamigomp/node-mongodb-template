@@ -2,7 +2,7 @@
 const orderModel = require('../models/order');
 
 const getOrders = (query) => {
-    return orderModel.find(query).lean();
+    return orderModel.find(query).sort('createdAt').lean();
 };
 
 const deleteOrder = (query) => {

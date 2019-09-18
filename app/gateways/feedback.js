@@ -12,7 +12,7 @@ const deleteFeedback = (query) => {
 module.exports = {
     getAllFeedbacks() {
         const query = {};
-        return getFeedbacks(query);
+        return getFeedbacks(query).sort('createdAt');
     },
 
     createFeedback(newFeedback) {

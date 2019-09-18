@@ -3,7 +3,7 @@ const customerModel = require('../models/customer');
 
 module.exports = {
     getAllCustomers() {
-        return customerModel.find().select(['-password', '-salt', '-createdAt', '-updatedAt', '-__v']).lean();
+        return customerModel.find().sort('lastName').select(['-password', '-salt', '-createdAt', '-updatedAt', '-__v']).lean();
     },
 
     createCustomer(newCustomer) {
