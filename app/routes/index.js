@@ -148,6 +148,10 @@ module.exports = (app) => {
         .post(isAuthenticatedAndAdmin, productController.createProductForCategoryWithId)
         .all(respondWithMethodNotAllowed);
 
+    app.route(`${apiPrefix}/products`)
+        .get(cacheMiddleware, productController.getProducts)
+        .all(respondWithMethodNotAllowed);
+
     app.route(`${apiPrefix}/products/:productId`)
         .get(productController.getProduct)
         .put(isAuthenticatedAndAdmin, productController.updateProduct)

@@ -3,6 +3,12 @@ const {productService} = require('../services/index');
 const logger = require('../../libs/logger');
 
 module.exports = {
+    getProducts(req, res, next) {
+        return productService.getAllProducts(req.query).then((products) => {
+            res.status(200).send(products);
+        }).catch(next);
+    },
+
     getProduct(req, res, next) {
         return productService.getProductById(req.params.productId).then((product) => {
             if (!product) {

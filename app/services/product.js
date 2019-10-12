@@ -1,12 +1,9 @@
 'use strict';
 const {categoryGateway, productGateway} = require('../gateways/index');
-const helpers = require('../helpers/helpers');
 
 module.exports = {
     getAllProducts(query) {
-        return productGateway.getAllProducts(query).then((res) => {
-            return helpers.caseInsensitiveSorting(res, 'title');
-        });
+        return productGateway.getAllProducts(query);
     },
 
     createProduct(newProduct) {

@@ -58,7 +58,6 @@ module.exports = {
             } else {
                 res.status(200).send(orders);
             }
-            res.status(200).send(orders);
         }).catch(next);
     },
 

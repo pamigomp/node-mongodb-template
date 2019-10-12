@@ -1,7 +1,7 @@
 'use strict';
 const productModel = require('../models/product');
 
-const getProducts = (by = null, query = {}) => {
+const getProducts = (by = {}, query = {}) => {
     const searchQuery = prepareSearchQuery(by, query);
     const paginationOptions = preparePaginationOptions(query);
     return productModel.paginate(searchQuery, paginationOptions).then((result) => {
@@ -63,7 +63,7 @@ const preparePaginationOptions = (query) => {
 
 module.exports = {
     getAllProducts(query) {
-        return getProducts(null, query);
+        return getProducts({}, query);
     },
 
     createProduct(newProduct) {
