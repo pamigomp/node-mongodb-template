@@ -8,7 +8,9 @@ const getProducts = (by = {}, query = {}) => {
         return {
             collection: result.docs,
             total: result.total,
-            pages: result.pages
+            size: result.limit,
+            pages: result.pages,
+            page: result.page
         };
     });
 };
@@ -57,7 +59,8 @@ const preparePaginationOptions = (query) => {
         sort: {[query.sortBy || 'createdAt']: query && query.sortDir || '1'},
         page: parseInt(query.page) || 1,
         limit: parseInt(query.limit) || 10,
-        select: query.select ? query.select.split(',') : []
+        select: query.select ? query.select.split(',') : [],
+        lean: true
     };
 };
 
