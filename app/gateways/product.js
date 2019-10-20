@@ -74,7 +74,7 @@ module.exports = {
     },
 
     getProductById(id) {
-        return productModel.findById(id).select(['-createdAt', '-updatedAt', '-__v']);
+        return productModel.findById(id);
     },
 
     updateProductById(id, updatedProduct) {

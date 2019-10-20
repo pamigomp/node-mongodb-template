@@ -7,7 +7,7 @@ const ImageSchema = new Schema({
     url: {
         type: String,
         default: 'https://via.placeholder.com/512',
-        maxlength: 128,
+        maxlength: 256,
         required: false
     },
     productId: {type: mongoose.Types.ObjectId, required: true, ref: 'Product'}
