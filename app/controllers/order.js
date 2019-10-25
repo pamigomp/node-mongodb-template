@@ -68,9 +68,10 @@ module.exports = {
                 logger.warn(msg);
                 res.status(400).send({message: msg});
             } else {
-                const msg = `Order with ID: ${data.order._id} was successfully created`;
+                const orderId = data.order._id;
+                const msg = `Order with ID: ${orderId} was successfully created`;
                 logger.info(msg);
-                res.status(201).send({message: msg});
+                res.status(201).send({message: msg, orderId});
             }
         }).catch(next);
     }

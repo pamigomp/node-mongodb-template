@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const FeedbackSchema = new Schema({
-    value: {type: String, required: true, maxlength: 256},
+    value: {type: String, required: true, maxlength: 1024},
     customerId: {type: mongoose.Types.ObjectId, required: true, ref: 'Customer'},
     productId: {type: mongoose.Types.ObjectId, required: true, ref: 'Product'}
 }, {timestamps: true});
