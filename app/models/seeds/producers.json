@@ -6,5 +6,73 @@
   {
     "_id": "5dac24c0fb1d0f7f2ef2b29e",
     "name": "Sony"
+  },
+  {
+    "_id": "5db42109a7ea49e007da0231",
+    "name": "Nikon"
+  },
+  {
+    "_id": "5db41d72d8a5fe3784768711",
+    "name": "Olympus"
+  },
+  {
+    "_id": "5db41ed2e6b4a21e6920cb88",
+    "name": "Panasonic"
+  },
+  {
+    "_id": "5db41f4da28ba13c1a1ca2de",
+    "name": "Polaroid"
+  },
+  {
+    "_id": "5db42004ac816d416cc32f86",
+    "name": "FujiFilm"
+  },
+  {
+    "_id": "5db49f4e287c65c6e7cd84ec",
+    "name": "Nokia"
+  },
+  {
+    "_id": "5db4a15105d794984b319799",
+    "name": "Honor"
+  },
+  {
+    "_id": "5db4a332d81fed7e998d465c",
+    "name": "Xiaomi"
+  },
+  {
+    "_id": "5db4a51c750af0cb1081dda7",
+    "name": "Huawei"
+  },
+  {
+    "_id": "5db4a653f6e7de42eaaf75da",
+    "name": "Samsung"
+  },
+  {
+    "_id": "5db4a70e1e9a7f5f499ad72b",
+    "name": "Apple"
+  },
+  {
+    "_id": "5db4a9f28683b9cb02b9d9e3",
+    "name": "Motorola"
+  },
+  {
+    "_id": "5db4ab5ce6063e0af02f20ae",
+    "name": "HP"
+  },
+  {
+    "_id": "5db4ad8058eb0c0b4854e10f",
+    "name": "Epson"
+  },
+  {
+    "_id": "5db4ae7506ea154088eb31c0",
+    "name": "Brother"
+  },
+  {
+    "_id": "5db4af743d09a8d70c41c146",
+    "name": "Lexmark"
+  },
+  {
+    "_id": "5db4b1fba87f3c45babe3930",
+    "name": "eStuff"
   }
 ]
