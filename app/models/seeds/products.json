@@ -488,5 +488,505 @@
     "stockAmount": 1,
     "categoryId": "5d8298695af4ba61cc6440cc",
     "producerId": "5d3c2085535168f6726cc668"
+  },
+  {
+    "_id": "5db4d04a7f15e1d5150e1e9b",
+    "title": "Lornetka Nikon Aculon A211 16x50",
+    "saleTaxRate": 23,
+    "salePriceGross": 549,
+    "description": "Nikon Aculon A211 16x50 to kompaktowa, uniwersalna lornetka z łatwym w obsłudze zoomem, o zakresie powiększenia 16x oraz średnicy obiektywów 50 mm. Soczewki pokryto wielowarstwową powłoką, pozwalają uzyskać jasny, wyrazisty obraz, a obracane i przesuwane gumowe muszle oczne pozwalają na odpowiednie ustawienie lornetki względem oczu.",
+    "stockAmount": 1,
+    "categoryId": "5d829877cca33457e4b5e1e3",
+    "producerId": "5db42109a7ea49e007da0231"
+  },
+  {
+    "_id": "5db4d106e013a472fa79cf4b",
+    "title": "Lornetka Olympus 7x35 DPS-I",
+    "saleTaxRate": 23,
+    "salePriceGross": 309,
+    "description": "Wyróżniając się trwałym, wysokiej jakości wykończeniem oraz wyjątkowo szerokim polem widzenia wynoszącym 65°, lornetki z serii DPS I po pozwolą Ci odkrywać otaczającą Cię przyrodę i jej tajemnice.",
+    "stockAmount": 1,
+    "categoryId": "5d829877cca33457e4b5e1e3",
+    "producerId": "5db41d72d8a5fe3784768711"
+  },
+  {
+    "_id": "5db4d1c52e13f3069dc8e4d0",
+    "title": "Teleskop - Bresser - 70/900 NG - National Geographic",
+    "saleTaxRate": 23,
+    "salePriceGross": 549,
+    "description": "Doskonały teleskop dedykowany do obserwacji planet. Parametr światłosiły teleskopu zapewnia eliminację aberracji chromatycznej. Precyzyjna optyka, projekt przyjazny dla użytkownika i stabilny montaż tego klasycznego refraktora uczyniły z niego jeden z najlepiej sprzedających się teleskopów w Europie. Umożliwia on podziwianie oddalonego o blisko 400.000 km stąd Księżyca, oraz pasy chmur na Jowiszu i pierścienie Saturna. W zasięgu naszego wzroku pojawi się również wiele obiektów głębokiego nieba.Doskonały także do prowadzenia obserwacji naziemnych.Refraktor 70/900 NG National Geographic wyposażony jest w montaż azymutalny z klinem równikowym umożliwiającym proste śledzenie obiektów.Wyciąg okularowy o średnicy 1,25 pozwala wykorzystać pełną gamę akcesoriów o średnicy 31,7 mm.",
+    "stockAmount": 1,
+    "categoryId": "5d829877cca33457e4b5e1e3",
+    "producerId": "5db4d1fc143d39368049c06f"
+  },
+  {
+    "_id": "5db54a9c771cbc28860a3b17",
+    "title": "Teleskop - Bresser - 114/900 - National Geographic",
+    "saleTaxRate": 23,
+    "salePriceGross": 699,
+    "description": "Doskonały teleskop dedykowany do obserwacji planet. Parametr światłosiły teleskopu zapewnia eliminację aberracji chromatycznej. Precyzyjna optyka, projekt przyjazny dla użytkownika i stabilny montaż tego klasycznego refraktora uczyniły z niego jeden z najlepiej sprzedających się teleskopów w Europie. Umożliwia on podziwianie oddalonego o blisko 400.000 km stąd Księżyca, oraz pasy chmur na Jowiszu i pierścienie Saturna. W zasięgu naszego wzroku pojawi się również wiele obiektów głębokiego nieba.Doskonały także do prowadzenia obserwacji naziemnych.Refraktor 70/900 NG National Geographic wyposażony jest w montaż azymutalny z klinem równikowym umożliwiającym proste śledzenie obiektów.Wyciąg okularowy o średnicy 1,25 pozwala wykorzystać pełną gamę akcesoriów o średnicy 31,7 mm.",
+    "stockAmount": 1,
+    "categoryId": "5d829877cca33457e4b5e1e3",
+    "producerId": "5db4d1fc143d39368049c06f"
+  },
+  {
+    "_id": "5db54b3439737bb1928dd7ba",
+    "title": "Luneta 20-60x60 - Bresser - National Geographic",
+    "saleTaxRate": 23,
+    "salePriceGross": 259,
+    "description": "Luneta BRESSER z serii National Geographic charakteryzuje się kompaktową budową oraz precyzyjnym systemem szybkiego ogniskowania. Cechy te zapewniają, że luneta doskonale nadaje się do prowadzenia obserwacji natury, oglądania ptaków. Bezproblemowo może być także użytkowana w trakcie podróży i pieszych wycieczek. Szeroki zakres powiększeń umożliwia uzyskanie powiększonych obrazów nawet bardzo odległych obiektów. Wodoodporny, gumowany korpus decyduje o jej trwałości i odporności. Obrotowy, w  zakresie 360o, korpus pozwala dowolnie ustawić okular lunety i  prowadzić obserwacje w wygodnej pozycji. Wysuwana osłona przeciwodblaskowa poprawia komfort obserwacji prowadzonych podczas słonecznych dni. Na wyposażeniu statyw stolikowy oraz pokrowiec do przechowywania i przenoszenia instrumentu. ",
+    "stockAmount": 1,
+    "categoryId": "5d829877cca33457e4b5e1e3",
+    "producerId": "5db4d1fc143d39368049c06f"
+  },
+  {
+    "_id": "5db54c68da3cf4363054108b",
+    "title": "Lornetka Nikon 8x25 Sportstar EX",
+    "saleTaxRate": 23,
+    "salePriceGross": 429,
+    "description": "Lekkie lornetki o smukłym i stylowym korpusie, powiększeniu 8x, średnicy obiektywów 25 mm i szerokim polu widzenia. Soczewki pokryte wielowarstwowymi powłokami antyodblaskowymi gwarantują jasny, wyrazisty obraz nawet przy słabym oświetleniu. Korpus został pokryty gumową powłoką zapewniającą bezpieczne trzymanie i jest na tyle mały, że lornetka z łatwością mieści się w kieszeni lub futerale. Doskonały towarzysz w podróży: ten model idealnie sprawdza się w takich formach aktywności, jak turystyka piesza i obserwowanie przyrody oraz imprezy sportowe.",
+    "stockAmount": 1,
+    "categoryId": "5d829877cca33457e4b5e1e3",
+    "producerId": "5db42109a7ea49e007da0231"
+  },
+  {
+    "_id": "5db54d1476cb9f60dc0ce7b4",
+    "title": "Lornetka Vanguard Spirit ED 8360",
+    "saleTaxRate": 23,
+    "salePriceGross": 899,
+    "description": "Transmisja światła lornetki Spirit ED do 90 procent zapewnia doświadczenia obserwacji bliskie perfekcji. Zaawansowane soczewki i konstrukcja pryzmatów ze szkłem ED oznacza, że znajdziesz się bliżej natury i odkryjesz szczegóły, o których wcześniej nawet nie pomyślałeś. Lornetki Spirit ED są lekkie, wygodne do trzymania, posiadają odkręcane wizjery, duży odstęp źrenicy i duże pokrętło regulacji ostrości. Są też w 100 % wodoodporne, więc nie straszna Ci żadna pogoda.",
+    "stockAmount": 1,
+    "categoryId": "5d829877cca33457e4b5e1e3",
+    "producerId": "5db54d3bf9b4e680efa686b1"
+  },
+  {
+    "_id": "5db54d8947e1a4c904e5d4cb",
+    "title": "Teleskop - Bresser Messier 130/650 Dobson",
+    "saleTaxRate": 23,
+    "salePriceGross": 799,
+    "description": "Teleskop Messier 5” na montażu Dobsona to nowoczesny, ponadczasowy teleskop. Pomimo niskiej ceny teleskop ten oferuje mnogość zastosować i jakość konkurującą z dużo droższymi teleskopami.Teleskop będzie odpowiedni nie tylko dla początkujących ale także dla entuzjastów i doświadczonych miłośników nocnego nieba ceniących sobie wysoką jakość obrazów, szybkie ustawienie i mobilność sprzętu.Podstawowe cechy to szybkie ustawienie i prostota obsługi.Wystarczy tylko postawić teleskop na stole, skierować na obiekt i rozpocząć obserwacje.Teleskop został złożony w fabryce co oznacza, że w ciągu paru chwil jest gotowy do obserwacji. Znajdujące się na wyposażeniu akcesoria: szukacz LED oraz dwa okulary Kellnera umożliwiają natychmiastowe rozpoczęcie obserwacji. Zabudowany kompas i poziomica pozawalają na szybkie ustawienie i orientację teleskopu.Optyka o średnicy 5” (130mm) nie ogranicza możliwości obserwacyjnych do obiektów układu słonecznego jak Księżyc i planety. Pozwala na sięgnięcie dalej do gromad otwartych i kulistych oraz do galaktyk. Odnajdowanie obiektów i ich obserwacja jest dużo prostsza dzięki dużej mocy zbierania światła zwierciadła głównego teleskopu.Bresser wyposażył teleskop w wysokiej jakości paraboliczne zwierciadło zapewniające lepszą ostrość i kontrast w porównaniu z lustrami sferycznymi.Tubus optyczny jest łatwo przesuwany w obejmach mocujących. Dzięki temu można uzyskać optymalne wyważenie i ustawienie do obserwacji.  Wystarczy poluzować obejmy i przesunąć lekko tubus teleskopu w celu optymalnego ustawienia. Jest to kolejna zaleta tego wyjątkowo wszechstronnego teleskopu.W ciągu paru chwil można zdjąć tubus z montażu Dobsona i zamocować do dowolnego montażu paralaktycznego lub azymutalnego.Dzięki tym wszystkim cechom teleskop Dobson Messier wyznacza nowe standardy w użyteczności, wszechstronności i możliwościach obserwacyjnychw zestawieniu z teleskopami z tego zakresu cenowego.",
+    "stockAmount": 1,
+    "categoryId": "5d829877cca33457e4b5e1e3",
+    "producerId": "5db4d1fc143d39368049c06f"
+  },
+  {
+    "_id": "5db54e00d7ba155c7cb892d6",
+    "title": "DJI MAVIC AIR FLY MORE COMBO (ONYX BLACK)",
+    "saleTaxRate": 23,
+    "salePriceGross": 4399,
+    "description": "Dron DJI Mavic Air to prawdziwe osiągniecie inżynierów i konstruktorów, dzięki którym możesz go teraz wszędzie zabrać ze sobą. Ten składany i niezwykle poręczny dron ma najlepsze cechy oferowanej przez DJI serii Mavic, doskonale spisuje się w powietrzu i otwiera przed Tobą praktycznie nieograniczone możliwości poznawania otoczenia.Dzięki możliwości robienia panoram Sphere 32 MP i zdjęć HDR, rejestrowania wideo w rozdzielczości 4K z częstością 30 kl./s i przepływnością 100 Mb/s oraz nagrywania w zwolnionym tempie wideo 1080p z częstością 120 kl./s, możesz utrwalić swoje przeżycia na imponujących obrazach.Wbudowaną kamerę drona Mavic Air wyposażono w matrycę CMOS 12 MP 1/2,3 cala oraz obiektyw z przysłoną f/2,8 i długością ogniskowej odpowiadającą formatowi 24 mm, dzięki czemu możesz tworzyć zdjęcia i filmy w wyjątkowo wysokiej rozdzielczości.Dodatkowo w ciągu ośmiu sekund DJI Mavic Air może zrobić i połączyć ze sobą 25 zdjęć, tworząc perfekcyjną panoramę Sphere w rozdzielczości 32 MP. Urządzenie obsługuje ponadto kilka trybów panoramicznych, m.in. pionowy, poziomy i 180°.",
+    "stockAmount": 1,
+    "categoryId": "5d82986df7fc7ba7d58963c0",
+    "producerId": "5db54e21ce516522d852b0ae"
+  },
+  {
+    "_id": "5db54e9b87b8e5a3af6c3b92",
+    "title": "Hubsan H117S Zino Portable",
+    "saleTaxRate": 23,
+    "salePriceGross": 1999,
+    "description": "Hubsan H117S Zino Portable to dron, który wyróżnia się swoją funkcjonalnością i mobilnością. Niewielka waga i składana konstrukcja sprawiają, że zabierzesz go ze sobą wszędzie, gdzie tylko zechcesz. Wersja Portable zawiera dodatkowe elementy, które będą szczególnie pomocne między innymi w podróży lub podczas dłuższego pobytu poza domem.Piękne chwile, które warto uwiecznić, zdarzają się często. Wycieczka czy spacer po parku zasługują na zdjęcie lub nagrany film. Wystarczy wtedy uruchomić drona Hubsan Zino Portable i uwiecznić zdarzenie za pomocą wbudowanej kamery 4K z 3-osiowym gimbalem. Wiele funkcji, takich jak lot po wyznaczonej trasie oraz żywotność baterii do 23 minut sprawiają, że jest to jeden z lepszych urządzeń tego typu w swojej klasie.Niezapomniane chwile wymagają odpowiedniej jakości rejestrowanego obrazu. Z pomocą przyjdzie wbudowana w dronie Hubsan H177S Zino Portable kamera pozwalająca na rejestrowanie obrazu w jakości 4K przy szybkości 30 klatek na sekundę.Z dronem Hubsan H117S Zino Portable wykonanie świetnych zdjęć jest niezwykle łatwe i intuicyjne. Wszystko to za sprawą oferowanych przez urządzenie trybów, które łączą w sobie fotografię i lot. Po naciśnięciu jednego przycisku dron obróci się dookoła o 360° i stworzy w tym czasie niesamowitą panoramę. Ponadto, Hubsan Zino Portable może za sprawą trybu Line Fly Mode automatycznie podążać w linii prostej w wybranym kierunku. Pozwoli Ci to skoncentrować się jedynie na funkcjach związanych z foto i wideo.Funkcja śledzenia obiektu Active Track pozwoli Ci namierzyć cel, a dron Hubsan H117S Zino Portable będzie go automatycznie śledzić i utrzymywać w centrum kadru. Możesz także wyznaczyć w aplikacji X-Hubsan punkty, po których następnie poruszać się będzie dron Zino.Dodatkowo kamera wyposażona jest w przysłonę F2.2 oraz szerokokątny obiektyw 89°. Co więcej, wydajny procesor obrazu Ambarella oraz 3-osiowy mechaniczny gimbal zapewniają doskonałą jakość i stabilność nagrań.",
+    "stockAmount": 1,
+    "categoryId": "5d82986df7fc7ba7d58963c0",
+    "producerId": "5db54eb855aaf3a3f65d9170"
+  },
+  {
+    "_id": "5db54f0e20004ee535b4e697",
+    "title": "Parrot Anafi FPV",
+    "saleTaxRate": 23,
+    "salePriceGross": 3299,
+    "description": "Najnowszy dron Parrot ANAFI FPV pozwoli Ci w jeszcze większym stopniu poczuć i zobaczyć to, co znajduje się nad Tobą dzięki dołączonym goglom Cockpitglasses 3. Możesz dzięki niemu uchwycić najpiękniejsze momenty w postaci wysokiej jakości filmów lub ostrych i wyraźnych zdjęć. To dron nowej generacji potrafiący nagrywać filmy 4K HDR.Dodatkowo najlepsze ujęcia uchwycisz dzięki inteligentnym i automatycznym trybom. Kompaktowa i wytrzymała konstrukcja umożliwi filmowanie w rozmaitych warunkach, a także zabranie drona Parrot ANAFI FPV wszędzie ze sobą.W zestawie oprócz drona Parrot ANAFI znajdziesz gogle Cockpitglasses 3 oraz dodatkowe akcesoria, między innymi kontroler oraz torbę podróżną do transportowania drona i akcesoriów.",
+    "stockAmount": 1,
+    "categoryId": "5d82986df7fc7ba7d58963c0",
+    "producerId": "5db54f2c605ec03f0efe3cc3"
+  },
+  {
+    "_id": "5db54f900a1cc602c49eec9e",
+    "title": "GoPro HERO7 Black",
+    "saleTaxRate": 23,
+    "salePriceGross": 1549,
+    "description": "Oto HERO7 Black - najbardziej zaawansowana kamera GoPro. Dzięki ultrapłynnej stabilizacji HyperSmooth można uzyskać filmy niczym nagrywane z gimbalem - bez gimbala. Jest wytrzymała i wodoszczelna, a sterowanie głosowe umożliwia sterowanie kamerą bez użycia rąk. HERO7 Black inteligentnie stosuje funkcje HDR, lokalne odwzorowanie tonów czy redukcję szumów, co pozwala na robienie najlepszych zdjęć - automatycznie. Teraz dzięki funkcji transmisji na żywo i aplikacji GoPro możesz dzielić się każdą niezwykłą chwilą, utrwaloną także w rejestracji pionowej. S´ledz´ pre?dkos´c´, dystans i inne parametry. Dodawaj naklejki do filmo´w w aplikacji GoPro, aby pokazac´ swoja? szybkos´c´, pokonana? odległos´c´ oraz wysokos´c´. Kamera HERO7 Black to zupełnie nowy poziom funkcjonalności GoPro oraz rejestrowanych zdjęć i filmów.",
+    "stockAmount": 1,
+    "categoryId": "5d82986df7fc7ba7d58963c0",
+    "producerId": "5db54fb3a614a62593938ec0"
+  },
+  {
+    "_id": "5db5501f4b528f98217e7a43",
+    "title": "Polaroid Cube niebieska",
+    "saleTaxRate": 23,
+    "salePriceGross": 349,
+    "description": "Kąt widzenia 124 stopni w kamerze Polaroid CUBE oraz nagrywanie obrazu w jakości do 1080 przy 30 klatkach na sekundę pozwoli uchwycić wszystko to co zechcesz. Efekt będzie oszałamiający. Możesz również robić piękne zdjęcia dzięki matrycy o rozdzielczości 6 Megapixeli.Kontroluj kamerę za pomocą jednego, łatwego w obsłudze przycisku. Za jego pomocą włączysz i wyłączysz urządzenie, a także przełączysz się pomiędzy trybami nagrywania i robienia zdjęć.Większość nagrań wygląda świetnie w jakości 720p, ale wszyscy wiemy że szczególne momenty zasługują na jakość 1080p. Wybierz jakość 1080p i 30 klatek na sekundę, aby nagrany obraz był niesamowity. Jakość nagrań zmienisz bez problemów jedynie za pomocą naciśnięcia jednego przycisku.Szeroki kąt widzeniaPokaż rodzinie i znajomym cały obraz. Dzięki szerokiemu kątowi widzenia (124 stopnie), kamera Polaroid CUBE uchwyci obraz w jego całej okazałości, aby Twoje przygody były bardzo dobrze widoczne.",
+    "stockAmount": 1,
+    "categoryId": "5d82986df7fc7ba7d58963c0",
+    "producerId": "5db41f4da28ba13c1a1ca2de"
+  },
+  {
+    "_id": "5db5509de4c82193686d4751",
+    "title": "Kamera RICOH THETA S",
+    "saleTaxRate": 23,
+    "salePriceGross": 1397,
+    "description": "Prezentowany model aparatu Ricoh Theta to wysokiej klasy i jakości model wyposażony w nowo opracowany obiektyw i nową matrycę.W jednym ujęciu możesz zrobić zdjęcie 360° całej przestrzeni. Do zabawy przestrzenią wystarczy komputer lub smartfon. Jest to świat nowych możliwości, które zrewolucjonizują tradycyjny sposób robienia zdjęć i nagrywania filmów wideo. To nowe fascynujące doświadczenie w dziedzinie robienia zdjęć, które wykracza poza koncept „fotografowania.Aparat Ricoh Theta S to model o najwyższych parametrach, który jest w stanie ująć wszystkie niespodzianki i całe piękno obrazu 360 stopni.Aparat Ricoh Theta można kupić na całym świecie — korzystają z niego użytkownicy we wszystkich zakątkach globu. Możesz ponownie przeżyć wrażenia z różnych miejsc, chwil i wydarzeń w innych krajach. Zdjęcia sferyczne dają perspektywę nieporównywalną ze zwykłymi fotografiami i filmami.",
+    "stockAmount": 1,
+    "categoryId": "5d82986df7fc7ba7d58963c0",
+    "producerId": "5db550bd11a12ec0a06f30c0"
+  },
+  {
+    "_id": "5db5510a211c53a44a9a04f9",
+    "title": "BECKER nawigacja Active 5cal EU",
+    "saleTaxRate": 23,
+    "salePriceGross": 383.45,
+    "description": "Nawigacja wyposażona została w informacje o korkach oraz roczną aktualizację bazy fotoradarów. Dodatkowo do dyspozycji masz asystenta pasa ruchu oraz asystenta parkowania, więc już zawsze pojawisz się w odpowiednim momencie na odpowiednim pasie i znajdziesz najbliższy parking.Becker Situation Scan to funkcja, która charakteryzuje się przekazywaniem informacji i zaleceń drogowych odnośnie objazdów, korzystnych zjazdów z autostrady czy odpowiedniego miejsca parkingowego. Warto wspomnieć, że przy podróży do innego kraju Becker Active poinformuje o tym, gdzie znajduje się ostatnia stacja benzynowa w granicach państwa.Nawigacja Becker Active.5 EU charakteryzuje się 5-calowym wyświetlaczem, który zapewnia niespotykaną wygodę użytkowania, zwłaszcza w długich trasach. Funkcja Becker RouteMove pozwala na utworzenie własnej alternatywnej trasy. Urządzenie wyposażone zostało w mapy Europy (46 krajów) i posiada ich dożywotnią oraz darmową aktualizację.",
+    "stockAmount": 1,
+    "categoryId": "5d82986df7fc7ba7d58963c0",
+    "producerId": "5db5513e0130029e408e7b8f"
+  },
+  {
+    "_id": "5db55180626bfc1d5d010dec",
+    "title": "SmartGPS wideorejestrator DVR-901 FULL HD",
+    "saleTaxRate": 23,
+    "salePriceGross": 188.18,
+    "description": "AUTOMATYCZNY STARTModel DVR901 rozpoczyna nagrywanie automatycznie po włączeniu silnika. Dodatkowo rejestrator posiada G-sensor, detektor ruchu czy tryb parkingowy. Szerokokątny obiektyw 1.3 Mpx CMOS pozwoli na uchwycenie obszernego pola widzenia (140 stopni).3-CALOWY WYŚWIETLACZKamera samochodowa marki SmartGPS wyposażona została w 3-calowy, kolorowy wyświetlacz LCD. Dodatkowo urządzenie posiada wbudowane głośnik i mikrofon, a wygodny uchwyt z przyssawkę pozwala na komfortowy montaż.SmartGPS DVR901 to wideorejestrator, który zapewni Ci bezpieczną i spokojną jazdę. Wysoka rozdzielczość nagrywania (Full HD -1920 x 1080) sprawi, że materiały będą najwyższej jakości, a przysłona f/2.0 zagwarantuje jasny obraz nawet przy słabych warunkach oświetleniowych. ",
+    "stockAmount": 1,
+    "categoryId": "5d82986df7fc7ba7d58963c0",
+    "producerId": "5db551a0d7043b536167f18d"
+  },
+  {
+    "_id": "5db551f22b2841090a4df842",
+    "title": "DJI Ryze Tello",
+    "saleTaxRate": 23,
+    "salePriceGross": 399,
+    "description": "Jesteś nowy w świecie dronów? Rozpoczęcie zabawy z latającymi pojazdami nigdy nie było prostsze. Wyciągnij smartfona z kieszeni i podrzuć wyjątkowego drona DJI Tello w powietrze. Dzięki wszystkim wyjątkowym technologiom oraz łatwej w obsłudze aplikacji Tello App, możesz sterować dronem jak profesjonalista i wykonywać rozmaite akrobacje za jednym dotknięciem ekranu. I to niezależnie od Twojego wieku. Wykonuj przy tym wyjątkowe zdjęcia i nagrania wideo, a także połącz smartfona z zestawem do VR, by cieszyć się wyjątkowym widokiem z perspektywy drona.",
+    "stockAmount": 1,
+    "categoryId": "5d82986df7fc7ba7d58963c0",
+    "producerId": "5db54e21ce516522d852b0ae"
+  },
+  {
+    "_id": "5db5524218bc4122980978f7",
+    "title": "Hubsan H122D X4 Storm FPV + gogle + monitor LCD",
+    "saleTaxRate": 23,
+    "salePriceGross": 539,
+    "description": "Dron H122D X4 Storm FPV zaprojektowany został do szybkich lotów, dzięki czemu pozwoli Ci przeżyć jeszcze większą ilość podniebnych przygód. Renomowana firma Hubsan wyróżnia się wysoką jakością wykonania oraz przystępną ceną.Dzięki wzmocnionej włóknem węglowym konstrukcji dron wytrzymały jest na zderzenia i upadki, a jednocześnie wystarczająco lekki aby osiągać wysokie prędkości i przyspieszenia.",
+    "stockAmount": 1,
+    "categoryId": "5d82986df7fc7ba7d58963c0",
+    "producerId": "5db54eb855aaf3a3f65d9170"
+  },
+  {
+    "_id": "5db552a0c8ac151d2b89f052",
+    "title": "Mio MiVue C380 FullHD/2130DUAL",
+    "saleTaxRate": 23,
+    "salePriceGross": 599,
+    "description": "Dyskusyjna odpowiedzialność to największy koszmar każdego kierowcy. Rejestrowanie podróży chroni kierowcę w sytuacji, gdy do wypadku doszło nie z jego winy. Kamera samochodowa MiVue C380 Dual zapewnia dodatkowy spokój: jeśli potrzebujesz dowodów, już je masz.Kamera MiVue C380 Dual nagrywa obraz w jakości Full HD 1080p z płynnością 30 klatek na sekundę (FPS) w technologii H.264. Dzięki temu pliki posiadają mniejszy rozmiar bez utraty jakości nagrań.Kompletny pakiet - w zestawie kamera MiVue A30Urządzenie MiVue C380 Dual jest dostarczane z wewnętrzną, tylną kamerą MiVue A30. Kamera MiVue A30 stanowi uzupełnienie kamery głównej, rejestrując szczegóły za autem.",
+    "stockAmount": 1,
+    "categoryId": "5d82986df7fc7ba7d58963c0",
+    "producerId": "5db552dd7b9eadfac0130e3f"
+  },
+  {
+    "_id": "5db5551be71f822aceb1f2c9",
+    "title": "Obiektyw KENKO do smartfona Fisheye 180",
+    "saleTaxRate": 23,
+    "salePriceGross": 109,
+    "description": "Nazwa: Kenko rzeczywistym Pro Klip rybie 180 °Ogniskowa: 180 ° Fisheye LensKąt widzenia: 180 ° w góręWzór: hartowane szkło Hoya, anodowana aluminiowa obudowaDługość: 75mmWaga: 37g",
+    "stockAmount": 1,
+    "categoryId": "5d829871d5e51227459169c4",
+    "producerId": "5db5560388e2fa384b6e3ac1"
+  },
+  {
+    "_id": "5db559a6b8bd623fd11a10db",
+    "title": "Esperanza Monopod EMM115 - Uchwyt do selfie",
+    "saleTaxRate": 23,
+    "salePriceGross": 29,
+    "description": "Bezprzewodowy monopod bluetooth do robienia zdjęć selfie. Współpracuje z smartfonami i tabletami z zainstalowanym systemem iOS (wersja 6.0 lub nowsza) lub Android (wersja 4.2.2 lub nowsza). Kompatybilność: - iPhone4/iPhone4S, iPhone5/iPhone5S/iPhone5C, iPad 2/New iPad/iPad 4/iPad Air/iPad Mini/iPad Mini Retina, iPod Touch 4th Generation lub nowszy,Samsung Galaxy S2/S3/S4/S5, Samsung Galaxy Note/Note 2/Note 3, Samsung Galaxy Tab 2/Tab 3, Samsung Galaxy Note 8.0/10.1, Google Nexus 4/5/7, Moto g/X , (Nie jest wymagana instalacja dodatkowych aplikacji Kompatybilny z wbudowaną kamerą i zainstalowanymi aplikacjami)- Sony Xperia series, HTC One series, Większość smartfonów/tabletów z systemem Android, (Należy zainstalować aplikację „Camera 360” z Google Play Store.) ",
+    "stockAmount": 1,
+    "categoryId": "5d829871d5e51227459169c4",
+    "producerId": "5db559cc0baf2426bb803bd8"
+  },
+  {
+    "_id": "5db55a164cfc8547e887ef01",
+    "title": "Uchwyt uniwersalny na smartfon do staywu",
+    "saleTaxRate": 23,
+    "salePriceGross": 9.99,
+    "description": "Adapter umożliwiający połączenie dowolnego smartwonu lub telefonu komurkowego ze statywem przy pomocu śruby 1/4''.Parametry:• zakres regulacji klamry do smartfona (szer.): 56 - 83 mm• metalowy gwint statywowy 1/4 cala• uchwyt wyłożony gumą antypoślizgową• sposób mocowania: docisk sprężynką wbudowaną w uchwyt",
+    "stockAmount": 1,
+    "categoryId": "5d829871d5e51227459169c4",
+    "producerId": "5db559cc0baf2426bb803bd8"
+  },
+  {
+    "_id": "5db55a72be1a8301b63d2815",
+    "title": "Etui Case Logic do netbooka 7 ETC107",
+    "saleTaxRate": 23,
+    "salePriceGross": 39,
+    "description": "Uniwersalny pokrowiec na Tablet 7,smukłe etui wykonane z utwardzanej pianki EVA odpornej na wstrząsy. Tablet chroniony jest przed wysunięciem dzięki czterem linkom zabezpieczającym. Możliwość ustawienia Tabletu pod różnymi kątami tak by minimalizować wszelkie odblaski. Etui Zapinane na zamek błyskawiczny.",
+    "stockAmount": 1,
+    "categoryId": "5d829871d5e51227459169c4",
+    "producerId": "5db55ad28c83fb5f83c6102a"
+  },
+  {
+    "_id": "5db55b34718ab7288c06d1c7",
+    "title": "Kabel micro USB uniwersalny (niebieski)",
+    "saleTaxRate": 23,
+    "salePriceGross": 5,
+    "description": "Specjalnie dla mobilnych użytkowników prezentujemy wygodnie długi kabel USB, który pozwoli na swobodę poruszania się nawet gdy urządzenie jest podłączone do ładowania.Metr prezentowanego przewodu to pełna swoboda ruchu, bez konieczności czatowania przy ładowarce. Prezentowany kabel pozwoli na niczym nieutrudnioną pracę z urządzeniem przy jednoczesnym jego ładowaniu. Do tego, nasz przewód umożliwia także transmisję danych między urządzeniem, a komputerem, łącząc w sobie dwie najbardziej pożądane funkcje.Wysokiej klasy materiały wyselekcjonowane już na pierwszym etapie produkcji, gwarantują długą żywotność produktu, dzięki czemu za atrakcyjną cenę zyskamy kompana na lata! Do tego płaski kształt przewodu eliminuje problem ciągłego plątania się i skręcania, co prowadzi do licznych uszkodzeń i przetarć.",
+    "stockAmount": 1,
+    "categoryId": "5d829871d5e51227459169c4",
+    "producerId": "5db559cc0baf2426bb803bd8"
+  },
+  {
+    "_id": "5db55b9fd439b99bc92b68d9",
+    "title": "SMK-1-RUS LensPen Czyścik do smartphonów",
+    "saleTaxRate": 23,
+    "salePriceGross": 25,
+    "description": "Czyścik do ekranów w telefonach komórkowych typu smartphon.Produkt do czyszczenia ekranów smartfonów. Wyposażony jest w wytrzymałą końcówkę czyszczącą pokrytą niewidocznym dla oka związek węgla. Płytka czyszcząca (wielkości połowy ScreenKlean SDK-1) po czyszczeniu nie pozostawia żadnych śladów. W czasie użytkowania nie pojawia się ładunek elektrostatyczny, co zapobiega ponownemu powstawaniu tłustego brudu i kurzu. Końcówki czyszczące są wymienne, sprzedawane w opakowaniach zawierających dwie sztuki.Nasadka posiada wewnętrzy wkład, który czyści i uzupełnia końcówkę czyszczącą w specjalny związek węgla po każdym użyciu.",
+    "stockAmount": 1,
+    "categoryId": "5d829871d5e51227459169c4",
+    "producerId": "5db55bd37eb7a14ccbe64814"
+  },
+  {
+    "_id": "5db55c065db123f4a823e91b",
+    "title": "Okulary Carl Zeiss VR ONE Plus",
+    "saleTaxRate": 23,
+    "salePriceGross": 289,
+    "description": "Okulary VR ONE Plus marki Carl Zeiss są wyjątkowo przyjazne w obsłudze. Wystarczy włożyć do nich smartfon o rozmiarze ekranu od 4,7 do 5,5'' z odpowiednimi aplikacjami, aby cieszyć się przygodą z wirtualną rzeczywistością. Gogle dają użytkownikowi możliwość odkrycia rozrywki na nowo, dzięki wrażeniu bycia w centrum wydarzeń oraz braku ograniczeń ekranu.Użytkownik nie musi samodzielnie dokonywać regulacji odległości szkieł. Duży ekran zwany eye-box skonstruowany został tak, aby dostosować się do ludzkiego oka. Nawet w sytuacji gdy zestaw nie jest perfekcyjnie scentralizowany na twarzy, użytkownik nadal ma wyraźny obraz.Gogle VR ONE Plus wykonane zostały z lekkiej i wentylowanej konstrukcji, która sprawia że urządzenie nie powoduje dyskomfortu nawet podczas długotrwałego korzystania. W razie konieczności oraz dla zwiększenia komfortu używania okularów istnieje możliwość odczepienia gąbki przylegającej do twarzy użytkownika, wyczyszczenie jej z dala od sprzętu i ponowne zamocowanie.",
+    "stockAmount": 1,
+    "categoryId": "5d829871d5e51227459169c4",
+    "producerId": "5db55c2f3442b14323a7e210"
+  },
+  {
+    "_id": "5db55ce77fbaaf0724d6db55",
+    "title": "Samsung Book Cover do Galaxy Tab A 10.1 czarny",
+    "saleTaxRate": 23,
+    "salePriceGross": 129,
+    "description": "Składane etui do Samsung Galaxy Tab A 10.1'' wykonane zostało z wysokiej jakości materiałów, które zapewnią Twojemu tabletowi ochronę przed zarysowaniem oraz bezpieczeństwo podczas transportu. Już nie musisz się obawiać o stan urządzenia po umieszczeniu go w torbie czy plecaku. Zabierz go wszędzie tam, gdzie idziesz, by móc w pełni korzystać z wszystkich jego funkcji bez żadnych zmartwień.",
+    "stockAmount": 1,
+    "categoryId": "5d829871d5e51227459169c4",
+    "producerId": "5db4a653f6e7de42eaaf75da"
+  },
+  {
+    "_id": "5db55d8ac64fa0c4c8676658",
+    "title": "KABEL USB MICRO 2.0 AM-MBM5P 1.8M BLACK",
+    "saleTaxRate": 23,
+    "salePriceGross": 8,
+    "description": "Kabel USB (zgodny z standardem USB 2.0) z wtykami męskimi typu A oraz micro USB do podłączania nowoczesnych urządzeń elektronicznych z gniazdem micro USB do standardowych portów USB.",
+    "stockAmount": 1,
+    "categoryId": "5d829871d5e51227459169c4",
+    "producerId": "5db55db9c4585969e64cebed"
+  },
+  {
+    "_id": "5db55e050be5380713052f68",
+    "title": "3mk Flexible Glass do Samsung Galaxy Tab A T590",
+    "saleTaxRate": 23,
+    "salePriceGross": 59,
+    "description": "Dzięki połączeniu najlepszych cech folii i szkła, 3mk FlexibleGlass jest odporne na pękanie oraz 2,5-krotnie wzmacnia wyświetlacz, zwiększając jego ochronę nawet w ekstremalnych sytuacjach. Hybrydowe szkło 3mk można wyginać, jest elastyczne i bezpieczne dla dłoni, a dołączony zestaw montażowy umożliwi łatwą instalację FlexibleGlass na Twoim tablecie.",
+    "stockAmount": 1,
+    "categoryId": "5d829871d5e51227459169c4",
+    "producerId": "5db4a653f6e7de42eaaf75da"
+  },
+  {
+    "_id": "5db55e57550f15b5edacd627",
+    "title": "HP Reverb VR",
+    "saleTaxRate": 23,
+    "salePriceGross": 2399,
+    "description": "HP Reverb Virtual Reality Headset to najnowsza i ulepszona wersja gogli VR, dzięki którym przeniesiesz się do wirtualnej rzeczywistości i przeżyjesz wspaniałe przygody.Ponadto, gogle można wykorzystać między innymi w symulacjach sytuacji niebezpiecznych, a także do ćwiczenia przemów i wystąpień publicznych.",
+    "stockAmount": 1,
+    "categoryId": "5d829871d5e51227459169c4",
+    "producerId": "5db4ab5ce6063e0af02f20ae"
+  },
+  {
+    "_id": "5db5606e0e79d6463cc45357",
+    "title": "Torba Case Logic TBC409K (czarny)",
+    "saleTaxRate": 23,
+    "salePriceGross": 119,
+    "description": "Torba fotograficzna TBC409K stworzona została do bezpiecznego transportu lustrzanki z założonym obiektywem plus dodatkową lampą błyskową.dwie, wewnętrzne, regulowane przegródki oraz kieszeń na akcesoria.pięć zewnętrznych kieszeni różnej pojemności.Torbę wyposażona w uchwyt do ręki, regulowany pasek na ramię oraz możliwość przymocowania do paska.",
+    "stockAmount": 1,
+    "categoryId": "5d82987b6279d59f1d7309ae",
+    "producerId": "5db55ad28c83fb5f83c6102a"
+  },
+  {
+    "_id": "5db560f59eb29db519a1aaba",
+    "title": "Torba Adventura SH 160 II (czarna)",
+    "saleTaxRate": 23,
+    "salePriceGross": 159,
+    "description": "Seria Adventura to bezpieczeństwo i pewność ochrony przed wilgocią, zanieczyszczeniami i uderzenimi. Połączenie torby naramiennej ze stylem typu Topload jest doskonała na codzienne wędrówki.",
+    "stockAmount": 1,
+    "categoryId": "5d82987b6279d59f1d7309ae",
+    "producerId": "5db56116413d308a810c0b9b"
+  },
+  {
+    "_id": "5db5615f410d29437cf65419",
+    "title": "Benro Beyond S10",
+    "saleTaxRate": 23,
+    "salePriceGross": 139,
+    "description": "Lekka oraz wytrzymała torba z linii Beyond S - doskonale sprawdzi się podczas podróży.Szeroki pasek został podszyty miękkimi poduszkami w celu zapewnienia maksymalnej wygody.Dostęp do sprzętu przyspiesza górne otwarcie torby.",
+    "stockAmount": 1,
+    "categoryId": "5d82987b6279d59f1d7309ae",
+    "producerId": "5db5617b7fcc7b66d72e7102"
+  },
+  {
+    "_id": "5db561c6fb737934b30d41b7",
+    "title": "Pokrowiec do Fuji Instax Mini 8 (niebieski)",
+    "saleTaxRate": 23,
+    "salePriceGross": 99,
+    "description": "To znakomita oferta dla osób, które kupiły lub właśnie kupują aparat instax 8. Doskonale zabezpieczy Twój aparat przed czynnikami zewnętrznymi . Bardzo przystępna cena jak na tego typu gadżet . Pokrowiec wykonany z ogromna dbałością o jakość wykonania. Jest to widoczne w każdym szczególe. Wykonany z materiału eko skóra . Zapinki i zatrzaski są metalowe. W komplecie - także pasek. Z przodu umieszczona jest elegancka tabliczka z wytłoczonym napisem instax. Pokrywa futerału zamykana magnetycznie. Skórzany pasek zapinany jest do pokrowca metalowymi karabińczykami.",
+    "stockAmount": 1,
+    "categoryId": "5d82987b6279d59f1d7309ae",
+    "producerId": "5db561feecf2e30e147dd2fe"
+  },
+  {
+    "_id": "5db5625b7f2242560f7ed713",
+    "title": "Plecak Tamrac 3370 (czarny)",
+    "saleTaxRate": 23,
+    "salePriceGross": 99,
+    "description": " To kompaktowy, elegancki i lekki plecak idealny dla fotografów korzystających ze sprzętu typu EOS 1D lub Nikon z serii D z uchwytem i założonym obiektywem o długości ok. 10cm. Miejsca wystarczy na dodatkowy obiektyw lub dwa, lampę błyskową, akcesoria i rzeczy osobiste. Dolna komora jest przeznaczona na sprzęt fotograficzny, a górna na niezbędne rzeczy osobiste, prowiant albo np. książki. Zamek z podwójnymi suwakami pozwala na szybki dostęp do wnętrza plecaka, który jest dobrze zabezpieczony przed warunkami atmosferycznymi. Komora główna, podobnie jak regulowane przegrody, jest całkowicie wypełniona pianką zapewniając ochronę spakowanego sprzętu. Zapinana na zamek kieszeń wewnątrz komory głównej w przedniej klapie może służyć do przechowywania filtrów, kart pamięci i innych akcesoriów. Siatkowe kieszenie zewnętrzne: jedna z przodu i dwie boczne zapewniają dostęp do różnych drobiazgów np. butelki z wodą. Wygodne, wypełnione pianką szelki plecaka dobrze rozkładają ciężar przenoszonego sprzętu. ospodu plecaka jest możliwość podczepienia statywu. Paski do jego przytroczenia stanowią wyposażenie dodatkowe (do nabycia osobno). Wymiary wewnetrzne: Komora górna: 22x13x22 cm Komora dolna: 25x15x18 cm Wymiary zewnetrzne: 28x19x44 cm",
+    "stockAmount": 1,
+    "categoryId": "5d82987b6279d59f1d7309ae",
+    "producerId": "5db562b486588c6f71cd25fd"
+  },
+  {
+    "_id": "5db56506fa0212c24d324ef6",
+    "title": "Rivacase 7302 (czarny)",
+    "saleTaxRate": 23,
+    "salePriceGross": 59,
+    "description": "Stylowa torba z kolorową podszewką , kompatybilne z większością aparatów z dołączonym obiektywem.Zewnętrzna kieszeń na dodatkową kartę SD, akcesoria, telefon komórkowy. Regulowany pasek z antypoślizgową podkładką na ramię. Podwójny zamek  ułatwia dostęp, więc nigdy nie przegapisz żadnego ujęcia.",
+    "stockAmount": 1,
+    "categoryId": "5d82987b6279d59f1d7309ae",
+    "producerId": "5db56594fc6ef83850cc998d"
+  },
+  {
+    "_id": "5db565da45d8ef938dab8c94",
+    "title": "Nikon Speedlight SB-500",
+    "saleTaxRate": 23,
+    "salePriceGross": 899,
+    "description": "Poręczna, łatwa w użyciu lampa błyskowa współpracująca z lustrzankami firmy Nikon oraz niektórymi aparatami z serii COOLPIX, także w ramach kreatywnego systemu oświetlenia (CLS) firmy Nikon. Wyposażona we wbudowaną intensywną lampę LED, która sprawdza się idealnie podczas nagrywania filmów.Dzięki niewielkiej i lekkiej konstrukcji lampa błyskowa ułatwia kontrolowanie jakości oraz kierunku oświetlenia. To pierwsze tego typu rozwiązanie w historii firmy Nikon – lampę błyskową wyposażono we wbudowaną z przodu intensywną lampę LED, która sprawdza się idealnie podczas nagrywania filmów lub fotografowania w zbliżeniu. Model SB-500 współpracuje z kreatywnym systemem oświetlenia (CLS) firmy Nikon i umożliwia bezprzewodowe sterowanie wieloma lampami błyskowymi.",
+    "stockAmount": 1,
+    "categoryId": "5d82987b6279d59f1d7309ae",
+    "producerId": "5db42109a7ea49e007da0231"
+  },
+  {
+    "_id": "5db5664bbdf69daae67df926",
+    "title": "Lampa OLYMPUS FL-900R",
+    "saleTaxRate": 23,
+    "salePriceGross": 2699,
+    "description": "Wysokiej klasy lampa błyskowa w lekkiej i kompaktowej obudowie odpornej na pył, zachlapania i niskie temperatury (-10°C). W zestawie z odpornymi na warunki pogodowe aparatami z serii OM-D i obiektywami M.ZUIKO PRO idealnie sprawdza się w każdej sytuacji.Flagowa lampa błyskowa o dużej mocy i maksymalnej liczbie przewodniej wynoszącej 58. Przy wykorzystaniu zastosowanego w aparacie procesora obrazu (TruePic) i technologii synchronizacji TTL zapewnia prawidłowe ustawienia i optymalne oświetlenie.Lampa obsługuje tryb wyzwalania bezprzewodowego. Dzięki temu umożliwia wykonywanie zdjęć z zastosowaniem kilku lamp sterowanych bezprzewodowo, połączonych nawet w 4 grupy. Ustawienia lamp można szczegółowo konfigurować, w tym wyzwalanie poszczególnych grup, kompensację mocy lamp i wiele innych opcji. Najważniejsza jest jednak funkcja slave — wystarczy podłączyć lampę błyskową do złącza gorącej stopki aparatu, aby użyć jej jako głównej lampy błyskowej.Oczywiście unikalna funkcja Olympus High Res Shot, Focus Stacking i Focus Bracketing oczywiście również są obsługiwane, a także możliwe jest uzyskanie jeszcze krótszych odstępów między zdjęciami.Lampa FL-900R jest wyposażona w diody LED, dzięki czemu świetnie się sprawdza podczas nagrywania filmów za pomocą aparatu OM-D w warunkach ograniczonego oświetlenia lub fotografowania pod światło. Idealnie pasuje do obiektywów o ogniskowej wynoszącej 12 mm (24 mm*) lub więcej.",
+    "stockAmount": 1,
+    "categoryId": "5d82987b6279d59f1d7309ae",
+    "producerId": "5db41d72d8a5fe3784768711"
+  },
+  {
+    "_id": "5db566b0a59708b4ca8ceff8",
+    "title": "Dyfuzor Pop-up PD-2",
+    "saleTaxRate": 23,
+    "salePriceGross": 39,
+    "description": "Niezwykle uniwersalny dyfuzor do stosowania z wbudowanymi lampami błyskowymi. Pozwala ma rozproszenie i zmiękczenie światła przez co niweluje ostre cienie oraz prześwietlenia i odbłyski od fotografowanej powierzchni.Unikalna konstrukcja pozwala na używanie tego dyfuzora z większością dostępnych na rynku lustrzanek oraz aparatów hybrydowych.Dyfuzor montowany jest za pomocą taśmy na rzep bezpośrednio do lampy typu Pop-up. Montaż dyfuzora oraz demontaż jest niezwykle łatwy i szybki. Duża powierzchnia części rozpraszającej zapewnia optymalne rozproszenie światła.",
+    "stockAmount": 1,
+    "categoryId": "5d82987b6279d59f1d7309ae",
+    "producerId": "5db42109a7ea49e007da0231"
+  },
+  {
+    "_id": "5db567118b0e99dee5095f1b",
+    "title": "Zestaw czyszczący Zeiss NEW (2096-685)",
+    "saleTaxRate": 23,
+    "salePriceGross": 89,
+    "description": "ZEISS - zestaw czyszczący 6w1 jest kompletnym i uniwersalnym zestawem do czyszczenia wszelkiego rodzaju optyki, jak: obiektywy aparatów i kamer, filtry fotograficzne, szkła lornetek, mikroskopów itp. Duża gruszka z wentylkiem świetnie sprawdza się przy czyszczeniu luster oraz matryc aparatów fotograficznych (lustrzanek). W skład zestawu wchodzą: 10 nawilżanych chusteczek Ściereczka z mikrofibry, 18 x 18cm Płyn czyszczący do obiektywu, 30 ml Pędzelek Dmuchawka Etui  ",
+    "stockAmount": 1,
+    "categoryId": "5d82987b6279d59f1d7309ae",
+    "producerId": "5db55c2f3442b14323a7e210"
+  },
+  {
+    "_id": "5db5675e1d92a26c6a9377ff",
+    "title": "Statyw Slik PRO 500 DX",
+    "saleTaxRate": 23,
+    "salePriceGross": 449,
+    "description": "Slik PRO 500DX trzy-sekcyjny statyw średniej wysokości. W zestawie znajduje się wymienna 3-kierunkowa głowica SH 705E z płytką szybkiego mocowania. Zalecany do używania z lustrzankami cyfrowych i analogowych oraz z mniejszymi aparatami średnioformatowymi.",
+    "stockAmount": 1,
+    "categoryId": "5d82987b6279d59f1d7309ae",
+    "producerId": "5db56784f0905d35f04636f6"
+  },
+  {
+    "_id": "5db567c500920c794664e6ec",
+    "title": "Statyw Esperanza Sequoia",
+    "saleTaxRate": 23,
+    "salePriceGross": 49,
+    "description": "Statyw z wysuwaną kolumną. Przeznaczony dla aparatów fotograficznych, kamer video, laserowych urządzeń pomiarowych, dalmierzy itp. Lekki stop, niewielkie rozmiary i wytrzymały pokrowiec pozwala na łatwe przenoszenie i używanie go zarówno w pracy jak i w domu. Wygodne wysuwane nogi i uchwyty mocujące pozwalają szybko ustawić statyw na odpowiedniej wysokości. ",
+    "stockAmount": 1,
+    "categoryId": "5d82987b6279d59f1d7309ae",
+    "producerId": "5db559cc0baf2426bb803bd8"
+  },
+  {
+    "_id": "5db5681ba5440530299cc997",
+    "title": "Obudowa wodoszczelna MPKURX100A.SYH (Sony)",
+    "saleTaxRate": 23,
+    "salePriceGross": 1399,
+    "description": "Sony MPK-URX100A to obudowa podwodna do aparatów z serii DSCX-RX100. Obudowa chroni aparat serii RX w każdym otoczeniu — podczas uprawiania ekstremalnych sportów lądowych, jak i nurkowania w głębinach oceanu nawet do 40 metrów. Mocowanie obudowy nadal umożliwia płynną regulację ekspozycji, przysłony, czasu otwarcia migawki i innych ważnych ustawień aparatu za pomocą pokrętła pierścienia obiektywu. Konstrukcja umożliwia również korzystanie z wbudowanej lampy błyskowej.",
+    "stockAmount": 1,
+    "categoryId": "5d82987b6279d59f1d7309ae",
+    "producerId": "5dac24c0fb1d0f7f2ef2b29e"
+  },
+  {
+    "_id": "5db5686796631136c75a039b",
+    "title": "Album Instax Mini (czarny)",
+    "saleTaxRate": 23,
+    "salePriceGross": 55,
+    "description": "Oryginalny album firmy Fuji przeznaczony na zdjęcia 8,6x5,4cm z aparatów natychmiastowych Instax mini 7S/8S/25S/50S/90 Neo oraz Polaroid 300.",
+    "stockAmount": 1,
+    "categoryId": "5d82987b6279d59f1d7309ae",
+    "producerId": "5db42004ac816d416cc32f86"
+  },
+  {
+    "_id": "5db568f623d8199db351d8da",
+    "title": "Ramki magnetyczne MODUS kpl/5",
+    "saleTaxRate": 23,
+    "salePriceGross": 24.99,
+    "description": "Tylna część pokryta jest taśmą magnetyczną zapewniającą nieruchome umocowanie na powierzchniach z metalu.",
+    "stockAmount": 1,
+    "categoryId": "5d82987b6279d59f1d7309ae",
+    "producerId": "5db561feecf2e30e147dd2fe"
+  },
+  {
+    "_id": "5db5693c49708e091dd3060a",
+    "title": "Fotoramki INSTAX z klipsami CP001",
+    "saleTaxRate": 23,
+    "salePriceGross": 12,
+    "description": "Zestaw 10 ramek fotograficznych (8.7 x 9.4 cm) to idealny produkt dla wszystkich miłośników fotografii natychmiastowej.Kolorowe ramki można zamocować, zawieszać zdjęcia w różnych miejscach zarówno w domu jak i w pracy.Każda ramka (w zestawie 10 szt.) posiada niezależną mini klamerkę mocującą, która umożliwia przypięcie ramki do sznurka, cieniutkiej rurki bądź innego profilu o grubości do 8 mm. Każda z 10 ramek może być mocowana niezależnie lub możemy utworzyć dowolną kompozycję z wykorzystaniem sznurka dołączonego do zestawu. Ramki możemy przypinać w dowolnych konfiguracjach do sznurka, a następnie gotowy projekt zawiesić na ścianie, suficie, drzwiach, w oknie, w biurze, szkole - wszędzie tam, gdzie pozwoli nam na to nasza wyobraźnia.Każda ramka może być mocowana osobno przy pomocy klamerki lub posiadanego przez użytkownika magnesu. ",
+    "stockAmount": 1,
+    "categoryId": "5d82987b6279d59f1d7309ae",
+    "producerId": "5db5695d3d8407fb6f285f79"
+  },
+  {
+    "_id": "5db5699f450da539f3c8e454",
+    "title": "Ramka STYLER 10x15 BERGEN AC",
+    "saleTaxRate": 23,
+    "salePriceGross": 12,
+    "description": "Ramka StylerBergen ACWymiar: 10x15 cm",
+    "stockAmount": 1,
+    "categoryId": "5d82987b6279d59f1d7309ae",
+    "producerId": "5db569bd9d3d2974eae6f941"
+  },
+  {
+    "_id": "5db56a76924c6d5a1b876491",
+    "title": "Osłona obiektywu OLYMPUS LC-37C (czarna)",
+    "saleTaxRate": 23,
+    "salePriceGross": 159,
+    "description": "Zakrywka przeznaczona do obiektywu ZUIKO EZ-M1442EZ. Otwiera się gdy aparat jest włączony, a przy wyłączaniu - automatycznie zostaje zamknięta, chroniąc przednią soczewkę obiektywu podczas przenoszenia. Łatwe mocowanie za pomocą gwintu 37mm pozwala na szybki montaż i demontaż.",
+    "stockAmount": 1,
+    "categoryId": "5d82987b6279d59f1d7309ae",
+    "producerId": "5db41d72d8a5fe3784768711"
+  },
+  {
+    "_id": "5db56b18e3b9ab3f14d218cc",
+    "title": "Osłona p. słoneczna NIKON HB-40",
+    "saleTaxRate": 23,
+    "salePriceGross": 149,
+    "description": "Osłona przeciwsłoneczna z mocowaniem bagnetowym, która zmniejsza ilość padającego światła i ogranicza odblaski obiektywu.Zakręcane mocowanie z blokadą stanowi dodatkowe zabezpieczenie.Pasuje do obiektywów Nikon 24-70mm f/2,8G ED AF-S.",
+    "stockAmount": 1,
+    "categoryId": "5d82987b6279d59f1d7309ae",
+    "producerId": "5db42109a7ea49e007da0231"
+  },
+  {
+    "_id": "5db56c29b5219a78ac8e8161",
+    "title": "Zestaw Filtrów Barwnych Profoto do Lamp A1",
+    "saleTaxRate": 23,
+    "salePriceGross": 479,
+    "description": "Wygodne ochronne twarde etui w kieszonkowym rozmiarze zawierające cztery filtry żelowe Profoto korygujące barwę światła. Filtry układane są w uchwycie i przyczepiane kliknięciem do inteligentnego mocowania magnetycznego A1. Cały proces jest niezwykle szybki i łatwy. Filtry wykonano z materiałów premium, są twarde i trwałe, stworzone do pracy na długie lata. Adapter filtrów może być łączony z innymi modyfikatorami światła takimi jak np. Dome Diffuser. Wszystko to pozwala Ci być bardziej kreatywnym w kształtowaniu światła. Barwne filtry żelowe pomagają w naturalny sposób łączyć światło lampy z ciepłym zastanym światłem w pomieszczeniach czy światłem słonecznym.W zestawie Profoto są trzy wyraźnie oznakowane żele CTO – ćwiartkowy, połówkowy i pełen, Zestaw pozwala zmieniać temperaturę barwową błysku w zależności od zastanych warunków. Fotografując przy oświetleniu fluorescencyjnym pomocny jest również filtr zielony, który redukuje ryzyko pojawiania się niechcianej magenty.",
+    "stockAmount": 1,
+    "categoryId": "5d82987b6279d59f1d7309ae",
+    "producerId": "5db56c5a20a5c4922bd61e40"
   }
 ]

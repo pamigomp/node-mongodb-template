@@ -86,5 +86,105 @@
   {
     "_id": "5db4cba23ced68333f50d403",
     "name": "Tamron"
+  },
+  {
+    "_id": "5db4d1fc143d39368049c06f",
+    "name": "Bresser"
+  },
+  {
+    "_id": "5db54d3bf9b4e680efa686b1",
+    "name": "Vanguard"
+  },
+  {
+    "_id": "5db54e21ce516522d852b0ae",
+    "name": "DJI"
+  },
+  {
+    "_id": "5db54eb855aaf3a3f65d9170",
+    "name": "Hubsban"
+  },
+  {
+    "_id": "5db54f2c605ec03f0efe3cc3",
+    "name": "Parrot"
+  },
+  {
+    "_id": "5db54fb3a614a62593938ec0",
+    "name": "GoPro"
+  },
+  {
+    "_id": "5db550bd11a12ec0a06f30c0",
+    "name": "Ricoch"
+  },
+  {
+    "_id": "5db5513e0130029e408e7b8f",
+    "name": "Becker"
+  },
+  {
+    "_id": "5db551a0d7043b536167f18d",
+    "name": "Komsa"
+  },
+  {
+    "_id": "5db552dd7b9eadfac0130e3f",
+    "name": "Mio"
+  },
+  {
+    "_id": "5db5560388e2fa384b6e3ac1",
+    "name": "Kenko"
+  },
+  {
+    "_id": "5db559cc0baf2426bb803bd8",
+    "name": "Esperanza"
+  },
+  {
+    "_id": "5db55ad28c83fb5f83c6102a",
+    "name": "Case Logic"
+  },
+  {
+    "_id": "5db55bd37eb7a14ccbe64814",
+    "name": "Lenspen"
+  },
+  {
+    "_id": "5db55c2f3442b14323a7e210",
+    "name": "Zeiss"
+  },
+  {
+    "_id": "5db55db9c4585969e64cebed",
+    "name": "Natec"
+  },
+  {
+    "_id": "5db56116413d308a810c0b9b",
+    "name": "Lowepro"
+  },
+  {
+    "_id": "5db5617b7fcc7b66d72e7102",
+    "name": "Benro"
+  },
+  {
+    "_id": "5db561feecf2e30e147dd2fe",
+    "name": "Modus"
+  },
+  {
+    "_id": "5db562b486588c6f71cd25fd",
+    "name": "Tamrac"
+  },
+  {
+    "_id": "5db56594fc6ef83850cc998d",
+    "name": "Rivacase"
+  },
+  {
+    "_id": "5db56784f0905d35f04636f6",
+    "name": "Slik"
+  },
+  {
+    "_id": "5db5695d3d8407fb6f285f79",
+    "name": "Hama"
+  },
+  {
+    "_id": "5db569bd9d3d2974eae6f941",
+    "name": "Styler"
+  },
+  {
+    "_id": "5db56c5a20a5c4922bd61e40",
+    "name": "Profoto"
   }
 ]
