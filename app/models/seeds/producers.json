@@ -186,5 +186,37 @@
   {
     "_id": "5db56c5a20a5c4922bd61e40",
     "name": "Profoto"
+  },
+  {
+    "_id": "5db57bd7ed188bf1283801fb",
+    "name": "SabDisk"
+  },
+  {
+    "_id": "5db57c7f4ee2c46ea57ad68f",
+    "name": "Kingston"
+  },
+  {
+    "_id": "5db57f5908dbdc751094ae64",
+    "name": "Delkin"
+  },
+  {
+    "_id": "5db581a3d3d24335f7692524",
+    "name": "Duracell"
+  },
+  {
+    "_id": "5db58331b9e4a73b21d33797",
+    "name": "Eneloop"
+  },
+  {
+    "_id": "5db584b3733b73d4389265ff",
+    "name": "Access"
+  },
+  {
+    "_id": "5db58530866e5739f11807f5",
+    "name": "Hahnel"
+  },
+  {
+    "_id": "5db587c9762f8117551496f8",
+    "name": "Silver Monkey"
   }
 ]

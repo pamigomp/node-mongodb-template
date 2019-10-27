@@ -988,5 +988,245 @@
     "stockAmount": 1,
     "categoryId": "5d82987b6279d59f1d7309ae",
     "producerId": "5db56c5a20a5c4922bd61e40"
+  },
+  {
+    "_id": "5db57ba5fa9bb38edb24c974",
+    "title": "Pendrive SanDisk CRUZER BLADE 16GB",
+    "saleTaxRate": 23,
+    "salePriceGross": 30,
+    "description": "Noś ulubione pliki przy sobie, korzystając z ultra kompaktowego i bardzo poręcznego dysku flash USB Cruzer® Blade™. To wygodny sposób na zapisywanie i przenoszenie treści cyfrowych z komputera do komputera lub na zabranie ich ze sobą. Wystarczy przenieść zdjęcia, utwory muzyczne lub inne pliki na dysk flash USB Cruzer Blade i już można udostępnić je rodzinie i znajomym. Możesz także chronić swoje pliki na dysku flash USB przed nieuprawnionym dostępem, korzystając z załączonego oprogramowania SanDisk® SecureAccess™, i korzystać z dodatkowej ochrony poprzez możliwość utworzenia bezpiecznej internetowej kopii zapasowej (do 2 GB*) dzięki partnerowi firmy SanDisk, oferującemu tego typu usługi. Gdy w grę wchodzą ważne pliki, możesz postawić na produkty firmy SanDisk®.",
+    "stockAmount": 1,
+    "categoryId": "5d82987f26e02efa95f4be51",
+    "producerId": "5db57bd7ed188bf1283801fb"
+  },
+  {
+    "_id": "5db57c4b8edd0c692249abb5",
+    "title": "Kingston 16GB DataTraveler SE9 (Metalowy)",
+    "saleTaxRate": 23,
+    "salePriceGross": 22,
+    "description": "Ze względu na małe wymiary pamięć DataTraveler SE9 stanowi doskonałe akcesorium do notebooków, ultrabooków oraz tabletów wyposażonych w złącze USB. Wytrzymała obudowa pozbawiona nasadki umożliwia bezpieczne przenoszenie tej pamięci w każdych warunkach, a interfejs USB 2.0 gwarantuje szybkie przesyłanie danych.",
+    "stockAmount": 1,
+    "categoryId": "5d82987f26e02efa95f4be51",
+    "producerId": "5db57c7f4ee2c46ea57ad68f"
+  },
+  {
+    "_id": "5db57cbbea7822c5b56dfe84",
+    "title": "Samsung 256GB BAR Plus Champaign Silver 300MB/s",
+    "saleTaxRate": 23,
+    "salePriceGross": 219,
+    "description": "Nowoczesne podejście do klasyki. Bar Plus nowej generacji zmienia pendrive w urządzenie niezbędne na co dzień, oferując imponującą prędkość i atrakcyjny design. Zaprojektowany tak, by idealnie leżał w dłoni, stanowiący spójną całość metalowy korpus to czysty minimalizm, który doskonale łączy styl, prędkość i niezawodność.",
+    "stockAmount": 1,
+    "categoryId": "5d82987f26e02efa95f4be51",
+    "producerId": "5db4a653f6e7de42eaaf75da"
+  },
+  {
+    "_id": "5db57d1d9f5b5ae61b67a35b",
+    "title": "Czytnik kart pam.HAMA SD/Micro2W1/123950",
+    "saleTaxRate": 23,
+    "salePriceGross": 25,
+    "description": "Hama USB 2.0 OTG Micro czytnik kart SD / SD do czytnika kart inteligentnych do bezpośredniej wymiany danych pomiędzy kartami pamięci i smartfonów, tabletów, notebooków itp, złącza: USB-plug - micro USB-B, szybkość przesyłania danych: 480 Mbit / s ., kolor: czarny / transparet (123950)",
+    "stockAmount": 1,
+    "categoryId": "5d82987f26e02efa95f4be51",
+    "producerId": "5db5695d3d8407fb6f285f79"
+  },
+  {
+    "_id": "5db57d795675db9f7f780373",
+    "title": "Karta MICRO SDHC 16GB Sony + Adapter",
+    "saleTaxRate": 23,
+    "salePriceGross": 39,
+    "description": "Idealna w przypadku codziennego fotografowaniaRejestruj filmy w jakości Full HD1 2 i zdjęcia za pomocą kart pamięci z serii SR-UY3A. Zwiększ pamięć swojego smartfonu.1 - Nagrywanie filmów w formacie XAVC S kamerami Sony (obsługującymi nagrywanie filmów w rozdzielczości 4K) wyprodukowanymi w 2015 r. lub wcześniej wymaga użycia najnowszego oprogramowania systemowego udostępnionego po kwietniu 2016 r.2 - Ten nośnik nie obsługuje trybów nagrywania XAVC S 100 Mb/s i szybszych.Szybsze przesyłanie danych do komputeraPrzesłanie dużych plików multimedialnych do komputera to kwestia kilku sekund. Prędkość odczytu nawet do 100 MB/s 3 umożliwia przesyłanie większości plików od ręki.3 - 32-128 GB: prędkość odczytu do 100 MB/s, 8-16 GB: prędkość odczytu do 90 MB/sDuża pojemnośćSetki zdjęć, filmów i plików audio w smartfonie, tablecie i innych współpracujących urządzeniach.W komplecie adapter kart SDW komplecie adapter kart SD: łatwe przenoszenie danych do laptopa i współpraca z urządzeniami na standardowe arty SD.Nieprzeciętna niezawodnośćMaksymalna trwałość i niezawodność nawet przy intensywnym użytkowaniu: Odporność na promieniowanie rentgenowskie, wodę, temperaturę i uderzenia.File RescueCzasami coś idzie nie tak i dane — takie jak zdjęcia albo pliki — zostają przypadkowo usunięte. W takich przypadkach z pomocą przychodzi narzędzie File Rescue — zaawansowane, a przy tym bardzo łatwe w użyciu. Dostępne do pobrana za darmo dla użytkowników kart pamięci.Wsparcie wydajnościObsługuje interfejs UHS-I",
+    "stockAmount": 1,
+    "categoryId": "5d82987f26e02efa95f4be51",
+    "producerId": "5dac24c0fb1d0f7f2ef2b29e"
+  },
+  {
+    "_id": "5db57dc2a55929afe7dfd88c",
+    "title": "Karta MICRO SDXC 64GBEX.U3/90/V30/173363",
+    "saleTaxRate": 23,
+    "salePriceGross": 150,
+    "description": "Karta pamięci SANDISK Extreme 64GB microSDHC UHS-I umożliwia robienie większej ilości zdjęć szybkiej akcji oraz dłuższe nagrywanie w rozdzielczości Full HD lub 4K Ultra HD-ready przy użyciu smartfona z Androidem lub aparatu bezlusterkowego. Karty SanDisk Extreme zostały stworzone pod kątem ekstremalnej wytrzymałości nawet w najtrudniejszych warunkach. Wyższa prędkość umożliwia skrócenie czasu oczekiwania na przeniesienie zdjęć i nagrań wideo na kartę lub z karty na komputer. Pojemność 32 GB pozwala na zwiększenie pamięci urządzeń, umożliwiając przechwytywanie nagrań wideo przystosowanych do wyświetlania na nowych telewizorach i monitorach kompatybilnych z rozdzielczością 4K Ultra HD.",
+    "stockAmount": 1,
+    "categoryId": "5d82987f26e02efa95f4be51",
+    "producerId": "5db57bd7ed188bf1283801fb"
+  },
+  {
+    "_id": "5db57e1be168870e3eea1cb9",
+    "title": "SanDisk CF Extreme 32GB UDMA",
+    "saleTaxRate": 23,
+    "salePriceGross": 159,
+    "description": "Karta pamięci CompactFlash z serii Extreme, o pojemności 32 GB. Karty z serii Extreme zaprojektowane zostały dla wymagających profesjonalnych fotografów. Są one jednymi z najszybszych, najbardziej odpornych i najbardziej trwałych kart pamięci na rynku. Profesjonalistom pracującym w warunkach ekstremalnych, karty z serii Extreme oferują niezawodną szybkość, sprawność i skuteczność. Osiągane jest to dzięki zastosowanej technologii UDMA 7, dzięki której odczyt odbywa się z szybkością do 120 MB/s,  a zapis 85MB/s. ",
+    "stockAmount": 1,
+    "categoryId": "5d82987f26e02efa95f4be51",
+    "producerId": "5db5695d3d8407fb6f285f79"
+  },
+  {
+    "_id": "5db57e88c0dd1eb12f125892",
+    "title": "KARTA MICRO SDXC128GBEX.U3/90/V30/139763",
+    "saleTaxRate": 23,
+    "salePriceGross": 169,
+    "description": "Karty microSD Sandisk Extreme daje możliwość robienia bardzo dużej ilości zdjęć dzięki pojemności  aż 128GB.Posiada możliwość dłuższego nagrywania w rozdzielczości Full HD lub 4K Ultra HD-ready używając  np. smartfonów, tabletów lub aparatów bezlusterkowych.Została zaprojektowana by wytrzymać naprawdę ekstremalne warunki. Model ten jest odporny na wodę,wysoką temperaturę oraz wstrząsy. Dzięki wyższej prędkośi umożliwia zmniejszenie  czasu oczekiwania na przeniesienie nagrań wideo i zdjęć na komputer czy inne użądzenie.",
+    "stockAmount": 1,
+    "categoryId": "5d82987f26e02efa95f4be51",
+    "producerId": "5db57bd7ed188bf1283801fb"
+  },
+  {
+    "_id": "5db57edaf7ed9480d5be3d49",
+    "title": "Karta SDHC 32GB Sony UHS-I 94/SF32UX2",
+    "saleTaxRate": 23,
+    "salePriceGross": 69,
+    "description": "Dzięki prędkości zapisu 70 MB/s maksymalnie wykorzystasz możliwości aparatu w zakresie rejestracji. Zapewnia on parametry wymagane do nagrywania filmów 4K Ultra HD 1 i fotografowania w wysokiej rozdzielczości z wykorzystaniem kart pamięci serii SF-UX2.",
+    "stockAmount": 1,
+    "categoryId": "5d82987f26e02efa95f4be51",
+    "producerId": "5dac24c0fb1d0f7f2ef2b29e"
+  },
+  {
+    "_id": "5db57f37306915c2def9778c",
+    "title": "Karta Delkin XQD 64GB R440/W400",
+    "saleTaxRate": 23,
+    "salePriceGross": 799,
+    "description": "Zaawansowana karta pamięci XQD stworzona aby sprostać najwyższym wymaganiom profesjonalnej produkcji wideo, transmisji danych i fotografii.Karta pamięci XQD Premium Delkin łączy wytrzymałość i niezawodność z niezrównaną wydajnością oraz gwarancją jakości jakiej nie uzyskamy w żadnej innej karcie pamięci.Premium XQD jest zgodna z wersją 2.0 i szybkościami odpowiednimi dla profesjonalnych fotografów i operatorów kamer. Zaprojektowana specjalnie do pracy w najnowszej generacji wysokiej klasy odtwarzaczach kinowych zarówno Sony jak i Nikon.Dodatkową korzyścią jest fakt, że każda karta XQD jest objęta 48-godzinną gwarancją na wymianę.Zaawansowane prędkości nagrywania XQD Wykorzystując interfejs drugiej generacji PCI Express, karta Premium XQD oferuje prędkości nagrywania przekraczające 400 MB / s, pozwalające na bezbłędne rejestrowanie wideo w jakości kinowej, w tym wideo DCI 4K i Full HD z prędkością 180 klatek / sek. Umożliwia także bezstresowy zapis do 200 zdjęć RAW - nigdy nie przegap tych cennych ułamków sekundy!Usprawniona praca Dzięki możliwości odczytu i transmisji danych z szybkością sięgającą 440 MB / s. karta XQD umożliwia szybkie i efektywne przesyłanie danych z karty na komputer w celu natychmiastowego dostępu do plików i szybszego czasu rozpoczęcia postprodukcji. Jest to idealne rozwiązanie dla fotografów i montażystów video, którzy muszą szybko zrzucić duże ilości danych i wrócić do podstawowej pracy.Przetestowana pod kątem zgodności Każda karta XQD została poddana szeroko zakrojonym testom aby zapewnić pełną funkcjonalność i wydajność dzisiejszych wysokiej klasy hostów XQD w tym wysokiej klasy aparatów systemowych Nikon a także kilku kamer Sony XDCAM Super 35. Jeżeli chcesz szybko i niezawodnie zapisywać zdjęcia i filmy karta pamięci Premium XQD to karta, której możesz z pewnością zaufać.Trwała konstrukcja Zaprojektowana tak aby wytrzymać nawet najbardziej wymagające warunki fotografowania. Jest odporna na wstrząsy, pole magnetyczne, promieniowanie UV i odporna na ekstremalne temperatury. Cechuje ją także antystatyczne powłoka.Najlepsza na świecie gwarancja Karty pamięci Delkin XQD i karty z logo 48HR są objęte dodatkowo 48-godzinną gwarancją wymiany jako uzupełnienie do Gwarancji dożywotniej. Wytrzymałość: odporna na wstrząsy, wodoodporna, odporna na ekstremalne temperatury",
+    "stockAmount": 1,
+    "categoryId": "5d82987f26e02efa95f4be51",
+    "producerId": "5db57f5908dbdc751094ae64"
+  },
+  {
+    "_id": "5db57f95c928858e7b3bee88",
+    "title": "SanDisk Czytnik ImageMate (biały)",
+    "saleTaxRate": 23,
+    "salePriceGross": 149,
+    "description": "Czytnik kart pamięci ImageMate Multi USB 3.0 renomowanego producenta Sandisk pozwala na szybki transfer plików z prędkością do 500 MB/s. Cztery gniazda opracowane zostały z myślą o najpopularniejszych formatach kart. Dodatkowo niewielkie rozmiary powodują, że jest to czytnik wygodny w użyci.Przesyłaj zdjęcia i filmy szybciej dzięki nowemu urządzeniu do odczytu/zapisu kart ImageMate® All-in-One USB 3.0. Urządzenie do odczytu/zapisu kart, opracowane w oparciu o interfejs USB 3.0, oferuje szybkość przesyłu danych do 500 MB/s i skraca czas przesyłu danych z karty do komputera. To niewielkie rozwiązanie wyposażone w cztery gniazda kart obsługuje wszystkie najpopularniejsze formaty kart i jest wstecznie zgodne z urządzeniami obsługującymi standard USB 2.0. Elegancka pionowa konstrukcja i niewielkie rozmiary sprawiają, że warto sięgnąć po to stylowe rozwiązanie do szybkiego przesyłania zdjęć i filmów.",
+    "stockAmount": 1,
+    "categoryId": "5d82987f26e02efa95f4be51",
+    "producerId": "5db57bd7ed188bf1283801fb"
+  },
+  {
+    "_id": "5db5817255dc341788a37e19",
+    "title": "Bateria DURACELL 2025",
+    "saleTaxRate": 23,
+    "salePriceGross":9.99 ,
+    "description": "Specjalistyczne litowe baterie pastylkowe Duracell 2025 wykonane są z litu o wysokim stopniu czystości i mają nawet do 50% większą moc*. Przeznaczone są do zasilania specjalistycznych urządzeń. Technologia Duralock umożliwia ich przechowywanie nawet przez dziesięć lat, dzięki czemu możesz sięgnąć po swój zapas litowych baterii pastylkowych zawsze, gdy są Ci potrzebne.Specjalnie zaprojektowane opakowanie zapewnia bezpieczeństwo Twoim dzieciom: baterie zabezpieczone są przed dostępem najmłodszych podwójnym blistrem, uniemożliwiającym dziecku otwarcie opakowania bez użycia nożyczek. Baterie przeznaczone są do zasilania kluczy zbliżeniowych, małych pilotów zdalnego sterowania, wag, elektroniki do noszenia, czujników, urządzeń medycznych (glukometrów, termometrów elektronicznych) oraz urządzeń sportowych (monitorów tętna, akcesoriów rowerowych).*w porównaniu z minimalną średnią żywotnością litowych baterii pastylkowych CR2025 wg standardowego testu IEC; wyniki mogą się różnić w zależności od urządzenia i sposobu użytkowania",
+    "stockAmount": 1,
+    "categoryId": "5d8298821ad679bfc17467a3",
+    "producerId": "5db581a3d3d24335f7692524"
+  },
+  {
+    "_id": "5db581e66d260787dd19e372",
+    "title": "Bateria DURACELL MN27",
+    "saleTaxRate": 23,
+    "salePriceGross":9.99 ,
+    "description": "Specjalistyczne baterie alkaliczne Duracell MN27 – długotrwałe zasilanie urządzeń zabezpieczających. Technologia Duralock umożliwia ich przechowywanie nawet przez pięć lat, dzięki czemu możesz sięgnąć po swój zapas specjalistycznych baterii alkalicznych zawsze, gdy są Ci potrzebne. Są przeznaczone do zasilania pilotów zdalnego sterowania, bezprzewodowych dzwonków do drzwi i systemów zabezpieczeń (alarmów, lokalizatorów).",
+    "stockAmount": 1,
+    "categoryId": "5d8298821ad679bfc17467a3",
+    "producerId": "5db581a3d3d24335f7692524"
+  },
+  {
+    "_id": "5db582ee34fee7b1bf1788ee",
+    "title": "Akumulatorek ENELOOP XX AA 2500mAh (cena za 1 szt)",
+    "saleTaxRate": 23,
+    "salePriceGross": 15.99,
+    "description": "Akumulatorki Sanyo XX Powered by eneloop przeznaczone są do urządzeń o dużym poborze energii (lampy błyskowe, aparaty fotograficzne itp).Dzięki pojemności 2500mAh oraz niskiemu samorozładowaniu są w stanie dostarczyć odpowiednią ilość energii w każdej chwili.",
+    "stockAmount": 1,
+    "categoryId": "5d8298821ad679bfc17467a3",
+    "producerId": "5db58331b9e4a73b21d33797"
+  },
+  {
+    "_id": "5db583a06766db315f2e34a9",
+    "title": "AKUMULATOR SONY NP-BX1",
+    "saleTaxRate": 23,
+    "salePriceGross": 199,
+    "description": "Akumulator litowy z serii X przeznaczony do urządzeń marki Sony Cyber-shot (RX100, HX300). Przybliżona pojemność: 3,6 V / 4,5 Wh (1240 mAh)Przybliżone wymiary (mm): 29,9 × 9,2 × 42,7 (szer. × wys. × gł.)Przybliżona waga: 25 g",
+    "stockAmount": 1,
+    "categoryId": "5d8298821ad679bfc17467a3",
+    "producerId": "5dac24c0fb1d0f7f2ef2b29e"
+  },
+  {
+    "_id": "5db5841026e03653f89213c2",
+    "title": "Akumulator Nikon EN-EL15a",
+    "saleTaxRate": 23,
+    "salePriceGross": 279,
+    "description": "Lekki, kompaktowy akumulator litowo-jonowy o pojemności 1900 mAh, napięciu 7.0 V / 14Wh , do lustrzanki cyfrowej Nikon D7500 kompatybilny z D850. Nikon EN-EL15a można doładowywać w dowolnym momencie bez utraty pojemności i trwałości.Zapewnia długi czas pracy. Akumulator ładowany za pomocą ładowarki MH-25a.",
+    "stockAmount": 1,
+    "categoryId": "5d8298821ad679bfc17467a3",
+    "producerId": "5db42109a7ea49e007da0231"
+  },
+  {
+    "_id": "5db5848a48a6813a03d6a828",
+    "title": "Akumulator ACCESS NP-BX1 (sony)",
+    "saleTaxRate": 23,
+    "salePriceGross": 29,
+    "description": "Akumulator litowo-jonowy o pojemności 1240 mAh przeznaczony do aparatów Sony DSC-RX, DSC-WX, DSCHX, HDR-AS",
+    "stockAmount": 1,
+    "categoryId": "5d8298821ad679bfc17467a3",
+    "producerId": "5db584b3733b73d4389265ff"
+  },
+  {
+    "_id": "5db584fa2812b2eb6d88f155",
+    "title": "Ładowarka Hahnel Unipal Plus",
+    "saleTaxRate": 23,
+    "salePriceGross": 119,
+    "description": "Uniwersalna ładowarka sieciowa, ładująca akumulatory Li-Ion 3.6, 3.7V, 7.2, 7.4V, AA/AAA Ni-MH i Ni-Cd. Posiada wyświetlacz LCD wskazujący stan naładowania akumulatora i złącze USB. W zestawie znajduje się wtyczka samochodowa oraz adapter europejski i do gniazda stosowanego w Wielkiej Brytanii.",
+    "stockAmount": 1,
+    "categoryId": "5d8298821ad679bfc17467a3",
+    "producerId": "5db58530866e5739f11807f5"
+  },
+  {
+    "_id": "5db5856da8c76c76eee32ab6",
+    "title": "Ładowarka Profoto baterii A1",
+    "saleTaxRate": 23,
+    "salePriceGross": 479,
+    "description": "Bez niepotrzebnych przerw w pracy - swoją baterię do lampy Profoto A1 naładujesz w zaledwie 80 minut.Wskaźnik LEDDzięki diodiom LED wiesz, jak przebiega proces ładowania i kiedy bateria jest nałądowana do pełna.Dla mobilnych fotografówKompaktowe rozmiary i niewielka waga ładowarki sprawiają, że możesz mieć ją zawsze przy sobie.Wysoka jakość wykonaniaJak przystało na standardy marki Profoto, równiez najmniejsze akcesoria produkowane są z najwyższą dbałością o detale. Stosowanie oryginalnych akcesoriów Profoto gwarantuje długie i bezawaryjne działanie akumulatorów i lamp.",
+    "stockAmount": 1,
+    "categoryId": "5d8298821ad679bfc17467a3",
+    "producerId": "5db56c5a20a5c4922bd61e40"
+  },
+  {
+    "_id": "5db585d5ca00574b6f551c24",
+    "title": "Adapter Sony NPA-MQZ1K",
+    "saleTaxRate": 23,
+    "salePriceGross": 1699,
+    "description": "Przedłużona sesja zdjęciowaTen zasilacz może naładować cztery akumulatory NP-FZ100 z serii Z i wspiera tryb przedłużonej sesji zdjęciowej.Zasilanie aparatu kompatybilnego z akumulatorem z serii Z lub WTen wieloakumulatorowy adapter może zasilać aparat, który wyposażony jest w akumulatory NP-FZ100 z serii Z lub NP-FW50 z serii W1. Po usunięciu osłony akumulatorów z serii Z (fot.[A]), płytka zasilająca (fot. [B]) pasuje do aparatów kompatybilnych z akumulatorami z serii W.Szybko ładuje akumulatory NP-FZ100Ten zasilacz może szybko naładować do czterech akumulatorów NP-FZ100 z serii Z2 poprzez zasilacz sieciowy w ciągu 480 minut3. Poziom naładowania akumulatora jest pokazywany za pomocą 3-poziomowej diody LED w momencie naciśnięcia przycisku „pozostały poziom naładowania”.Wybór zasilacza lub ładowania akumulatoraPrzełącznik WYJŚCIE DC / ŁADOWANIE, umiejscowiony w centralnej części panelu sterowania pozwala na wybór zasilania z akumulatorów lub ładowanie akumulatorów.Wyposażony w dwa porty USB dlamocy wyjściowejKlawisz wyboru aparatu/USB pozwala na przełączanie pomiędzy wyjściami DC, umożliwiając zasilanie korpusu aparatu lub innych urządzeń elektronicznych podłączonych poprzez porty USB.Zamień na bardziej kompaktowy rozmiarJeśli usuniesz ochraniacz akumulatora i umieścisz osłony portów akumulatora na miejscu, wieloakumulatorowy adapter zamieni się w mniejszą, łatwą do przenoszenia wersję na dwa akumulatory.Elastyczne ustawienia dla różnych planów zdjęciowych.Ten zasilacz wyposażony jest w trzy gniazda na górze i dole urządzenia (łącznie 6 gniazd), pozwalając na elastyczne ustawienie sprzętu przy użyciu płytki montażowej i śrub.",
+    "stockAmount": 1,
+    "categoryId": "5d8298821ad679bfc17467a3",
+    "producerId": "5dac24c0fb1d0f7f2ef2b29e"
+  },
+  {
+    "_id": "5db586278f4476ad5361a796",
+    "title": "Ład. HAMA FreshNRebel PB2600 biał/154056",
+    "saleTaxRate": 23,
+    "salePriceGross":14.99 ,
+    "description": "Z Powerbankiem 2600mAh Twojemu telefonowi nigdy nie zabraknie energii. W pełni naładowany po wyjęciu z pudełka, akumulator litowo-jonowy o pojemności 2600 mAh jest gotowy, aby w pełni naładować telefon lub doładować inne urządzenia, takie jak cyfrowy aparat fotograficzny, iPod, przenośna konsola czy też głośnik Rockbox.Kompaktowy i lekki, Powerbank 2600mAh mieści się w każdej kieszeni i jest idealnym towarzyszem codziennych podróży, wakacji i spotkań z przyjaciółmi w parku, na plaży lub na festiwalu. Dzięki poręcznemu wskaźnikowi poziomu naładowania akumulatora możesz sprawdzić, ile energii zostało w Powerbanku. Mając 5 kolorów do wyboru, możesz łatwo dodać odrobinę koloru i energii do swojego życia. ",
+    "stockAmount": 1,
+    "categoryId": "5d8298821ad679bfc17467a3",
+    "producerId": "5db5695d3d8407fb6f285f79"
+  },
+  {
+    "_id": "5db5867770b30e6ba3d902c0",
+    "title": "Power Bank CP-V5BBC",
+    "saleTaxRate": 23,
+    "salePriceGross":199 ,
+    "description": "Ładowarka (5000 mAh)łącząca niewielki rozmiar ze stylowym wyglądemPrzenośna ładowarka USB umożliwia nawet 1,5 cyklu ładowania smartfona za pomocą złącza Micro USB.",
+    "stockAmount": 1,
+    "categoryId": "5d8298821ad679bfc17467a3",
+    "producerId": "5dac24c0fb1d0f7f2ef2b29e"
+  },
+  {
+    "_id": "5db58743645b8d0526125783",
+    "title": "Battery Pack Olympus HLD-6 (Battery Grip do E-M5)",
+    "saleTaxRate": 23,
+    "salePriceGross": 1099,
+    "description": "Uchwyt bateryjny, który może być zasilany przez 2 akumulatory. Urządzenie zostało wyposażone w przycisk spustu migawki oraz zintegrowany statyw.Produkt posiada 24-miesięczną gwarancję producenta.",
+    "stockAmount": 1,
+    "categoryId": "5d8298821ad679bfc17467a3",
+    "producerId": "5db41d72d8a5fe3784768711"
+  },
+  {
+    "_id": "5db587a2a12a49fe8d793fbc",
+    "title": "Silver Monkey Ładowarka sieciowa 3x USB, Quick Charge 3.0",
+    "saleTaxRate": 23,
+    "salePriceGross": 69,
+    "description": "Dzięki ładowarce sieciowej Silver Monkey możesz ładować do 3 urządzeń jednocześnie. Ponadto jeden z portów wyposażony jest w funkcję szybkiego ładowania, co umożliwia błyskawiczne i bezpieczne uzupełnienie baterii w smartfonie, tablecie i innym urządzeniu ładowanym przez USB. Zapewnia to rzeczywista moc wyjściowa 25 W oraz liczne zabezpieczenia, w tym systemy przeciwprzepięciowe, przeciwzwarciowe i Smart Chip.Sprawdź, jak ładowarka sieciowa Silver Monkey 3x USB wygląda w rzeczywistości. Chwyć zdjęcie poniżej i przeciągnij je w lewo lub prawo, aby obrócić produkt, lub skorzystaj z przycisków nawigacyjnych.",
+    "stockAmount": 1,
+    "categoryId": "5d8298821ad679bfc17467a3",
+    "producerId": "5db587c9762f8117551496f8"
   }
 ]
