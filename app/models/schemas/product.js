@@ -5,7 +5,7 @@ const mongoosePaginate = require('mongoose-paginate');
 const Schema = mongoose.Schema;
 
 const ProductSchema = new Schema({
-    title: {type: String, required: true, unique: true, maxlength: 64},
+    title: {type: String, required: true, unique: true, maxlength: 48},
     saleTaxRate: {type: Number, required: true, min: 0, max: 100},
     salePriceGross: {type: Number, required: true},
     description: {type: String, required: true},
