@@ -20,9 +20,8 @@ const signUpCustomerLocal = (req, email, password, done) => {
             const newCustomer = {
                 email: email,
                 password: password,
-                firstName: req.body.firstName,
-                lastName: req.body.lastName,
-                lastLogin: new Date()
+                lastLogin: new Date(),
+                ...req.body
             };
             return Customer.create(newCustomer).then((newCustomer) => {
                 const msg = `Customer with ID: ${newCustomer._id} was successfully signed up`;
@@ -60,18 +59,8 @@ const signUpEmployeeLocal = (req, username, password, done) => {
             const newEmployee = {
                 username: username,
                 password: password,
-                firstName: req.body.firstName,
-                lastName: req.body.lastName,
-                gender: req.body.gender,
-                dob: req.body.dob,
-                street: req.body.street,
-                postalCode: req.body.postalCode,
-                city: req.body.city,
-                phone: req.body.phone,
-                email: req.body.email,
-                employmentDate: req.body.employmentDate,
-                positionId: req.body.positionId,
-                lastLogin: new Date()
+                lastLogin: new Date(),
+                ...req.body
             };
             return Employee.create(newEmployee).then((newEmployee) => {
                 const msg = `Employee with ID: ${newEmployee._id} was successfully signed up`;
