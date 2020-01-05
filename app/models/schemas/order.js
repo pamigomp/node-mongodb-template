@@ -7,7 +7,7 @@ const OrderSchema = new Schema({
     paymentStatus: {type: Boolean, required: false, default: false},
     discountCode: {type: String, required: false, maxlength: 16},
     totalPrice: {type: Number, required: true, min: 0},
-    shippingDate: {type: Date, required: false, maxlength: 256},
+    shippingDate: {type: Date, required: false},
     additionalInformation: {type: String, required: false, maxlength: 1024},
     cartId: {type: mongoose.Types.ObjectId, required: false},
     employeeId: {type: mongoose.Types.ObjectId, required: false, ref: 'Employee'},

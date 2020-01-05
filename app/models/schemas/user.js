@@ -16,7 +16,7 @@ const UserSchema = new Schema({
     postalCode: {type: String, required: false, validate: postalCodeValidator},
     city: {type: String, required: false, maxlength: 32},
     phone: {type: String, required: false, validate: phoneValidator},
-    regular: {type: Boolean, required: false, default: true},
+    regular: {type: Boolean, required: false, default: false},
     lastLogin: {type: Date, required: true},
     token: {type: String, required: true},
     provider: {type: String, required: false, enum: ['FACEBOOK', 'GOOGLE', 'INSTAGRAM', 'TWITTER']},

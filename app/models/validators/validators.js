@@ -2,11 +2,17 @@
 const validator = require('validator');
 
 function postalCodeValidator(val) {
-    return validator.matches(val, /\d{2}-\d{3}/);
+    if (val) {
+        return validator.matches(val, /\d{2}-\d{3}/);
+    }
+    return true;
 }
 
 function phoneValidator(val) {
-    return validator.matches(val, /(?<!\w)(\(?(\+|00)?48\)?)?[ -]?\d{3}[ -]?\d{3}[ -]?\d{3}(?!\w)/);
+    if (val) {
+        return validator.matches(val, /(?<!\w)(\(?(\+|00)?48\)?)?[ -]?\d{3}[ -]?\d{3}[ -]?\d{3}(?!\w)/);
+    }
+    return true;
 }
 
 function emailValidator(val) {

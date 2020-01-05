@@ -7,7 +7,7 @@ const Schema = mongoose.Schema;
 const ProductSchema = new Schema({
     title: {type: String, required: true, unique: true, maxlength: 48},
     saleTaxRate: {type: Number, required: true, min: 0, max: 100},
-    salePriceGross: {type: Number, required: true},
+    salePriceGross: {type: Number, required: true, min: 0},
     description: {type: String, required: true},
     stockAmount: {type: Number, required: false, default: 0, min: 0},
     categoryId: {type: mongoose.Types.ObjectId, required: true, ref: 'Category'},
